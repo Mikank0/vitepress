@@ -1,16 +1,18 @@
 ---
-layoutClass: m-nav-layout
+layout: page
+title: 网页导航
+sidebar: true
 outline: false
 ---
 
 <script setup>
-import { NAV_DATA } from './data'
+// 这里不需要引入 NAV_DATA，因为组件内部已经引入了
+// 也不需要 v-for，组件自己会处理
 </script>
+
 <style src="./index.scss"></style>
 
-# 网页导航
-
-<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+<MNavLinks />
 
 <br />
 
