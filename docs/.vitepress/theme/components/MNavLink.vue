@@ -87,13 +87,22 @@ const svg = computed(() => {
     font-size: var(--m-nav-icon-size);
     background-color: var(--vp-c-default-soft);
     transition: background-color 0.25s;
+    
+    /* --- 修改 1：防止图标容器被挤压 --- */
+    flex-shrink: 0;
+
     :deep(svg) {
       width: var(--m-nav-icon-size);
       fill: currentColor;
     }
+    
     :deep(img) {
       border-radius: 4px;
       width: var(--m-nav-icon-size);
+      
+      /* --- 修改 2：强制限制高度，并保持比例 --- */
+      height: var(--m-nav-icon-size); /* 强制正方形 */
+      object-fit: contain; /* 关键：长方形图标会自动缩放放入，不会变形 */
     }
   }
 
