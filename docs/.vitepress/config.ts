@@ -24,7 +24,7 @@ export default defineConfig({
   // ====================================================
   head: [
     // href: '/favicon.ico' 对应的是 docs/public/favicon.ico 文件
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: 'favicon.ico' }],
     
     // 如果你的图标是 png 格式，就用下面这行（二选一）：
     // ['link', { rel: 'icon', href: '/logo.png' }],
