@@ -1,7 +1,7 @@
 {
   "name": "vitepress-nav-template",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于 VitePress 打造个人前端导航网站",
   "private": true,
   "scripts": {
