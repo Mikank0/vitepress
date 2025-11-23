@@ -1,10 +1,15 @@
 export interface NavLink {
-  /** 站点图标 */
   icon?: string | { svg: string }
-  /** 站点名称 */
   title: string
-  /** 站点名称 */
   desc?: string
-  /** 站点链接 */
   link: string
+}
+
+// 修改这里：支持三级嵌套
+export interface NavData {
+  title: string
+  items: {
+    title: string
+    items: NavLink[]
+  }[]
 }
