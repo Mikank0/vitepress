@@ -4,39 +4,19 @@ import { slugify } from '@mdit-vue/shared'
 import { NAV_DATA } from '../../../nav/data'
 import MNavLink from './MNavLink.vue'
 
-/**
- * 数据处理核心逻辑：
- * 无论 data.ts 是什么结构，都统一标准化为：
- * Category -> Groups -> Items
- */
+// 定义类型检查函数
+const isGroup = (item: any) => {
+  // 如果一个对象有 'items' 数组，那它肯定是个分组
+  return item && Array.isArray(item.items)
+}
+
 const formattedData = computed(() => {
   return NAV_DATA.map((category) => {
-    // 1. 获取这个分类下的 items
-    const rawItems = category.items || []
-    
-    // 2. 智能判断：这是 "链接列表" 还是 "子分组列表"？
-    // 只要第一个元素包含 'items' 属性，我们就认为它是子分组 (Group)
-    const isGroup = rawItems.length > 0 && 'items' in rawItems[0]
-
-    let groups = []
-    
-    if (isGroup) {
-      // 情况 A：三级结构 (Shanghaitech -> 课程网站 -> 链接)
-      // 直接使用，不做修改
-      groups = rawItems
-    } else {
-      // 情况 B：二级结构 (Shanghaitech -> 链接)
-      // 手动包装成一个“默认分组”，让它适应三级渲染逻辑
-      groups = [{
-        title: '', // 空标题，表示这是直接归属于大分类的
-        items: rawItems
-      }]
-    }
-
     return {
       title: category.title,
       slug: slugify(category.title),
-      groups: groups
+      // 我们把原来的 items 原封不动地传下去，交给模板层去判断
+      children: category.items || [] 
     }
   })
 })
@@ -46,24 +26,42 @@ const formattedData = computed(() => {
   <div v-for="category in formattedData" :key="category.title" :id="category.slug" class="m-nav-category">
     
     <div class="m-nav-header">
-      <h2 class="title">{{ category.title }}</h2>
+      <h2 class="m-nav-title">{{ category.title }}</h2>
     </div>
 
-    <div v-for="(group, index) in category.groups" :key="index" class="m-nav-group">
+    <div class="m-nav-content">
       
-      <h3 v-if="group.title && group.title !== category.title" 
-          :id="slugify(group.title)" 
-          class="sub-title">
-        {{ group.title }}
-      </h3>
-
-      <div class="m-nav-grid">
+      <div v-if="!category.children.some(isGroup)" class="m-nav-grid">
         <MNavLink
-          v-for="link in group.items"
-          :key="link.link"
-          v-bind="link"
+          v-for="item in category.children"
+          :key="item.link"
+          v-bind="item"
         />
       </div>
+
+      <template v-else>
+        <div v-for="(item, index) in category.children" :key="index">
+          
+          <div v-if="isGroup(item)" class="m-nav-group">
+            <h3 class="m-nav-subtitle" :id="slugify(item.title)">
+              {{ item.title }}
+            </h3>
+            <div class="m-nav-grid">
+              <MNavLink
+                v-for="link in item.items"
+                :key="link.link"
+                v-bind="link"
+              />
+            </div>
+          </div>
+
+          <div v-else class="m-nav-grid m-nav-misc">
+             <MNavLink v-bind="item" />
+          </div>
+
+        </div>
+      </template>
+
     </div>
   </div>
 </template>
@@ -78,7 +76,7 @@ const formattedData = computed(() => {
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
-.m-nav-header .title {
+.m-nav-title {
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 10px 0;
@@ -86,23 +84,29 @@ const formattedData = computed(() => {
 }
 
 .m-nav-group {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
-.sub-title {
+.m-nav-subtitle {
   font-size: 18px;
   font-weight: 600;
-  margin: 0 0 15px 0;
+  margin: 16px 0 12px;
   padding-left: 10px;
   border-left: 4px solid var(--vp-c-brand);
   opacity: 0.9;
 }
 
-/* 网格布局：自动适应宽度 */
+/* 链接网格布局 */
 .m-nav-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 15px;
+  margin-top: 10px;
+}
+
+/* 针对散装链接的微调 */
+.m-nav-misc {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 640px) {
