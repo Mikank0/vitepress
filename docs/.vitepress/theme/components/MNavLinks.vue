@@ -4,85 +4,61 @@ import { slugify } from '@mdit-vue/shared'
 import { NAV_DATA } from '../../../nav/data'
 import MNavLink from './MNavLink.vue'
 
-// 定义类型检查函数
+// 类型守卫：判断是否为分组
 const isGroup = (item: any) => {
-  // 如果一个对象有 'items' 数组，那它肯定是个分组
   return item && Array.isArray(item.items)
 }
 
 const formattedData = computed(() => {
   return NAV_DATA.map((category) => {
+    // 获取该大分类下的所有内容
+    const allItems = category.items || []
+    
+    // 核心修复：将数据拆分为 "分组列表" 和 "散装链接列表"
+    const groups = allItems.filter(item => isGroup(item))
+    const miscLinks = allItems.filter(item => !isGroup(item))
+
     return {
       title: category.title,
       slug: slugify(category.title),
-      // 我们把原来的 items 原封不动地传下去，交给模板层去判断
-      children: category.items || [] 
-    }
-  })
-})
-</script>
-
-<script setup lang="ts">
-import { computed } from 'vue'
-// ... 其他导入
-
-const processedData = computed(() => {
-  return formattedData.value.map(category => {
-    const groups = category.children.filter(isGroup)
-    const miscItems = category.children.filter(item => !isGroup(item))
-    
-    return {
-      ...category,
-      groups,
-      miscItems,
-      hasGroups: groups.length > 0
+      groups,     // 子文件夹 (二级分类)
+      miscLinks   // 散装链接 (直接归属于大分类的链接)
     }
   })
 })
 </script>
 
 <template>
-  <div v-for="category in processedData" :key="category.title" :id="category.slug" class="m-nav-category">
+  <div v-for="category in formattedData" :key="category.title" :id="category.slug" class="m-nav-category">
     
     <div class="m-nav-header">
       <h2 class="m-nav-title">{{ category.title }}</h2>
     </div>
+
     <div class="m-nav-content">
       
-      <!-- 没有分组时：直接渲染所有链接 -->
-      <div v-if="!category.hasGroups" class="m-nav-grid">
+      <div v-if="category.miscLinks.length > 0" class="m-nav-grid m-nav-misc">
         <MNavLink
-          v-for="item in category.children"
-          :key="item.link"
-          v-bind="item"
+          v-for="link in category.miscLinks"
+          :key="link.link"
+          v-bind="link"
         />
       </div>
-      
-      <!-- 有分组时：分别渲染 -->
-      <template v-else>
-        <!-- 未分组的零散项 -->
-        <div v-if="category.miscItems.length > 0" class="m-nav-grid m-nav-misc">
+
+      <div v-for="group in category.groups" :key="group.title" class="m-nav-group">
+        <h3 class="m-nav-subtitle" :id="slugify(group.title)">
+          {{ group.title }}
+        </h3>
+        
+        <div class="m-nav-grid">
           <MNavLink
-            v-for="item in category.miscItems"
-            :key="item.link"
-            v-bind="item"
+            v-for="link in group.items"
+            :key="link.link"
+            v-bind="link"
           />
         </div>
-        
-        <!-- 所有分组 -->
-        <div v-for="group in category.groups" :key="group.title" class="m-nav-group">
-          <h3 class="m-nav-subtitle" :id="slugify(group.title)">
-            {{ group.title }}
-          </h3>
-          <div class="m-nav-grid">
-            <MNavLink
-              v-for="link in group.items"
-              :key="link.link"
-              v-bind="link"
-            />
-          </div>
-        </div>
-      </template>
+      </div>
+
     </div>
   </div>
 </template>
@@ -111,13 +87,13 @@ const processedData = computed(() => {
 .m-nav-subtitle {
   font-size: 18px;
   font-weight: 600;
-  margin: 16px 0 12px;
+  margin: 24px 0 12px; /* 增加一点上间距，让分组更明显 */
   padding-left: 10px;
   border-left: 4px solid var(--vp-c-brand);
   opacity: 0.9;
 }
 
-/* 链接网格布局 */
+/* 统一的网格布局 */
 .m-nav-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -125,9 +101,9 @@ const processedData = computed(() => {
   margin-top: 10px;
 }
 
-/* 针对散装链接的微调 */
+/* 散装链接区域底部增加一点间距，如果下面紧接着有分组的话 */
 .m-nav-misc {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 640px) {
