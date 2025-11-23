@@ -5,7 +5,7 @@ layoutClass: 'm-home-layout'
 hero:
   name: Mikanko's
   text: 个人站点
-  tagline: 天狼星北 十字星南
+  tagline: 这里什么好东西都没有
   image:
     src: /logo.png
     alt: Mikanko
