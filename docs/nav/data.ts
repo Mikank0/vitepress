@@ -52,36 +52,6 @@ export const NAV_DATA: NavData[] = [
         "link": "https://elearning.shanghaitech.edu.cn:8443/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1"
       },
       {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVR4nKRTvYoUQRCuqu7p2XMXFz1EDjQ4NFKzA0HkxMRMMLoNBVHQJzATJhETo0O4RHwA9wHMxEARETNNjE1UUJGd3fnprrK6Z3YRuTO5gWaYqapvvp8aC4e87H9qqEcuPZWzAwqPKaNcRF6/vGkeQiEEn7R+HuRgABGFQMC6PSbO3KABQqjAp1qBnO7TfRkIQqHo08hAmKUN7P08LFwuwPPYsb1X3weUU8I43wcARQFkpZEaBUJSWCNMmDoI77mR22xn4S8GRUF6+PKT6prN7EQHkD3vBSMlMZg4icgdAODPtoTTEHxJy/mtjesm3o0xF93Y3MnH5rYd0AVhV6kVfR8t7bVIEPutXer+cBfbVENY+FLNSp+E2gqQ6uklcd+uFnPUCrKElK3dX2eSgQlEbDycPlmnMP5hgIgpZ7Tnim+j9Y3juwZ5sv1stslt3lAKIEUkDeQ60QAckDStnxw/cEfMLeaw1oQRQeAOPYUYsFIGEilrM0svRdKspqESyNCVsICg/QGGpZpIqTntkXUyqPLENwLSSorEV9J5gCt+MiqTTVpVQD2BAzRZIhDdC8LSu2iCNsbnAelSrFGmORvnZsNhbHWUg0lHOAtSU6yR09gQ897Eteyo7pgxb6wu60fPQijYyg/wQvKFm/A2CvWBvzrPlbB/52twmt3nLgx573+3L7ipH2GSsTPttE0noV/LPq+io7zz3MD3Ewivrupz/yP11x8AAAD//3/eiwQAAAAGSURBVAMA6lMAhxKGTFgAAAAASUVORK5CYII=",
-        "title": "Dashboard | Gradescope",
-        "desc": "",
-        "link": "https://www.gradescope.com/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABR0lEQVQ4jYXSP49NURQF8LXfQ0LEKyYaotIbhUavFP9axUQ134FvoBBRKEZNSS8R30ChECIo6CRIBhOZPz+Fc5PjznvzdrJy797n3L3WXndXFgQmSWpIq2pv0d3xh7WoPu+sxpeqSntfTXIuyZ8kr6vq7TLmQ+15Bk+xhe/4hk1sYGWfyj7BDG/wBTdwCqdxCz/wAkcxHTc5hnW8aoxn5yi8gG2s/0eMFbzEbzzH5VafDsZ14z3GZ1zsGzxqs56fN1b/B3Adn/yLJziRxny7Zz3A6ClO4gp+4n5at7V2eLhjm4uu2V18nSR5n+RqVe1W1XZVOQidoFmSX4VrSZ4l2UjyMMlWRgs2Jy4leZDkziDnJj605dlp2B1hp8Mm7uFIDeuLWZLVJMeTDFJ7JVouyceqete7O1kieV8MhtaoUFk+f5LsDYb+BQTPhUxCa0HoAAAAAElFTkSuQmCC",
-        "title": "上海科技大学教学实训平台",
-        "desc": "",
-        "link": "https://etraining.shanghaitech.edu.cn/base/index.html#/trainingList"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYElEQVQ4jZWTP4hVRxTGf+fM3Hn/VjeNENeQsFFWLDXarySkCEFBWIsQ0M5KsLbaRixEEFSihBQhbqMIwgYSC6NFuoQIFhIEJSCSQmXVfe/e++6dmWPxdiWKiBk41cz5vt93hiMA57bcnyvHK1O79myvv/hlw13+x9ELsw9OmcS/Ptk2c2vzzNQfdw7bybU7eS+BmOMhF3Tw8eymLtDPxrc3560L2HsJpBjLqQ0hd7qeJmIJmuEqagsLzhaY1DtovIH0BiEjKCAqUAVMrlxJ/31oIPIWKm9mhCI4e8PGzpz+Ov158UNW7tUuckOu8+9bI4iA8w4EcQrVmPH+fWcP0J9edlt2f++En3Kn+L36ktm1ntfiKGhWT4thKpCMBGkbqTGbnhsmCSN18VNf6DcAN+dxrxNMAgoCZusORU020KJL6AXEUBixaHpv7rMJgZmwaOrNsqZIsT4leTUmE0RRcVjFspb5EouSj0Ce2IgB5g2kjU0SQQwUwRCT9agiUrWRa+EWTz74dXVvGvSOStSeeco8ar7zKmJ11SCQJ6Rr6gYiYinbxqLDD8N9nYfTburERs+eVCfEO1R1pxfBymEjKZIKh2EYSQwlk9pErCOODkk/Tw2ipbVx3BjRC6Ki6n2/LlsdjSoNAQGCSiwoumr1ihKrDqoK+jeOnqkUIlKI9wViffXif7TE6OE/T8uYKIPjsg9PfrY2PeLx7VaTlW0qLgyWR0uDkJdiis/BnlnOKyZcFJis87hZHezYvXX81do62/Fjm7l7fmb8on3W/Y3763/Tu/r0o9xzHR2GujrYf/QSi0UYX2Ix+JAAAAAASUVORK5CYII=",
-        "title": "CourseBench",
-        "desc": "",
-        "link": "https://coursebench.geekpie.club/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACeUlEQVQ4jW2TT2tUWRDFf1X39utn04RhGESeIUpQEQmiEJzBjX8QURfiSkHJzM7P4dfIciaKOxezcCGiWbkQEREM0kRRaUMTQpTQPl+/frdqFj2RZJhaFUVxDuccjvCf+YtsTpHCIVekTGCCTclk//AHo97Of91eFqGzRHZNkCpjtKz48YQNEmFFYS5j9ELBlmhffQpxF8AidLpklxxU4co3UMGWAzLTopk36H2BCtJewdY/k13bBgkAN2hfXqX+e4p8E9xbxAOG9MfEjxXf37aIwxbxpMI3ZfyuIL36TLj0AO/JRLN3BSpBLOFxgfFLgHu0rxhSLlAtT/zJzyfCSotmHjxP6HO5R37hFtXjP2kficiMoitblF87tI4KcgxkHWxLGa8ae3KjPg7hU6QeOPkJTWA7DFltqA/uodsVyARKQQxkVsi70ExHQj/R2rgJGwnsRwqRtC9QrYFUOcNGoDKI4JnjMSGNIiXUa5G6+EGqeFyidXv78K/+oaN7BTnj+K+CDlb5vnaT+jWAg96lfREa1JBGoXZ0I5EXd0Br2mcN2wR7A/7RScNZ8rMTiqwQPBNsHSIaQA0dOJ7XNIcOkx/cz+jJ74xfCDSClAs0z3Kq5/fpFI5M60TaVADVhA0E/yTwW0CGRvrpHDSL0AHZMKR8CvE6DMfYUcHfOzJnyLCBngAs0b4K1gedBusr4WcjbQpaOGlTkdLQfY73FT8VCE8MP3aL0UMFKBk9Bplx/L0iR4SmclAhbQXQSQKpDPhpRZ4lbL5g9AhAdpapQ3ZRoKdgCT+lSG14F3RZsF8MGQoyO83o4TlodgHsrrMVRmwm7FgAdVz/r87/AFbyHZunTZ+YAAAAAElFTkSuQmCC",
-        "title": "上海科技大学在线开放课程",
-        "desc": "",
-        "link": "http://mooc.shanghaitech.edu.cn/portal/myCourseIndex/1.mooc"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGUlEQVQ4jWP8//8/AymAiSTVoxpGNQwpDQBVbQMdeDGgoAAAAABJRU5ErkJggg==",
-        "title": "上海科技大学网络教学平台",
-        "desc": "",
-        "link": "http://shanghaitech.fanya.chaoxing.com/portal"
-      },
-      {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADAElEQVR4nFRTTYtcVRA9VXXv6+k3/TpOGCfzkSEmiqAoSYjuNBBcBPwCf4Mmgwj+Bn+DLiRCFm7dZuMqMG40GKP4BYkhGOOo4/So0/265/W799a1WhOY3NW9tzhVdU6dcjhw3gPcmu8/5zQvq4CiYocB4oxFCydl3roQ9r46iOEHlw9Qrq5K9VoMWsc0+pwyLyOOvosx34xM65pG14CAjzrV65eB6qEElw3sRc6Q0Lz3dCYALVR/Y9c7zS6fEuS9ETDMgZImbbOUZy8B5Qwr7wMdEv/ijTT+dCXJNhOt2HtRU/jJqw73NQ86yn8Wzp/MlB/5PU2uVtmN4Dqnr2i4I29g/lkIzR1TSQlS5ZyaDZ1sXkHafbWYOy8k/JbW15c13F2TzmpPeZqdPMWMIy8nt0uXpHwlpsmmh3+CXXe5icMv1aj1MFdl789lwq627Y8Z1ABakrjjnPieIrRwtGId0/QdoFYUGXF6u0R5zKM40oAXyBCKLOzcCYU7UcBVKcV7U9SDi5jeQuaKc0yNja8Ul/ojTAcmIKbg4QiTWwrqMoQD5W0HbDfQnQgeiy+P/idgotaSS3lUynPZIt7+NjC50UUzWJT+C8T8dAae9yGXW6hvvo3m58LKItChD9F7xmKJ42yWxPsMZ5G5Q9ZN4aQ6rxz+tvhdyvqDOnFrbv6lT6xAhusRyGRSr85MxpEsB/vswB2H1cPAkhnp6oWw/0XO1LHRNRdjvSmRvvkHncfJcWWqdJ3jBTE65tL8V0A7poxHY6TQRXV8A9ibGSWn9ItZZzLj+zXqofFdN1Ox2DTsSycx/EEzIxVu/iyDWqu4YKBfxUk3IUaxd7IpdaKO1Tk3jTEWhTyGNt0xWl3r7DN+10SnmL9npgVQGHAh62QqEbhSkuGsUPA+caa+SbESW72tQkt7sb5uXZhN7p+P0V1rO3QSSUZEqdZMSwyuTWkOMWyxkydtQRuWXMTp+NqM5gxHB1fTeHvy/VMup8PiXGpiSmI+8IiU/i+382YYfzu7PsD8CwAA//86VcOnAAAABklEQVQDAF9HcPdcP/GWAAAAAElFTkSuQmCC",
         "title": "登录-上科大实验室管理系统",
         "desc": "",
@@ -128,6 +98,41 @@ export const NAV_DATA: NavData[] = [
         "title": "首 页-上海科技大学知识管理系统",
         "desc": "",
         "link": "https://kms.shanghaitech.edu.cn/home"
+      }
+    ]
+  },
+  {
+    "title": "Shanghaitech - 课程网站",
+    "items": [
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVR4nKRTvYoUQRCuqu7p2XMXFz1EDjQ4NFKzA0HkxMRMMLoNBVHQJzATJhETo0O4RHwA9wHMxEARETNNjE1UUJGd3fnprrK6Z3YRuTO5gWaYqapvvp8aC4e87H9qqEcuPZWzAwqPKaNcRF6/vGkeQiEEn7R+HuRgABGFQMC6PSbO3KABQqjAp1qBnO7TfRkIQqHo08hAmKUN7P08LFwuwPPYsb1X3weUU8I43wcARQFkpZEaBUJSWCNMmDoI77mR22xn4S8GRUF6+PKT6prN7EQHkD3vBSMlMZg4icgdAODPtoTTEHxJy/mtjesm3o0xF93Y3MnH5rYd0AVhV6kVfR8t7bVIEPutXer+cBfbVENY+FLNSp+E2gqQ6uklcd+uFnPUCrKElK3dX2eSgQlEbDycPlmnMP5hgIgpZ7Tnim+j9Y3juwZ5sv1stslt3lAKIEUkDeQ60QAckDStnxw/cEfMLeaw1oQRQeAOPYUYsFIGEilrM0svRdKspqESyNCVsICg/QGGpZpIqTntkXUyqPLENwLSSorEV9J5gCt+MiqTTVpVQD2BAzRZIhDdC8LSu2iCNsbnAelSrFGmORvnZsNhbHWUg0lHOAtSU6yR09gQ897Eteyo7pgxb6wu60fPQijYyg/wQvKFm/A2CvWBvzrPlbB/52twmt3nLgx573+3L7ipH2GSsTPttE0noV/LPq+io7zz3MD3Ewivrupz/yP11x8AAAD//3/eiwQAAAAGSURBVAMA6lMAhxKGTFgAAAAASUVORK5CYII=",
+        "title": "Dashboard | Gradescope",
+        "desc": "",
+        "link": "https://www.gradescope.com/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABR0lEQVQ4jYXSP49NURQF8LXfQ0LEKyYaotIbhUavFP9axUQ134FvoBBRKEZNSS8R30ChECIo6CRIBhOZPz+Fc5PjznvzdrJy797n3L3WXndXFgQmSWpIq2pv0d3xh7WoPu+sxpeqSntfTXIuyZ8kr6vq7TLmQ+15Bk+xhe/4hk1sYGWfyj7BDG/wBTdwCqdxCz/wAkcxHTc5hnW8aoxn5yi8gG2s/0eMFbzEbzzH5VafDsZ14z3GZ1zsGzxqs56fN1b/B3Adn/yLJziRxny7Zz3A6ClO4gp+4n5at7V2eLhjm4uu2V18nSR5n+RqVe1W1XZVOQidoFmSX4VrSZ4l2UjyMMlWRgs2Jy4leZDkziDnJj605dlp2B1hp8Mm7uFIDeuLWZLVJMeTDFJ7JVouyceqete7O1kieV8MhtaoUFk+f5LsDYb+BQTPhUxCa0HoAAAAAElFTkSuQmCC",
+        "title": "上海科技大学教学实训平台",
+        "desc": "",
+        "link": "https://etraining.shanghaitech.edu.cn/base/index.html#/trainingList"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYElEQVQ4jZWTP4hVRxTGf+fM3Hn/VjeNENeQsFFWLDXarySkCEFBWIsQ0M5KsLbaRixEEFSihBQhbqMIwgYSC6NFuoQIFhIEJSCSQmXVfe/e++6dmWPxdiWKiBk41cz5vt93hiMA57bcnyvHK1O79myvv/hlw13+x9ELsw9OmcS/Ptk2c2vzzNQfdw7bybU7eS+BmOMhF3Tw8eymLtDPxrc3560L2HsJpBjLqQ0hd7qeJmIJmuEqagsLzhaY1DtovIH0BiEjKCAqUAVMrlxJ/31oIPIWKm9mhCI4e8PGzpz+Ov158UNW7tUuckOu8+9bI4iA8w4EcQrVmPH+fWcP0J9edlt2f++En3Kn+L36ktm1ntfiKGhWT4thKpCMBGkbqTGbnhsmCSN18VNf6DcAN+dxrxNMAgoCZusORU020KJL6AXEUBixaHpv7rMJgZmwaOrNsqZIsT4leTUmE0RRcVjFspb5EouSj0Ce2IgB5g2kjU0SQQwUwRCT9agiUrWRa+EWTz74dXVvGvSOStSeeco8ar7zKmJ11SCQJ6Rr6gYiYinbxqLDD8N9nYfTburERs+eVCfEO1R1pxfBymEjKZIKh2EYSQwlk9pErCOODkk/Tw2ipbVx3BjRC6Ki6n2/LlsdjSoNAQGCSiwoumr1ihKrDqoK+jeOnqkUIlKI9wViffXif7TE6OE/T8uYKIPjsg9PfrY2PeLx7VaTlW0qLgyWR0uDkJdiis/BnlnOKyZcFJis87hZHezYvXX81do62/Fjm7l7fmb8on3W/Y3763/Tu/r0o9xzHR2GujrYf/QSi0UYX2Ix+JAAAAAASUVORK5CYII=",
+        "title": "CourseBench",
+        "desc": "",
+        "link": "https://coursebench.geekpie.club/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACeUlEQVQ4jW2TT2tUWRDFf1X39utn04RhGESeIUpQEQmiEJzBjX8QURfiSkHJzM7P4dfIciaKOxezcCGiWbkQEREM0kRRaUMTQpTQPl+/frdqFj2RZJhaFUVxDuccjvCf+YtsTpHCIVekTGCCTclk//AHo97Of91eFqGzRHZNkCpjtKz48YQNEmFFYS5j9ELBlmhffQpxF8AidLpklxxU4co3UMGWAzLTopk36H2BCtJewdY/k13bBgkAN2hfXqX+e4p8E9xbxAOG9MfEjxXf37aIwxbxpMI3ZfyuIL36TLj0AO/JRLN3BSpBLOFxgfFLgHu0rxhSLlAtT/zJzyfCSotmHjxP6HO5R37hFtXjP2kficiMoitblF87tI4KcgxkHWxLGa8ae3KjPg7hU6QeOPkJTWA7DFltqA/uodsVyARKQQxkVsi70ExHQj/R2rgJGwnsRwqRtC9QrYFUOcNGoDKI4JnjMSGNIiXUa5G6+EGqeFyidXv78K/+oaN7BTnj+K+CDlb5vnaT+jWAg96lfREa1JBGoXZ0I5EXd0Br2mcN2wR7A/7RScNZ8rMTiqwQPBNsHSIaQA0dOJ7XNIcOkx/cz+jJ74xfCDSClAs0z3Kq5/fpFI5M60TaVADVhA0E/yTwW0CGRvrpHDSL0AHZMKR8CvE6DMfYUcHfOzJnyLCBngAs0b4K1gedBusr4WcjbQpaOGlTkdLQfY73FT8VCE8MP3aL0UMFKBk9Bplx/L0iR4SmclAhbQXQSQKpDPhpRZ4lbL5g9AhAdpapQ3ZRoKdgCT+lSG14F3RZsF8MGQoyO83o4TlodgHsrrMVRmwm7FgAdVz/r87/AFbyHZunTZ+YAAAAAElFTkSuQmCC",
+        "title": "上海科技大学在线开放课程",
+        "desc": "",
+        "link": "http://mooc.shanghaitech.edu.cn/portal/myCourseIndex/1.mooc"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGUlEQVQ4jWP8//8/AymAiSTVoxpGNQwpDQBVbQMdeDGgoAAAAABJRU5ErkJggg==",
+        "title": "上海科技大学网络教学平台",
+        "desc": "",
+        "link": "http://shanghaitech.fanya.chaoxing.com/portal"
       }
     ]
   },
@@ -229,7 +234,12 @@ export const NAV_DATA: NavData[] = [
         "title": "GitHub - deepseek-ai/awesome-deepseek-integration",
         "desc": "",
         "link": "https://github.com/deepseek-ai/awesome-deepseek-integration"
-      },
+      }
+    ]
+  },
+  {
+    "title": "Ai大模型 - 教程",
+    "items": [
       {
         "icon": "",
         "title": "💻 动手学 Ollama 🦙",
@@ -307,6 +317,47 @@ export const NAV_DATA: NavData[] = [
         "link": "https://orcid.org/0009-0008-1992-252X"
       },
       {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACVUlEQVR4nFxTXWsTQRQ9s7PZ3WCDNiC00WqtbSMWGjGpFhLf/Qf+G/Wpv6XPoj6ob23zAU0bG9/aKL40BCGFQLIlyex4740btl4YmLn3nDP3ntl1R6PRfjqdVuPx2DYaDXdrayvKZrMRBRzHAUe8HwwGqt1u62KxOA2CQPWvrqxL5DcM8jwPreYJPn/8hLfv34HyQjTGIJVKIQyvsbe3h+XcMsrlsghnFxfhEMhMJhNDZ/O8VDKtVsvUa3UznU5Nv9+XRd2Zo8MDc9o8MaViSbBcZy73qKk9TQe9XdjWufv3dK1e1wTQsNBKKW0io+v1hl5ZWdGFQkGwnBcubSwJWI5MJoPd3V179v3M9no9q10tq9ft2fbZD/uSagsLC2Asc4RLe5VYLKDCUaiazRNFIKWg1PHxsboOQ0UCgklyZjZTsMtczOc3sbr6ENXDKobDoaxatYYHlOMaY2Ks8JAIdtzzfFReVXDeOUf3sotLWhcXF6hUyvB9XzDU+pzj3Dj8U955sYN0EODg8IhuryIIfJR2SoJhPGOUDKfgxq3ERX57chtP8nl8+/oFNCi2nxVorFW5Pf64OESIklaINgJpioDWGj87HRqjQyhgbe0RNjY2pJbsmMPl55iZwQUlZEtij9fX1YeBb+94Gq83c3RRZJO3x0Iuqc4lRYnIM0OnOP3dVXd9jejpknCSHcSju4ydK3JSAGySg5Sr4aZcmdtEsxGTRsYj6P/biiOXuYXbQUr22rnx4nMsm7ifnC3+dcOxwa8/fcW+rC8tWo+8mf/ikZiGyET4CwAA///bF5AxAAAABklEQVQDAH58UBGwYlBTAAAAAElFTkSuQmCC",
+        "title": "Z-Library：官方入口及最新镜像网址 | Z-Library入口",
+        "desc": "",
+        "link": "https://zlibrary.vip/zlibrary.html"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC2ElEQVR4nGxTSWgUXRCuqvd6memZ/PzZIIigXlyICJogiggBvXrSAfHgwYMYEHIQQU/xEPcFgnhVFBdcDoLgQUERFInBLRovLlc1GYfZe6Zfv7K6E1SiBb3A++qrr76qp7umJ4YV0XFoRwEkwYywINhaC9mAjG1vK61cf6976vkBnc+PRY3KCPZMPa9JRsBxHCMiMbMFRJsQSSTpBnzfE5LHM1NftkJfX0dvpzcJSi3jdrtOgogEbBM0CxqDrKIgcDCX0xAEyeOD56JlOAqFQtzT6e7DbGaZDUMjuUazpnOo9BFuNK18m3GtcVApKsdoCZnkJXKsqRTXbHoIk4+6gdSwrdYsZTPaxuasng3r4z1ubrdIWgIZPwOxwe/L112Ff0R3EAyT6yyyxliOzOfZdn08Naznw+R+dN1xrtUYiMqgnVNMHKKb8Uy18rpUDB909/3XS2xfSd9dmM8pbrX2z6wcPE/AgDPx54schp/QdRiZO6TKmNLuGdJ0FLU2MDRkII5GwHF6QUlnYfPjzNcvl5JcgsIOgv6ClObTooKSadhKtSmuM5cr136sGnzQOTWxmFDtEYUx+hkyiKdgqFBLcglu3YqTkc021WWRNY2+p4HQ4yiqRkTH0ioKD4OjOkUB2nbrfalkrqT7Irk0Z88RhIGBRmz5JDguyiGIORGH7WryI5PoABGEjiY5OQEbNzbTHIk5Ahy1SaUiBNeh1XojlQA9t0t7+lCySY1mYyzdyMi8LjZe3kiwac4vgjRGEfr72xHicTGTxAdLpHbl3z5bUVu7edpyfJUJLsDA3ijFzsdvglQFY+lb7Ta3oheiAGU3cj45B5LjVrk8MuvXr/zC/kWQWiF9ycik3WOJYVyvG5nTzv8nn62urt9ShKVD4YLdWkAwOu/Fnft32dgnmPG1bGdW5729c9fyplpI8NfVnTMIuOvdxKBy1L3kokUm2l7q3/B0Hs9/wn8CAAD//0wTXfYAAAAGSURBVAMASKVi+aTbx6oAAAAASUVORK5CYII=",
+        "title": "Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS",
+        "desc": "",
+        "link": "https://www.flaticon.com/"
+      },
+      {
+        "icon": "",
+        "title": "RuTracker.org",
+        "desc": "",
+        "link": "https://rutracker-org.appspot.com/forum/index.php"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcElEQVQ4jX3TMWtUURAF4C9vxYhBJBizWCS4GqJoMIhB0gg2YqmdVZr8Ajt/goiFrUUgiNj4B2wNpAsqRCJCRJKIJigIURbFYtfmXHksL95m5s2dOTNz3rk0nyr2Hh7V4gt4Wk88dABALyCzGMYz/MZxnMA4vh5Q+++cxPP4p3E5/n3cKpNWDYVDsXP4hGP4gjcYxQ4ulNwmgBK7hHeYRAdHstIapsqqTRz0YjtYxUbt7iVGwsMIuk0T9NNtHG9rK5Xpuvhe1mgCgGns40cAB/nZxJUmgPI9h20cHsjpJbaJM/+boIM9PBjQSh8Po4E2WoMARUBTeIFTOIprUSGcxSu0MFnV9hpKcTvq28YuLobQDibCTRefMV/VSOpngqspriKg8/iFn1HjVpp9wEzR+xMs4WbUthewjXRt4U/8j2m2g3aFu1ivvbLXuJHO6+HjXFifzf5jWMRKK//6DmaScD3JC/iW+9sh9H3EtRxVPv4L/VFM/qlrdv4AAAAASUVORK5CYII=",
+        "title": "Zotero 7 配置笔记 | Fenglielie",
+        "desc": "",
+        "link": "https://fenglielie.top/p/1859110b/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACt0lEQVR4nKSTXUhUURDHZ865u+7H9Qs3U9CVilq0kKiQiAp6ikKhbykoCAMhCUE0QukDwspMokAIepCKAsmIepFCCKIPxVKKUJY+wBeV2hR3N9rdu3dOc667PvUSXZY9586d38yc/8wx4D8fI7upqKgsTbtcEkVCKfLg35xRIH9TaFiWPTU1OePYHHh1dbeUsokUkVJKIJuFEMD7DAlAREA2gTQkCRTCtu3eqc8f27B8TdU2A90vEdEBDEM6azKZArfbBToGp2W7AT6fD6LRGAdEbYS0Sm0XEo3DnI0ZsthOR4/Uq8GnA6p2904Vi/3imkgxqPpu96qtWzYrzkycytKMw3K4mkylkqsQd+/349j4B+zpuojBYBn+iESwuakR37wdwf6Bx+gyDM4GcvF4WCMLAyWXeedTCpWuLJFM4vOhF1B/cB8Ey8uAAVhbVQlnL3RCrmlqPVRGG9YKPByg9BKDIit0jtsNvxMJmJgIw7mONsjLy4PT7edBa6R1YBj1Xv/Y3S2yQmtVdEtsssHn9cC7sXGYnp2FimA5WKkUSCkcMREXfbP/gg3zGuUX1IILISEWi0Nryynou/OAlfdC+5kWWFiIghS6Q+AcXsOa1WG/6g5yWSQ43CxnPXRgL5QsL4Yr3dfhas8NOHH8GGzauAF+zs+B9uGEpBnN6v6NZM5ElpWmutpddLKxgbq6b1LxsmJ6+OgJvXo9TPf6btGqFSuJu8iJgAM4gzYizfyiOe5pA0+hUZCfj/v31OHgsyEcHh1F0/Sjbvvo+3EsLChA0+/DicmwFlG3UaUtqzkzyus7pIGt7Kzi8TjqaTT9fuB3ECyelbIcXbyeHMjxehXfCaS0fY1HuXPp0gQCoVy9rttRrazpJIbD4aVLVFQUgFAoBF+i39T3TzMOE4mEY0uXKbMq+LfHYf4AAAD//0z8/dwAAAAGSURBVAMAOTVGXaoYPvQAAAAASUVORK5CYII=",
+        "title": "中国常见科研基金和奖励的英文译名目录",
+        "desc": "",
+        "link": "https://www.xoveexu.com/project/fund-translation"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABTElEQVR4nJxSMW+CUBDWhyYYXahJsRpTB3et/IFqnTQx1v4A7M7OWrf6BxhrUu3EajdGwig/wAYSGOxCICEhEAr0NY8gQ1uDt7zv7n337u67V8hltEIuo2FHhGHpi3w+nwAAQBRFsZs7r0KtVmNZFi+VPvZ76OI4TpKkbdsQ3/R649FIlmXEBKioYRiTyeRxPkfR0Xj8vFwiTFFUtVr9oQJwTPB9/2mxuO33CYKAkfvp9GE2azQaELfb7ZfVCoIwDOOW0ECqqjIMo2taEATEBQG7KpfLmqZ1u9337TbRIJ4Blvvy/at6fTgcViqV9evacRyapovFoiAIuq4nCQAdqAjHcYO7wSVJQgbP89etVo+iJEmC7ERWLC28aZqdTudts1EUxfO8ZrMpiqK82/23B/jq5+EA2Uhr13Uty0oTzl1curFf8Z8JJy3zb/0GAAD//0JvrBMAAAAGSURBVAMAaTB0p9fGvM4AAAAASUVORK5CYII=",
+        "title": "Research and Modeling of the Bidirectional Half‐Bridge Current‐Doubler DC/DC Converter - Huang - 2017 - International Journal of Rotating Machinery - Wiley Online Library",
+        "desc": "",
+        "link": "https://onlinelibrary.wiley.com/doi/full/10.1155/2017/4854169"
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - IEEE",
+    "items": [
+      {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADHklEQVR4nExTTWhcVRQ+37n3zetMZpoa0kkbDaZaoeBCaxeJEfwDKQURLGhBxEXdlLroorrzr7jXRSlScKGLCsFFEaGgGyuU1BEhC12qNDWgbTJpMkleZvLeO6ff6w/0wn33ct8953zn+74b5e5QTqs2o8+eejUkdlgEI+IyEDiH1CHoG+SXJe3NyuWv+7wKTsf9zejB4+PabL4PlI1SdF5dlw1lLkVZWox5NBuC6jMm3soL/2J17tyC3AuWPdMnJj1Nv2eenSw3y8qZwTM1ydyhEmQIbg3RsAmTA0Q1kvXt3fXfznXD6HPHW5o0vgR82lzOo5DLpnJD3LuQkLG5DKIrrr4Es8iaxpSHY9SHNxc6l0JrcuYkQbzGgDlAXuLPfQC/oinUd/CsweojDHyElfcS8zDvbxH6dGt8qhOBcNThj7vpN1b4V4h4nQF1ucOedAV6syzLm9vbg+Uot/JQb49BcZAJPiWeD6JX7JdEAD8Sou7J3T5naIsYxoLIbvfyMY0YbiRpk2ypGf5n8M8m228B8RR78j9MvZ0N+mcatfobieCEq2ZSVRdZddg1Meu52Lo5+hpqI/DyTXjU7Uw/Rv35kxNN0dMqpDH3SxZ9ycxqEmutaLITsGE37EKQUSZqMek/pclsDP6KIEzFlsTPzPKz4jHxiJcVGA8amMM32N0qrXLLFH+52RVYuaaIU6r4yHL7URJ5kiR6TTV+Wzo+IePfFYPujdx3JbWA3Zp4mz5oQ3xCITOuoU2pLwbYgiR6ke1fDXHi0LUoepSJ9lK7AxrSmSTiqYBKNjxECw+pO6lBQnT7ON8mP7VKahe/EAbXf/+vOTn1BA9eoGy/Ur5FrtcJfc1R9sl4j/btiumiWNGRENZ49x1y0SkGKx/GyspbeXamngxN0GSPiusmdR4j633xsEGDGYN20MK0c2yI2zF6428v+qdXOhd6oUowWJzfStuH5rQWngZLke35Usp/2XuPkm6whXUjjBB8kvD/LPL8veWr56vHBNx7zndepOw/krbH9x+D40Xqn1ZPmK1wsZRXVijfT8tXzv7wYMxtAAAA//+5/GjMAAAABklEQVQDAOgLdknfmcocAAAAAElFTkSuQmCC",
         "title": "TIE Review",
         "desc": "",
@@ -335,7 +386,12 @@ export const NAV_DATA: NavData[] = [
         "title": "IEEE Xplore",
         "desc": "",
         "link": "https://ieeexplore.ieee.org/Xplore/home.jsp"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - LaTex",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACUklEQVR4nIxSTWgTQRidv91Ns0Y2GAoWi1CQgqASPDQqYtGYeioFm3jR6kU9F3r00F68COJNVPCghhjjoR4EkSoipbaIogWDVBQlVfxJbEvaJLszO+PsbrZNU1s6sOzyfe+9731vB4H1zjBAYBMHblAXR9PRnYoW6BMCd0AkDMGhiQmo2JyPPz058dABknUERCIbG8QqGdG2aSFapoAt2QVJNhCBIVrjo/4g9B/bMH6/K6aFA1chQaFq0bzNauwy2UI+IxVhs2b3jSUnXwDhuVwtsNsrYkwGARdvrap5GNj8J4JoiDPebS5aQ2PJiUeSjCRSrF7BmZ4Cdk/u0HXZUSolekVvDQ5YZcuwGRtgZTj+/OzkdxcHAfdpnoBjRxYTuYOXAITHgGAjapBco4ssghSMIUZtlk2n6oNEc9qu7e57XTtUjcxACM5xzEsCo0/VP8U5fWu4l7Qod7klZhbY1+ir1Gy1UYCAB551rQVdkFpmwf47mu/PWw2YdDwbo8FISzZUaj8DwOxNycEOx2k6ZG8fgTqF4NP5lCSLZWfIASOj8ticsyhG6IiLTa5kgORO/mViMohd7lfO/Z3CfZLy+eUBuIBrLh4CH+oCkL8OhNXtxzOxXt9ePV7O1WCPZqgKh+Jlw4DlEN2TuLNXR3roHVJxO6uy0xaYf+LUVWCcUAI4bTNeWGDf9jSHCBveIp45EFV0klF10mnOU7ehGQqgS/SjadFTz/qnpn3sGgd+Y/+NtmCkteO8jGlffcn3xd9fbr25+KPSTG4W8G7j8ErCm+n9AwAA///h0pD9AAAABklEQVQDAHUB8N6elk+ZAAAAAElFTkSuQmCC",
         "title": "Overleaf Community Edition, Online LaTeX Editor",
@@ -401,7 +457,12 @@ export const NAV_DATA: NavData[] = [
         "title": "latex教程1",
         "desc": "",
         "link": "https://library.shanghaitech.edu.cn/_upload/article/files/f8/db/ea93e0574786aabcaaa9500b31b6/a28845ef-530c-4faa-bd22-afdca21ea637.pdf"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - MATLAB",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACp0lEQVR4nDSTT0hUURTGf+fNc7K0/5YFFkRFEbVKWim0KNoYLSQIgiAqhRa1yV2YFC2CXGRYRFgUGRVtLdq0KJFatElSChLJMqTyXzqjzsy7ffc+m+HNm3vuOd/5vu+eG9PmsiRcJssZjFWZMihFgH8yisThnT4RjjLFMvzV7x2+cDEmz1UquUBRmyoqzSlxGc58ouFcETPCx+kxK+ASx3J9W9hOYrS4GXVZGtAzZBr34F4OQS6v9Kxi2QD0nxHKdYHVkhCbiSlRERlJkiM6XIvrOAQNTyBZHZLt6zRsWgXl2VRCSXCj8/B7PgAtj0U98dS8hKO7sFhdeo5JioLfJqB7ENrqYEyMZiVn52rsRj/uUq/wVwjTFEy0ubkaq98CjQ9hYAyuvYWDnTA0Dr/yWF031N+DV8O4NV5WQX6oSyST8BwWZN6+dujt0zIRzUn58BOmcqmBee0XZmG+JGOd6KtOtS4O3gogp4RT9bB+P2yrwjXXYnv1Fg75ApQpb0GFkcDNixaAGFhsMsYtYDXSs3udjJbDa5bC90mSSplYSAIjn4ynHRq68N+DuMj5hYZnYEQMbqrzI9EWmwfvsfNduJ4BqNB+cSEtKCUp4yBBDPzpB9SybDg2Wg7ARA7X2Qinj2BFdSpXPCmEPlYRLzLwEorhpDV1Oltv0MYNWGsDnLiPDf+B583Yyce4lRqaD+ekIsH5mbjelxrrBBob4UioWQvPzsKLfnj6Trsa2Y7XMPgDdlyBruO49jfwcRTmojCliF1k1uSmXEJltSZvaxXW9zncCfMXQBrD/zDCbnGclwSpiQfQzlykpNuUE42Nq/hTuA9h9n1+mHlLTZNbRKl+p3Xk7418uBUzTWtYxjQpodIfWXrvwjvcSBWYWAbNoUHEBDnuMkLrPwAAAP//k/vtXAAAAAZJREFUAwAZCxUJ2U/CKgAAAABJRU5ErkJggg==",
         "title": "MATLAB科学绘图 - 知乎",
@@ -491,7 +552,12 @@ export const NAV_DATA: NavData[] = [
         "title": "零基础使用 MATLAB 求解偏微分方程（建议收藏）_matlab_陆嵩-GitCode 开源社区",
         "desc": "",
         "link": "https://gitcode.csdn.net/65eed8a41a836825ed79fc69.html"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - simplis",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAfRJREFUOI3Nkr1rk2EUxc99Pt63SRqJ4gc0aYODCMW2UIrgop20ItTFTOpoQdKEFNy6JHVxtFbxD3AygUrBL3Axi1asxFgEpw4mCLpICUnevB/PdUglRdus+lvvOZd7uAf4v8izAPKij0AgVZT7GHsMzW2E/5Qcyqwf2MujABDyZICUTN66M2Pc9kX23BKA8m69cul4Il25Civ8tl6vPkOeXAAkAPDwfHU2mbu9ThBPiVGrP5ws744yNLcRtuzotJA6J8GryfjE+3imegUAi0T2c0aogTU2wZRpN5xW033UtY3S7yV6IDptRQ7fhfFhOk2HA29cq3BpJPMlKw+evvnKBB0F9jukbNuyVGz73Y/nQCEAXjMAbI+sbEWtrTqEOg9Ag32XjQ9B5iwls5s/jQkGiTkAWJAKaRCVvUAufFs5UQGYAAIATsxvZqTUy8ZvOSChBYmmMIYWhQopSG0DMMZrO3LwyDklzUw3SoEABsDU9hur7DsdElZI6pAypBYJAIbTny5LbReYxASM1zBBcKN2f+xx7wdMSJVEMn5qmXQkzW77Y8DeUv3e2BMFgGoPxtcwWnyRuDB5CX7nDAJ83zmduwtKIn705DWGsNlpzX5903yJD1MedrL9VaRYrhLrDbscu16N9Ctfl1RR9q1ynvep8r/kF6AVyF/4lg67AAAAAElFTkSuQmCC",
         "title": "Advanced SIMPLIS Training",
@@ -503,7 +569,12 @@ export const NAV_DATA: NavData[] = [
         "title": "SIMPLIS Tutorial",
         "desc": "",
         "link": "https://www.simplistechnologies.com/documentation/simplis/simplis_tutorial/topics/intro.htm"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 文献&专利 - 文献检索",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYElEQVQ4jWWSTUiUURSGn3PvfDOO08g0Gv6kRNDOjVAhQpYFJrWoTeOiRRJlGUFrFy6GNu1DkH4IqYiYoJUiiDDRIsjMUoSgIKiFmZpEIjjz/ZwW3zemeeBu7jnvc+B9j7Cr1IAEA3Xa7xjyLozHlZfzK0y9QjyAHGpfID6ARE8jsYDo5aS2JNO8VWg0YcMTeI/HvYU1noSgcNb8E2MqkESK4WpDo6+qbkDZVTSAdhPjUes+3gzU6ikQBRUBTgODgAN4hsRc396VxVQsfcQXPRZDGgPAhTKAI8RRVAJuD69KXoBRoG+bCQ+BfoBLaa1NJTljlWsYOn2FAEqixByDdX3GDNAG+EAJ8ICJHGqhK/Z4XX6NLMvT4RU5Lj4XDXx3hIQvuL6ChN7wG6iJvPCAo8B8aK6SA1Nx/EpGDzhxHiQt3aVAv65vSAeRyI8A60DL7mjD6AAOo86NKn1+Na7nKz1/G+APsD/6lx2EAhZUyGOyn7if/UhPGGW4NYggm0DrDkABW2FkizQ3vLPjzZ+tNs2YL+kidQb4FgE8wAIHKWDpioS9+AANc1yIZ8xr43DW/8mmCodS1TISAxairSba2k0vYwCZIplEDT2CXJfAnMQFLWsJI444gnq6JwY8A5qBGOCRROunzC1TTTsunVhaCATdUFdASUgCq6jHnaUJHaoYJYAlh1IgaJiRos3KCX8JBVwUkYQ4pgoCXz/4BIPLbUzC1v1HN9CKImi5pDeDP6xhwVRJXJJYbDDrlnXgx2LQsdzGJPpfSluVD6H10ww1zZvVhmkzWj/LOe6S2BlpWH8BRRHtXYk4FwUAAAAASUVORK5CYII=",
         "title": "Document search - Web of Science Core Collection",
@@ -551,7 +622,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Scopus - 文献搜索",
         "desc": "",
         "link": "https://www.scopus.com/search/form.uri?display=basic&zone=header&origin=#basic"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 文献&专利 - 文献工具",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAR9JREFUOI1jYBgFBMH/hgYmsjS+60jjf92ZxAs3qK9Q6HFfISe6OhYMGxkYmBgYGP6//MeayMnK1fS4KbOEjYU5+NOff/J/vv30YGBgeICsHtN5oaGMjAwM/w+dnzr55+8/r0V5uGYyMTEafvr2M06xYcaD/wwMjMjKGTEMYGBgOJEbzacowd/JwMSUyM/Bzv7u2/ftUtXTvLCpRTHgPwMD4/OWnCBWFsZpIiICYi9fvvvy7z/DJUlxQasXr95Nk7jwOo9h9ep/jAwM/7GHQYMDMxPTP9X//5jm/fj05SsDA8Px38z/zn36+DmXkZHx32ttUU6x1QxfsLmEbIARBv9XhTIzXNOGif9jaGj4z9DQwHyA4QCDY8OBP1S1fXAAAHI6YihI9/i8AAAAAElFTkSuQmCC",
         "title": "期刊 - 热门推荐 - X-MOL",
@@ -569,7 +645,12 @@ export const NAV_DATA: NavData[] = [
         "title": "给CiteSpace初学者的学习指南 - 知乎",
         "desc": "",
         "link": "https://zhuanlan.zhihu.com/p/32695561"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 文献&专利 - 专利查询",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACHklEQVQ4jU2SzU5TURSF1zrn3PaSFgqUSAUF0Rg16ICEgCbESOAdfAEGjh37EE4d+AS+gAN9ASdIYiRIo6IQLW2B/t6252c7uJfIHu69stfeWR/XdvZwpUQEJEUEAAmRK0OSYv5LIQRIAgKCIK7I074ITbaWpFAuNQFUEICAMloB4rxNHRQASW+gUCRAeZN76I+j5FS0s67+t/mj2a5rFQEQgQLAzEECWBy2CjEfm5q29WIhvndzZnv1OnH4/WRXayOAQvpfkAFMHOs53csblM3Iwjdb7ucfuehNPt961kmOWt26VloJCRGVjzY7nye6jaNotoSk3Gt4FZwdgPz2u9XsoBBH3juSioIQgHz+ZOHRjXj4+tOr9eSwNGwT1rokiFybGv9SPQh+rFyadc4pQWAu2qh+cLV66Vbl/dOd81Kl3K55TTvqF+LiWataPTm6v/TEB5BQLmBhWi3Pysjj46/cu2h1KnTjpA1jekmjdrY7so0Hixvex0E8AKMVm233prjNCb7cf1uLpgu352mtp3Hu9M78+tBOX3RHIo4kAKXI3iDY8/ZMNDpe3fq6vLlY2x/rtxSsMeOd/kyjlaRRpXnruZUXSpGKycDv9UrD4uTdSnQwvtS7taJUpT8IxqTSDDGu7ewBAlAECN5o5iaLiVem33deREIGnWRIpPBlWUMrJ7SNDiEjpclLREXSiwCYKzBCQBI0OhtmztkDaf0DKZUjWXyB5H0AAAAASUVORK5CYII=",
         "title": "中国及多国专利审查信息查询",
@@ -581,7 +662,12 @@ export const NAV_DATA: NavData[] = [
         "title": "incopat专利查询",
         "desc": "",
         "link": "https://www.incopat.com/home/schoolHome"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 电力电子知识",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACCUlEQVR4nExSPWsUURQ9985ssl8JiVERsZMIFi6kEkGLpDIiaiOyIClE7Wy0UEHEIiD4C7SysEllYyOilSgI4hbi9wdonZBNNruzm5l5N+fN7Ece7PLmce6595xzw+TiHAbHzCAiqrwhTXlHEPhX5/x7hgl3o/2jiLVbEEWxzDdsbSIsyHgRWc2oIEeTCr2eHF+Q+Qs4fFTi2H35iJcr9vcHiiWxrM9wJI92Tq7e1cU6OMTPzzI9o/sPWbfjHlyzb5+EPc3CPr+qRZFeuRMs1t2HN+7JMpqrpoHNn5OlW5ja6yVlx3egUvQ6mD0WPFqxf7/S23XpRuQzl2K7i30H0WqS1CugI9m/WBzrqTP0x148o1CpTBiMn1KqyvqqDPwg2BeQSUoVduBo9r1BTyxNJHeZwsLQW8d7djTXQO8wuQdxjM115Dnknfs4GbqvgxRSLyMMaB/d99n5FCAMzjlLtofFmYYgtE7b/nwVDWTupG2sWZpZ7FJrNa1UkZkDlsQy0uD1Bfb6OUfXpZt69jIogyxjRdRO6P3HuvwUY+N+QXJb8xzQacvpS3r9HgoFdCNrrqFSlYkp0rrGO/fwBg2gq7uS5i9qY7amC+dxpCaT09aN8P+3Nd7a+1dIEq+n32G0ecpFQBKDc3Mkv1qRh5arubPE9Jevb4KlQpekzEXwUZCC+0MWRp4zAjsAAAD//xlkMnQAAAAGSURBVAMAyJwWWIi6gAIAAAAASUVORK5CYII=",
         "title": "(9条消息) Mosfet管开关管损耗、导通损耗、驱动损耗-计算方法公式及解释__Charles_Chen的博客-CSDN博客_mosfet开关损耗计算",
@@ -707,7 +793,12 @@ export const NAV_DATA: NavData[] = [
         "title": "SparkFun Electronics",
         "desc": "",
         "link": "https://www.sparkfun.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 软件镜像源",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC70lEQVQ4jVVSwW5bVRA9M/dePz87dhIn9bOfBWwaEUAFUVU06gJUhEQFUrrrL/AJbPmA/gC/kAUSIkQRQuqCjYvKoqVCKhLQqM4zdipcXDu237t3hkVjycxmZnOOzpxzCCvzFcB7zeYVNaYFoohUR54oGNUkMOdBNVtk2aM7QFhieHl8V6ttX2+1bglzYefzrqrWFiH8fp5lDxTYXkynj8X7cTVNP/622Uz+R/BjrbZl6vV3wWyJ6OpChIX5hbP2vUqSfChEEpfL5xXvcwCImN/+JkmaAGC+Btza5uYHz/r9nzaIBsG51zmKtoT5Dw7hKRENrMipEl1WYzoYjx82R6Mnfn19b//lyx4dtttvGdWEZ7OTWRzHzNyoZVn3JuBX/TkATKXZvE4iz5m5DOY3CfiNrTFvrFt7P8RxXFG93M+y+zcBrwCtmnsHCA+Gwy4b85qIlITo58CcsojIjV5vJkSqwJ9fAAUAIkBXCGS5JYRnojr5vN8/YZHCCjA5AEpM1KAQ/rrAKF4pUAC4B5SfAqgCxXQ+H1UqlZ0DwJDIiMn7ajVNPxKi0mKxyI/S9MujTueH79N0f6lgnqZ3k07n3lqSfIbJZGKdi+qt1q43xtJhmn5iRHzB7B1wxkQ7KrJZeN911ta8SC55Pi5FUW02n5+ytRVn7Q6LvCiYNy2p5qRaciIgouanWXZ48a+9liS7qpruj0aPl2qO2+0rImJy5o0SQHTcar0jIhvG2ksicooQovWzs19uALPVGI+AiDqdqzbPTW5tQiKnCkzpAChV2+09DqEg5oYn+tuFEM1LpaHz/t/ArDbPt8DcEGMKQ9SREAbkXLnc63UJAI7r9UYRx++XrZ2GELZIZCTOxSSSSwhCzLlXrbMxayA6UdXt4P2vt4fDAQPArfH4H5yfPyxCiLzISJ2begAkkoMoFKrPQRSs92ekWnUhPLo9HA6AlbZd5G2nSbJriS4FERuIgnNOoGrUexVg2BoMnlx7VTYAwH/S2X3CgWfxfAAAAABJRU5ErkJggg==",
         "title": "Geek Pie Open Source Mirror",
@@ -719,7 +810,12 @@ export const NAV_DATA: NavData[] = [
         "title": "清华大学开源软件镜像站 | Tsinghua Open Source Mirror",
         "desc": "",
         "link": "https://mirrors.tuna.tsinghua.edu.cn/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACi0lEQVQ4jY1TTUhUURT+zr3vzZs3M/6k1lQKQckEBWYERlmLwnaF9GNBi4KIgoIgIoKoeItKjCIoaN+mwEADK1xGtWghaDmBiQX9mFY2mfPzZua9e08bZxxHic7qnsP5vu9w7vmARYMJjiOKqeMIgGnx3vLo6JaFZ2vX013bOp+0/au9hJUJIAaAFqcnZldErgrD7CASIE2PLWldexZtGcRBUrM4LiMAYuce1EWX15yRAessGL9zmcypbPaPFaquPZpPzbi+695LpqZfj909kyudgADGllsvmoNSPTTsyFovncxq7Y8a0jAVw3Qzvz4wo8K2IqtFIDiVmkkeGbjSPlScYF33u8DSr996vVxuMDOdmDDt8Cah/QSb1rjvpVIVVdELkdr6NenE5Gvl5+NgnXrp2ufh7PAlAPxcv4xXGfWXrMole3Qu3R1Z0TARjFTul4RYKFy7QQSCevJT/D4874cwzUMk5ffPF9seAYBRsk/2Msk39sqG+EjvA2ps2z1OkDrjJgw3mx6pqoluJo0mzcoGKFVAidl/1iBUa6X6n59oHarZuEUFItWtys9OSTK/1C1dfZw11SutXBLSEyXCc8cC+IUkfv3w2/yfRI+QZpOQsiEz82tM+3mPpJREFNZa+wVQkYmAEAyzGYAEoEiQYOY8E+ellEpIYSlfjSqApZTRBQS+8rssy3Z23nnx0XPTx5TmnBREYCIGoDUrMDcaAUso5fcVdOcdUovTE7MrqzqJ9T4yDOV7+T4isGmF92ZTyREh6JWby90cuNz+fuEpO46A42gAaL3Rv90KRbpUNj3NIGHY4dDPsfjp4dsnh8t7y2KeC2lb55OOrV3PDhSFmOn/XFlq5bniIjXgL/hZGp4Rv1igAAAAAElFTkSuQmCC",
         "title": "CS自学指南",
@@ -731,7 +827,12 @@ export const NAV_DATA: NavData[] = [
         "title": "CS229: Machine Learning",
         "desc": "",
         "link": "https://cs229.stanford.edu/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - 应用数值计算",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADZklEQVR4nFyTXUxcRRiGv2/OnLOHZX9guywVKCRGIUI06o2SVqBLtbJiY2K4rTQSSWy96p+JNeGixkCivagkVjHSG282XqiU1orb1WrRG/XCKgtNmrawlN0t7NkFdvfMzkznbEP6M+fmZGbe+Wa+930oVIZEAJTOX12sGAFC35JF0SYlMDUPiKCjiQkQ5bPpsDn9oAZha5yR7rqn+DgQ0lDKs8mc3/ixr/P8hrN0frav2mfZe11efRCESKb/Tx2E4YZNZw1hRBJoT7uDocA5KeQfd8L68REpm2IXUq+tJq12gkT6671z/RHv1HF0L26L8VEk4sVMiUZgFgqVG9Rd5hOCiVQmrH/Q86t1aCE2f3htpdRS5pqqIIHIAtQ2+a637m49Fe/yfxaM8Y+IDqH0S9oQ+i8WX9FNejTTRV/efdl696/o359YmZKpaXIcNGOagOgVQuznTAT9da7ic28+fyTe7R8P/sJmGINRYmjaUNHiZ05K2TgXm3/fSt4xXVVU9VELcN3Mssk9h7lpPmO49VkrY5uJS4ljzt5iTnxuEBwi0hat6zXGz9Pnbu/L3lrdQU2XEKy0gIxdNxA/1N+5ck23eb29SfbpOt7KJtebL15I9TsaR0skIBvYFd2wlnMd5ZKUSChKzVi0fc2n7S86+9T1P0aqfw9e76ZybqyM1XI1udbuaJTNZQLynotEfY7hIJhEwZ/VmfWtPvT7N3xi11dSiBndzg6yAp0EpnQc6Zb7RElo9LeB6poG379Ul6q6C4Skb7Mvd+5EKX108NKrjBfGJTV7gRafplSAf7vvavSfAbeqRwm6cMGTt3v3RkI/1DQFbnKm+mdAC+yf2SbZhgeFfVQHPEBE4Q3g5Su1jTVLkde3f+dZtvegQeaJzfmEWUWGTyAutfU8MeYLmSU7XzxFhZ1AyboReFi98qCdWyf+x7x2a9fjo85e002GbSEnHgzSigrSiXDcem8unjiytpTfwW2FguqURhECLcEbbd1Pfhrr8Z8OxtlJopH6SpAqUe6EqqCrPA0C/lSHHHOi/NNUqj+7kutwehuo913tjYSmRhAXgzE2puZeeCjKD8MEjaU8/3oLJg80y+hsh6cCk087AEJbTP+3fOg+TI/gXKtwpqBwth2c0XnDPZwNkihD+ezaIzjfBQAA////vVEKAAAABklEQVQDAEIKsJyXlA/ZAAAAAElFTkSuQmCC",
         "title": "# 数值计算：三角形积分 - 陈橙橙 - 博客园",
@@ -743,7 +844,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Triangle Quadrature Rules – Maths From Nothing",
         "desc": "",
         "link": "https://mathsfromnothing.au/triangle-quadrature-rules/?i=1"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - 数学基础",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACp0lEQVR4nDSTT0hUURTGf+fNc7K0/5YFFkRFEbVKWim0KNoYLSQIgiAqhRa1yV2YFC2CXGRYRFgUGRVtLdq0KJFatElSChLJMqTyXzqjzsy7ffc+m+HNm3vuOd/5vu+eG9PmsiRcJssZjFWZMihFgH8yisThnT4RjjLFMvzV7x2+cDEmz1UquUBRmyoqzSlxGc58ouFcETPCx+kxK+ASx3J9W9hOYrS4GXVZGtAzZBr34F4OQS6v9Kxi2QD0nxHKdYHVkhCbiSlRERlJkiM6XIvrOAQNTyBZHZLt6zRsWgXl2VRCSXCj8/B7PgAtj0U98dS8hKO7sFhdeo5JioLfJqB7ENrqYEyMZiVn52rsRj/uUq/wVwjTFEy0ubkaq98CjQ9hYAyuvYWDnTA0Dr/yWF031N+DV8O4NV5WQX6oSyST8BwWZN6+dujt0zIRzUn58BOmcqmBee0XZmG+JGOd6KtOtS4O3gogp4RT9bB+P2yrwjXXYnv1Fg75ApQpb0GFkcDNixaAGFhsMsYtYDXSs3udjJbDa5bC90mSSplYSAIjn4ynHRq68N+DuMj5hYZnYEQMbqrzI9EWmwfvsfNduJ4BqNB+cSEtKCUp4yBBDPzpB9SybDg2Wg7ARA7X2Qinj2BFdSpXPCmEPlYRLzLwEorhpDV1Oltv0MYNWGsDnLiPDf+B583Yyce4lRqaD+ekIsH5mbjelxrrBBob4UioWQvPzsKLfnj6Trsa2Y7XMPgDdlyBruO49jfwcRTmojCliF1k1uSmXEJltSZvaxXW9zncCfMXQBrD/zDCbnGclwSpiQfQzlykpNuUE42Nq/hTuA9h9n1+mHlLTZNbRKl+p3Xk7418uBUzTWtYxjQpodIfWXrvwjvcSBWYWAbNoUHEBDnuMkLrPwAAAP//k/vtXAAAAAZJREFUAwAZCxUJ2U/CKgAAAABJRU5ErkJggg==",
         "title": "如何理解几何重数和代数重数？ - 知乎",
@@ -767,7 +873,12 @@ export const NAV_DATA: NavData[] = [
         "title": "考生必记：三角函数公式汇总+记忆（没有比这更全） - 知乎",
         "desc": "",
         "link": "https://zhuanlan.zhihu.com/p/390928056"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - 网课平台",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+klEQVQ4jW2T32vVdRyHn/fn8z0/RHfaChQpbSuXtLabskhtyGQilisottyN3UQQ9AMNwstdBl51ERhU3ua0LnROJBFFLSOVKW1RGAz6QaBtrmNn55zv9/N+dRFCFz3/wfPAY/3HX71lxk2XroWoS8vGVzefP3qL/0Hn6aFgJ/AMgU0kFm1geo+U/CpQMewxocJivBSK/Ivrzf7DihMP+P3sDc4oYgAjIWYIrEbkwUpBoIPfj0wOJHmvY2+Bh6yjcojIQxi7QhcfIGYR47R42IbZQuI4YmUAwGwlk6NxrslvcyNHDjv+TmrkBXk0EsFv07JhXrMdfMldFjRJxKgAygxzS9ZibDLdcw3GfXJFSkk4AFGnWWk7+dvGSAA6Qw4oC5lFDzo4MDU2mFzXCuOk56GIQU6Idq8fS7jO8gRiB86TCraHxK/ZH3mxtzOwJXOGStgbmZsUtGjRIo1kRBRWUQL7WQpr3cmjpRuW6yNyzmS/v3L5O+rzRwzaiHLlm/HtPXf0crlIw7SasCq2lPsP5pq2P9NUHOeCQQJ1MsoaWxjZ5oK7WbLZiutC5Ze7p5i9etFEAUJmGZAM1Ta+z/Aja9P2TI2tMehxeZq1xsiQcqUjIiwKvWAhrHPXUubhaMf1swf692lN7wpNqLX0EhYyJ/wIOo7sOYzVoRxMAR3rnDr35odT57tDkW+M0mcdK0qvU+bBWsbmUslGE/Zuo91ed2JfR9+JfbUDkC4jqpkkhDomIT7d3V2qTV/8qb5r8JPFVv52V4G70W7Wl1pT73UeAuibUHkOCumvKoYCZmaKpTFIPfPzTQCPrOJfdyTMzLK+0dkywNyEtZkwNwslA8sayZPg4zu7t+0PhK9dfipBE6lAGAGULO8d3LDh0WfrgwQbQtocStX1ni9fydzZFM2eEr4JfAswHrFqNYtQQSZUrXVUm/X6jIw20nWkY160rrj5t1nX9LkZYAb4FGB599b1bUovtlzDZdFKzu3U8s9dOllYbfr0flv47+L/AHZ1ivXHt3vXAAAAAElFTkSuQmCC",
         "title": "学堂在线-国家精品在线课程学习平台",
@@ -797,7 +908,12 @@ export const NAV_DATA: NavData[] = [
         "title": "MIT OpenCourseWare | Free Online Course Materials",
         "desc": "",
         "link": "https://ocw.mit.edu/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - Chegg",
+    "items": [
       {
         "icon": "",
         "title": "chegg",
@@ -809,7 +925,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Chegg查题24小时自助查询查答案coursehero",
         "desc": "",
         "link": "https://www.cheggcn.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - 嵌入式系统",
+    "items": [
       {
         "icon": "",
         "title": "MEMS COURSE WEBSITE",
@@ -935,7 +1056,12 @@ export const NAV_DATA: NavData[] = [
         "title": "STM32CUBEMX配置教程（三）通用GPIO配置_stm32cubemx引脚配置_怡步晓心l的博客-CSDN博客",
         "desc": "",
         "link": "https://blog.csdn.net/weixin_44584198/article/details/118964153"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - 计算机体系结构",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACPklEQVQ4jcWSy0tUcRTHv+c+ZnTG7ObMNSqQBEEs3GRklpQkJAi6UIuIoDZRUYsIgpb+AbVpUVQDEdQyXNQmSiwkdJMUIaORZaHCTKPjvBznPn7fFmUPU9oEfVfnwfecw+ED/DORAtIAaWCIBkhZ1dcxNGSA1NY2rzf0L/q2SYRVHNshqqZblswAQn7R1aYeZkQ+AIDFtKW5qleghXzB20Vz0/Pfplic7bYniln7jsfq66R916M9VUhu5PQhAIg66YvVo6R9y2V0PJUGH0VXvFo5B7cZ8WAMt9UGLmd81biQUYmML7GgbU5XxsD+Csx4PXxa8jmWXZLJsFWFXd0rf9HCaOiUV4aNiE6e5kCp7cleOYnXbPeXxPfnLHQ2YdJsJoqCIzAR16kly/q+H6A0OMGtzJUp1FBg4HFOjk94ltPntL/s/lJnt+pO3WHtU2WAtcpnM3XO54EJaY9wpAEiNBBAAaYryAcJXdUDgKnMSxjf01WVnB+Vz9yn3uUp5TCQMAR539VmrABQ3wUgrjn4OIw6R3FsWckL/VykkBrgsJzBDW7Xi6FjiKMGnqtwAB4a/SxaoPGN46kpdRRsMwQAornUTW0kcpaDRUikDFwoQVoA1eEAV3Vou8NwO95fSePBvWjiwjMtFtnJ1hLUwdleASigIILUZZk2ezjnWrLFyEmtf18tIirJwH6GnYVlyztfqNiciGRTpyQTOgE4Jdfyrq0ir8kE+yvBJvNnDWuguza2+h/5D5R/QZrrxP9NXwH76Bq0QLPK4wAAAABJRU5ErkJggg==",
         "title": "Computer Architecture - ShanghaiTech University",
@@ -947,7 +1073,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Home | CS 61C Spring 2022",
         "desc": "",
         "link": "https://cs61c.org/sp22/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 课程学习 - 机器学习",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAClElEQVQ4jaWTy2uVVxTFf/uc8+W+4r3GaATFtKFYrQNDFCpCrqAYQVBQUNpRaQVTBKntpDP/gDhQHEUEkaITQVTUiQYEzcCJr2RiaCGJiQ9abnoT87j5Xmc7yJX4KEJxTRd7wdprLWEBAigABwbKGPMTShnRL+r0M6Af789zub3/3RvhLTbfyPNV2wmg2wTZgDTEJ8mCrHHYhgw+CWNN9SwjI7/zcO9cXUWFXYN5SuYqmVKXJK+9zsUexOaKDmeEWuRJZpKUBmuksclordrHlO7n9sY5B6IUn/SQWdolcTXSmneb1uXdr3tatHN9nlLe8nwi5ubj1+7U9YqvVCoRTcu70IkekKPC/sGtBOaeGBGdjWVfuWQu/tKqhYxZtFfH8N8hB0+O+0d/1VQajGrktxmc75Yg63Q+1rY1Wfnj6BotZIxUZxJ6rv3Dkd5xLt6rgiqNWaurmgMh9Sou63B0O8SUjY81jdT8uH2pFHOWuTDlu9Nj9N2dBCecuTXBpftTPBqpycsXIRSc8UmkQNmhtKZpLGQM7V/mVFWlf2iWvgfT2GXBwpsVbt6fAieYglOfekG8gLSaD30CGFm0L1IviCp4rZdlkTcIY9YGSuh1YLQmIkLn+gK7vy2SVmOSyQStpfywq5mOtXl0NhGsKCZQYMyy4ecOXK4DjdPRSiKHdjTRmLWyd3ORlhUBX6/O8Nu+Fo4fWMnhnc36bDJh4OmMl1zekobXP46xs2QuHGvVxv+IcehlyPenxvzA8LxKsBCjZaj3Od90r6ShaYvYMB4anpdbg9OmkLVazBm8wp+vIs7d+VcOn3nhR8fnE0rNAdFsL1faz366yksczgq1KCWZTlOy1kjh/Sq/P6a2thOY/z2mz5vzGy0DVBIANPJRAAAAAElFTkSuQmCC",
         "title": "Supervised Machine Learning: Regression and Classification - Week 1: Introduction to Machine Learning | Coursera",
@@ -959,7 +1090,12 @@ export const NAV_DATA: NavData[] = [
         "title": "最优化理论与方法_中国大学MOOC(慕课)",
         "desc": "",
         "link": "https://www.icourse163.org/learn/NJU-1465971171?tid=1468695527#/learn/content?type=detail&id=1251028101&cid=1279708294"
-      },
+      }
+    ]
+  },
+  {
+    "title": "学术资源 - 毕设",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACuElEQVR4nCxSSU9TURR+d3jte+3rKJYWAm1BKEgRJMGFEGABajS6cljIyr/gLzJujcaFMdGdRF0QBUIRSkJBoK2dS1+HN9x3r8fh3uTm3JyTc843UIc7SEIS54gQSZKMckk/yln1GpZdnnjcN3oFU8IFR5ATfy7i3BFcwgRbun6xl7Gq1XYud3lhEd5eueSfTKmRWCCdFlD092DBBVTrx8cnL1+wdju6dps7zJtIYNWNEO5fWtGPc2dv30jM+TcEJoheId/KZh3DqHzeiN26Y9Zr7mCYddqso/tSV7vnp2psAOLI4pIQAiY45Y0NbzJxeeFmID2FXa7Bu/cERqG565HllVZ2Xw4E/Knx1v6BfnSECSHP19cRxty2GpubgYnJS/Pz3LLPXr9yh8NackRLxFuZTPs8zy0LiFGjMfIsPRVbW5M1n9lsysGAnj1s7u6wToczBrj1w0N1aJgbZvzho/r2tlWvY1tvEdXTLRSUwQHWvEAyDU5PM12HlkRR5FBYG44TSgGwLzmKCKLEq+Xfv4PIPzYRvDEBRJU3PlW3vgU63eT6U//EpLBMieD61nfHsmWPhhGWhM0EE2a1IhFS/PhBIOTpj/pGEs29vdbBDyEks1pjlmlWyyasFErPyH4NgELvZmY3uro6dP8BSK+NjSceP6GaVv36BSgxzgpIwr5UCsPG3Gbc6FqNRvfkJ6Zy+/xUifQbpTLgtlu6UasKxqjHo8SigAeE442dHaNYNJt1qnqJLEsuKkzbsW3Zqzo907FMRGUsk/7lFerVMIgXmrmGFbdL8wvOsIuav0qgpruvj/qCnWLeHYmAL0Ozc7LP/9984BAJo8bWtlmpwPa9SpkqqhKJYDBvo4HdSnh2Fr7ccUBixAW4FTyFgC+7rV/sHyCKlXAfM3pGqaQlkp6hIYQQVEsYuqHfAAAA///rfVcpAAAABklEQVQDAGsoeKxUnRAJAAAAAElFTkSuQmCC",
         "title": "Task",
@@ -1013,42 +1149,6 @@ export const NAV_DATA: NavData[] = [
         "title": "基于STM32F103的ACS712电流传感器使用教程_诚实可靠小黑君的博客-CSDN博客",
         "desc": "",
         "link": "https://blog.csdn.net/weixin_43947334/article/details/124493132"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACVUlEQVR4nFxTXWsTQRQ9s7PZ3WCDNiC00WqtbSMWGjGpFhLf/Qf+G/Wpv6XPoj6ob23zAU0bG9/aKL40BCGFQLIlyex4740btl4YmLn3nDP3ntl1R6PRfjqdVuPx2DYaDXdrayvKZrMRBRzHAUe8HwwGqt1u62KxOA2CQPWvrqxL5DcM8jwPreYJPn/8hLfv34HyQjTGIJVKIQyvsbe3h+XcMsrlsghnFxfhEMhMJhNDZ/O8VDKtVsvUa3UznU5Nv9+XRd2Zo8MDc9o8MaViSbBcZy73qKk9TQe9XdjWufv3dK1e1wTQsNBKKW0io+v1hl5ZWdGFQkGwnBcubSwJWI5MJoPd3V179v3M9no9q10tq9ft2fbZD/uSagsLC2Asc4RLe5VYLKDCUaiazRNFIKWg1PHxsboOQ0UCgklyZjZTsMtczOc3sbr6ENXDKobDoaxatYYHlOMaY2Ks8JAIdtzzfFReVXDeOUf3sotLWhcXF6hUyvB9XzDU+pzj3Dj8U955sYN0EODg8IhuryIIfJR2SoJhPGOUDKfgxq3ERX57chtP8nl8+/oFNCi2nxVorFW5Pf64OESIklaINgJpioDWGj87HRqjQyhgbe0RNjY2pJbsmMPl55iZwQUlZEtij9fX1YeBb+94Gq83c3RRZJO3x0Iuqc4lRYnIM0OnOP3dVXd9jejpknCSHcSju4ydK3JSAGySg5Sr4aZcmdtEsxGTRsYj6P/biiOXuYXbQUr22rnx4nMsm7ifnC3+dcOxwa8/fcW+rC8tWo+8mf/ikZiGyET4CwAA///bF5AxAAAABklEQVQDAH58UBGwYlBTAAAAAElFTkSuQmCC",
-        "title": "Z-Library：官方入口及最新镜像网址 | Z-Library入口",
-        "desc": "",
-        "link": "https://zlibrary.vip/zlibrary.html"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC2ElEQVR4nGxTSWgUXRCuqvd6memZ/PzZIIigXlyICJogiggBvXrSAfHgwYMYEHIQQU/xEPcFgnhVFBdcDoLgQUERFInBLRovLlc1GYfZe6Zfv7K6E1SiBb3A++qrr76qp7umJ4YV0XFoRwEkwYywINhaC9mAjG1vK61cf6976vkBnc+PRY3KCPZMPa9JRsBxHCMiMbMFRJsQSSTpBnzfE5LHM1NftkJfX0dvpzcJSi3jdrtOgogEbBM0CxqDrKIgcDCX0xAEyeOD56JlOAqFQtzT6e7DbGaZDUMjuUazpnOo9BFuNK18m3GtcVApKsdoCZnkJXKsqRTXbHoIk4+6gdSwrdYsZTPaxuasng3r4z1ubrdIWgIZPwOxwe/L112Ff0R3EAyT6yyyxliOzOfZdn08Naznw+R+dN1xrtUYiMqgnVNMHKKb8Uy18rpUDB909/3XS2xfSd9dmM8pbrX2z6wcPE/AgDPx54schp/QdRiZO6TKmNLuGdJ0FLU2MDRkII5GwHF6QUlnYfPjzNcvl5JcgsIOgv6ClObTooKSadhKtSmuM5cr136sGnzQOTWxmFDtEYUx+hkyiKdgqFBLcglu3YqTkc021WWRNY2+p4HQ4yiqRkTH0ioKD4OjOkUB2nbrfalkrqT7Irk0Z88RhIGBRmz5JDguyiGIORGH7WryI5PoABGEjiY5OQEbNzbTHIk5Ahy1SaUiBNeh1XojlQA9t0t7+lCySY1mYyzdyMi8LjZe3kiwac4vgjRGEfr72xHicTGTxAdLpHbl3z5bUVu7edpyfJUJLsDA3ijFzsdvglQFY+lb7Ta3oheiAGU3cj45B5LjVrk8MuvXr/zC/kWQWiF9ycik3WOJYVyvG5nTzv8nn62urt9ShKVD4YLdWkAwOu/Fnft32dgnmPG1bGdW5729c9fyplpI8NfVnTMIuOvdxKBy1L3kokUm2l7q3/B0Hs9/wn8CAAD//0wTXfYAAAAGSURBVAMASKVi+aTbx6oAAAAASUVORK5CYII=",
-        "title": "Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS",
-        "desc": "",
-        "link": "https://www.flaticon.com/"
-      },
-      {
-        "icon": "",
-        "title": "RuTracker.org",
-        "desc": "",
-        "link": "https://rutracker-org.appspot.com/forum/index.php"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcElEQVQ4jX3TMWtUURAF4C9vxYhBJBizWCS4GqJoMIhB0gg2YqmdVZr8Ajt/goiFrUUgiNj4B2wNpAsqRCJCRJKIJigIURbFYtfmXHksL95m5s2dOTNz3rk0nyr2Hh7V4gt4Wk88dABALyCzGMYz/MZxnMA4vh5Q+++cxPP4p3E5/n3cKpNWDYVDsXP4hGP4gjcYxQ4ulNwmgBK7hHeYRAdHstIapsqqTRz0YjtYxUbt7iVGwsMIuk0T9NNtHG9rK5Xpuvhe1mgCgGns40cAB/nZxJUmgPI9h20cHsjpJbaJM/+boIM9PBjQSh8Po4E2WoMARUBTeIFTOIprUSGcxSu0MFnV9hpKcTvq28YuLobQDibCTRefMV/VSOpngqspriKg8/iFn1HjVpp9wEzR+xMs4WbUthewjXRt4U/8j2m2g3aFu1ivvbLXuJHO6+HjXFifzf5jWMRKK//6DmaScD3JC/iW+9sh9H3EtRxVPv4L/VFM/qlrdv4AAAAASUVORK5CYII=",
-        "title": "Zotero 7 配置笔记 | Fenglielie",
-        "desc": "",
-        "link": "https://fenglielie.top/p/1859110b/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACt0lEQVR4nKSTXUhUURDHZ865u+7H9Qs3U9CVilq0kKiQiAp6ikKhbykoCAMhCUE0QukDwspMokAIepCKAsmIepFCCKIPxVKKUJY+wBeV2hR3N9rdu3dOc667PvUSXZY9586d38yc/8wx4D8fI7upqKgsTbtcEkVCKfLg35xRIH9TaFiWPTU1OePYHHh1dbeUsokUkVJKIJuFEMD7DAlAREA2gTQkCRTCtu3eqc8f27B8TdU2A90vEdEBDEM6azKZArfbBToGp2W7AT6fD6LRGAdEbYS0Sm0XEo3DnI0ZsthOR4/Uq8GnA6p2904Vi/3imkgxqPpu96qtWzYrzkycytKMw3K4mkylkqsQd+/349j4B+zpuojBYBn+iESwuakR37wdwf6Bx+gyDM4GcvF4WCMLAyWXeedTCpWuLJFM4vOhF1B/cB8Ey8uAAVhbVQlnL3RCrmlqPVRGG9YKPByg9BKDIit0jtsNvxMJmJgIw7mONsjLy4PT7edBa6R1YBj1Xv/Y3S2yQmtVdEtsssHn9cC7sXGYnp2FimA5WKkUSCkcMREXfbP/gg3zGuUX1IILISEWi0Nryynou/OAlfdC+5kWWFiIghS6Q+AcXsOa1WG/6g5yWSQ43CxnPXRgL5QsL4Yr3dfhas8NOHH8GGzauAF+zs+B9uGEpBnN6v6NZM5ElpWmutpddLKxgbq6b1LxsmJ6+OgJvXo9TPf6btGqFSuJu8iJgAM4gzYizfyiOe5pA0+hUZCfj/v31OHgsyEcHh1F0/Sjbvvo+3EsLChA0+/DicmwFlG3UaUtqzkzyus7pIGt7Kzi8TjqaTT9fuB3ECyelbIcXbyeHMjxehXfCaS0fY1HuXPp0gQCoVy9rttRrazpJIbD4aVLVFQUgFAoBF+i39T3TzMOE4mEY0uXKbMq+LfHYf4AAAD//0z8/dwAAAAGSURBVAMAOTVGXaoYPvQAAAAASUVORK5CYII=",
-        "title": "中国常见科研基金和奖励的英文译名目录",
-        "desc": "",
-        "link": "https://www.xoveexu.com/project/fund-translation"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABTElEQVR4nJxSMW+CUBDWhyYYXahJsRpTB3et/IFqnTQx1v4A7M7OWrf6BxhrUu3EajdGwig/wAYSGOxCICEhEAr0NY8gQ1uDt7zv7n337u67V8hltEIuo2FHhGHpi3w+nwAAQBRFsZs7r0KtVmNZFi+VPvZ76OI4TpKkbdsQ3/R649FIlmXEBKioYRiTyeRxPkfR0Xj8vFwiTFFUtVr9oQJwTPB9/2mxuO33CYKAkfvp9GE2azQaELfb7ZfVCoIwDOOW0ECqqjIMo2taEATEBQG7KpfLmqZ1u9337TbRIJ4Blvvy/at6fTgcViqV9evacRyapovFoiAIuq4nCQAdqAjHcYO7wSVJQgbP89etVo+iJEmC7ERWLC28aZqdTudts1EUxfO8ZrMpiqK82/23B/jq5+EA2Uhr13Uty0oTzl1curFf8Z8JJy3zb/0GAAD//0JvrBMAAAAGSURBVAMAaTB0p9fGvM4AAAAASUVORK5CYII=",
-        "title": "Research and Modeling of the Bidirectional Half‐Bridge Current‐Doubler DC/DC Converter - Huang - 2017 - International Journal of Rotating Machinery - Wiley Online Library",
-        "desc": "",
-        "link": "https://onlinelibrary.wiley.com/doi/full/10.1155/2017/4854169"
       }
     ]
   },
@@ -1060,7 +1160,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Basic Electronics Tutorials and Revision",
         "desc": "",
         "link": "https://www.electronics-tutorials.ws/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "PCB设计与元件购买 - 器件供应商",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABXElEQVR4nJSSO0sDQRDHf7u30ZgHEgkEhBR20Y9hI4KVFmKlweCj8uPYKNYBSz+FWCraKwQUHyl8JXe37uzlzEXBx3DF7v9xM7MzxsYxSmEtr8+EEYphWCgWCHLCuvAyNTSsL3B6RkFjY7R2PKGlVmdnj+UNAR2ilBFpYug+cfdIGXrw5jNMwO09rSb5EosrRCGB0aJO0hnDOESKuQb7B/LNNhjX5BTHR6Jxaa01mYqtNNC3TNdZ3RTkpM35FU7SffCG4JvB4j09wlCQsC9Xm7I+MgZXVUIrLeUlSJb1ofk11IjH8M/4g8F+HuyoIWlaDvGg6cGAU/ZrSUnTbqC5sUHTJpf+XnlWjT6r3JExdW5oHwrSuSaveYmZqgobR06UWQ1XxjuULReX7LbEkHeD9z2sbYkgtgTaDFdjskK1QjFdPqcLDLUZmtvML+F2NAicTP203g4vlmSOmfX+AAAA///kwzqUAAAABklEQVQDAPz3jbH4EsI4AAAAAElFTkSuQmCC",
         "title": "得捷电子 中国 DigiKey官网 | 供应商直授权电子元器件分销商",
@@ -1090,7 +1195,12 @@ export const NAV_DATA: NavData[] = [
         "title": "e络盟-电子元器件分销商_Premier Farnell - 电子元件分销商",
         "desc": "",
         "link": "https://cn.element14.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "PCB设计与元件购买 - EDA工具",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jV2TPUtjQRSGnzNzb67RNZAQRK2MWIpgY7Fa+gNMtYVfjY2NLPsbrLeysbP0HwjWYiGClbWFRTYSFVFyuWbmnC2SG5cdODAM55l5z5z3yPb29o80TX+b2ayZAcgoAHDO4ZwDQFVNVU1EEJE/g8HgVyIiJ2bWVFX9H/be0+/3yfMcM2NiYkKq1Sqqat77eefcSQI0QwgGOAAbyhDnHN1ul1arxerqKlmW0ev17ObmRrz3EkIwEWkmo418sYj3nqenJ7a2tjg4OCBNUwDu7u7k6urKsiwDEDOzZKh8uMxMvPe8vLywsrLC4eEhAHmek6Ypn5+fmJnEGK1kkhijlLCIYGYMBgP29/dRVR4eHhARFhcXqVQqAJQMIE5ViTGiqogIz8/PrK+vs7y8jHOOi4sLiqIAIE1TzGycr6q4GCNlFEWBc46dnR3MjMfHRy4vL2k0GgBUKhXMjBDCmHEhBEIIiAi9Xo/NzU2WlpYwM25vb2k0GtRqtbECVaVkQggkJZznOdVqld3d3aE052i327TbbcqPzrKMsuRRx0hijKRpSrfbZW9vj7m5OcyMTqdDp9NhamqKhYUFvPc458YleO+HF5iZfXx8SKvVsqOjIylte3x8zPX1NWtra5yengIwOzuLiBBjNBH58kEIgZmZGc7Pzy2EIK+vr9zf3zM5Ocnb2xtnZ2fj9hZFYWUnAGRjY8NExIqikH6/D2Dee5menkZECCHw/v4+TBaxWq02Mi4mIpKoak9EmkmSaL1eHw9T+YJzjnq9XhpPYoymquacc6ra8/Pz848i8l1Vv5XmUFUxM8r459zGAyPSiTH+/Au3D5lU+EEIMwAAAABJRU5ErkJggg==",
         "title": "Altium Designer 24 技术文档",
@@ -1114,7 +1224,12 @@ export const NAV_DATA: NavData[] = [
         "title": "立创EDA专业版-使用教程",
         "desc": "",
         "link": "https://prodocs.lceda.cn/cn/faq/client/index.html"
-      },
+      }
+    ]
+  },
+  {
+    "title": "PCB设计与元件购买 - PCB工具",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYUlEQVR4nEyTPWhUURCFv/v27U9iTJSYbCqjBLVTNBZ2amEjGMEUYmNhkyYkCilCCksRsRArK/GnTaEoiJVgYRAklTYWViKkNL+bZN8bz9y7u/jgvnvfvDlzz5yZyVmwA82ChwRuYwxoBdIT96C3Wfy2jtU9NvV+tVZhMXdwyJm1dvxdhgSPmyMc3LXRjWUMOqYpTGjetS0yGpRCK7b7V3RLu9SeQdZhkGVYKZt8TPbI00pamQ79AkfgYINwuC86hNFBqFVi0MhgZ08+AjeqhC2dy0JIYT2WKXrYbBHuX8ee3CIcHYZPC3BhIgLZL2ByHN7PE1aWsNnLBGcYHPtfchYZ9EMua1MM6jm0Be6vggIzNgRffxEeTBvXzsD6rqcYemqHQjoocsx5r0i7fx9S0BOj8Pgj3HwGr1cC1UrUR1qShPIVugXssAoduz/7CpTrXBebmZc6K8DBuv77LX93YFN0nEGvhqTcd9tJSM/Vz7v7cP4YHD+S2GU1cZi5CJdOgTSI4CKVlJEBGB9O50JrQmmcbMK7OZiehI2W/EfmrXxxh3D1tEXii8vw+Sd8WRKwTM306IOErMH8FWiJwfYeNvWU8OMPFobnrHT1b5xTKi3szaqCHkw3VPOU99oGvF2FqbORhS1/I3z/DY2aAozdMysKTM0RKzFQV4Opz3RLrIIvF8wZSKf4T+W1vmrq3FwO25WcxlCelHejt/JQX2+oujPRtXkQK71qxo638nMqZDJmUtXc0cVw4bqrM43eJyYx42gEYUzY3EfSp8rHWUF9nONt3QbrsbDOOKcmWdf0xnH+BwAA//8LimftAAAABklEQVQDABhcDbemwpuoAAAAAElFTkSuQmCC",
         "title": "嘉立创-PCB订单列表",
@@ -1144,7 +1259,12 @@ export const NAV_DATA: NavData[] = [
         "title": "PCB印制线，布线宽度计算器 - 在线计算器 - DigiKey得捷电子",
         "desc": "",
         "link": "https://www.digikey.cn/zh/resources/conversion-calculators/conversion-calculator-pcb-trace-width"
-      },
+      }
+    ]
+  },
+  {
+    "title": "PCB设计与元件购买 - 变压器",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABLklEQVQ4je2TvUvDUBTFz02ewluaEIpT3AQddFd0KbgLtqXgxyShuvrfuNePQq10dDCTk7jp4CB0MFgoJdoKeWB4uQ7VKpKUjg4euNOB370XziFmng7D8MT3/WK/3wcRYZyYGbZto1AoNBzH2RJE9B5FUT0IgvXa8amltQayGAwIYWJ3Z/tVSnlGRLEAAClls1LeWHZ7V4eD9g1AZjog0bDmVrBa2jySUl4AgAAAItKsXu5LCzFgdgEj44IEwHycIJ+7I6JkBBi5jO/JeOG3l7VrYv0D/gLgRw6MYYS/Jk0pnsCwIGbnqb14/SDw1p4ZG+UcTxlrvcESMxtElAgAUEoV6+etvdplF1rPji/TYwfP+WbV87xbAA3xWeey67rWwX51ojpblmUrpSrM3PoA+aV2ODEDHpAAAAAASUVORK5CYII=",
         "title": "利兹线",
@@ -1205,6 +1325,83 @@ export const NAV_DATA: NavData[] = [
         "link": "https://docs.cfw.lbyczf.com/contents/quickstart.html"
       },
       {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACCElEQVR4nJRR22pTQRSdPZeTc8nltGnAVCultRSLeS2IIFj7IvoDfoZvgv8T0QefBB98FhERrHih2AgSpElOYk/SJCdzd04OfkA2zJ7FzF571qxNj58naJWgaMVYmYCLzVrrMiyBgw5gyPPy0Ba3RaYFAgBlrNQoYHndTBplgYL1CUgLPkFmWeMqcwIAUtpuhGS7hj/2lDbm7nV/t4p+juHrUB9E4mSEfIoLTi4JA8wVurNJHm9dqkmy24iO6+OXr98ehoP9Mt9BvfT8N2HeUq3Fbrme9YiWePrm5M8NMrxdHXd66bdEPnv15ez7Z6206P8SaQ9jkhNc+4VCN+v0YIOsx5V7+43ZxdBjdLJQh3tXr202F8r8nYlhtyOnF5hSZ4bVCHZC/uLdj/b7Tib0h04iDTx91Drai5MkaW3Vnzy49bDV5OlAzSZw1O4DpnY66p9+QtSPAp9ns7W4th2z025yKdGVOAgIZFykNvDXm3C/PXC+IsrUOJmfn4EXOK08myvMmJHYKgVMK4mQ8QhmYY3m7jrrlfRqDUToIuniUhD6oREce2uaz4mWuFyxRhulrFG0mJrjuDYsip3RYjLCpRCXIiMyVq0bsbCOU4qI4xhNi/m5nI9cKxpWgDDNp9gL3I+MFLRW0SKzSmJWtlYXk4b/7yCjNfF8hLFDDgD1nBgnXUvuKgml/wAAAP//V174nAAAAAZJREFUAwDkJCJa/Det9wAAAABJRU5ErkJggg==",
+        "title": "ACL4SSR 在线订阅转换",
+        "desc": "",
+        "link": "https://acl4ssr-sub.github.io/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACt0lEQVQ4ja1T2UtUcRT+zl1muXNzueOSkzbTauWIRiJGFkhBFvhSTX9AFCQ9Bf0B9icUPdVTQQUjhEG0iUXkSwtKlkJ72riN43Idxztz72/u6aHGTKKnvqdz4HznO4fzHWANmJkK8aNPXNE/xqELbziwtq4AWp0wMxERm8wtqbcj55LfBptsa9lXUVEzuqmp7faQ7L3frNH3vzYokLMsOgZv9956+/ievmQNQ/WpKPb7UVVZi2BzayLc2NTbFwqdPUlkA4Cy0omIn/JE2bu7zy6/vHFLL9aKc+2HY2q4sQgiJzibSYsvA/3V6ZpIfcYOSQWe8ktdIiK3FVWnHgz3RHxCcQ621nsq17uwZ7Moiuikleiyrte5gr25QOT35BIAdJ/sJgBIJeeNTCrDkQ3V7FlKU4ZrOeNEMf1qEelRU55dLGLF793XnkodKghLABCLx9wpTlekE5O72GH4VEXOJx32tLdJgaZaqFsbsS7gkj4/mPc7kyzMhZaf+t0kcZxlImL6stDpX8p3zM4k7HTOlmRNwvL1m5y15qBV5mAzWNusgJCivOoTv1eIwWVmCpSW3jEO1F2NNuzxaqZDi44KzZngkg+98CQ/Q5JUV3IcSUilgFH9BABwMcZ/+KCLh/XO5+4La+B92FHhcb8mlPJtHgQ0F4qukLRlB3Kh+ku+MuM888/LrZwjHo/LXVS3NL8/fMw4ffSFd8t6uIuWOzmQ5fF0yDK90ZFMZcMFX9A4DxATEf/VSObY5BWrp6/THE/k7YxAWbWmBM8cf3PN2HjkHNHUWiuvTEBE/JBnqsxXQycWRj9KeS/LgRrIRniOnMHX26PT8DOztPpXVhuJiIj3oqxBBIvKafdOoa5TKBjJMyxBwr9hWVVgE5H772dKJvW58pKogCoLCDiWwm4WckkApuGlobXk/4Ifa9NB1ymo+XoAAAAASUVORK5CYII=",
+        "title": "购买商品_羊王杂货铺",
+        "desc": "",
+        "link": "https://id.wohaobang.cn/product/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAADEUlEQVR4nAzRzWvbZgCA8Vfv+0qWYsuOJTs2OE7ipEnktPaSLdDQuU0TukNYw6Bb93UZg5SdBoP9AyuMsY4xGIwxehs5bId1PRSawmD9IE3rQGiS1k0/Eju2YzWNXUuWVMmSLKm5PZfn9MM/pSK3ZLXMcnO507fyK41mE0HYzZCT2fTCV19mZs6oDemfixfb8V6e518Wd4hfvvjEZklba3dcUBZrfn+XcHR46tQpfzDYl3mbQCSEUJHlX7/+hmGDum0R+f/+HRUGKEjWKkUC4tSxCUD5IA4WC6vSXu3Y7BkSI8eFlc2N3z/+jBgegJWNB/7EkMPFTBe7FNuhWV0zjLaMEGkp0uKPl5avLSmK1DG1nmgPsVvDvWPjCCDtVX3/+Y4/4E8KgySJ7NeaoypjJ6afbm79sLAwMv5OgKHaPoxiMZgcHPIA0BqNaJRnorHHK6s+6Lm6eiCKlu1kp2e+vfRdmKUerm/Um81itYKpcMDp2Jah37x3/97/q1OJWJxlTbONKfrKlasvnm9//um50x/Q5e2SLGumpaPJGJc5OVstFLbvLL/lWJnMCHfiXcNx0xMTo6mBkI9sq60n6+v+UGh4pJ9lA+j9VK9HWPFkkqPp8bn3+mZOMlykCyBTkmkfnRoTpIOD7HRu8uwcBcyzFy7A41PZ4spdB0IUiXYPCiyfUHYr+rXrxtMCHecru+Wrv10mgmE6yOuqrtb2ccvWYtl039Hj9YZ84++/cuc/io4Kbjzh0LRY3s//uZibzUXDXEtq0iQtbj3CluuYhtmUXkSScTvMvly+/cSDibE0CcFW/q6hKlzwiKu0rNd6gGSg6+J4v1AubSuV0kBaUIeO5P+47HVhyqgzkZ62Icsdk+4O+WifuLYm8CHH60bnz324X93bWt+EfrYlac+qJSoc3KmKN1bWaBp3GKammbVScfH7nwNc2MQ+AjMUgPCQggAEicn5+XkKkVyEb9Tr/b39m4WNpetLABPA9QBEGEPkUoftHD4e9BzPifA8SVHinggIUCwXbccu1yqAxAAjAIELvDcAAAD//y35ExQAAAAGSURBVAMAbxNi/7GOd7oAAAAASUVORK5CYII=",
+        "title": "三方工具/客户端 - 虚空终端 Docs",
+        "desc": "",
+        "link": "https://wiki.metacubex.one/startup/client/client/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACCUlEQVR4nExSPWsUURQ9985ssl8JiVERsZMIFi6kEkGLpDIiaiOyIClE7Wy0UEHEIiD4C7SysEllYyOilSgI4hbi9wdonZBNNruzm5l5N+fN7Ece7PLmce6595xzw+TiHAbHzCAiqrwhTXlHEPhX5/x7hgl3o/2jiLVbEEWxzDdsbSIsyHgRWc2oIEeTCr2eHF+Q+Qs4fFTi2H35iJcr9vcHiiWxrM9wJI92Tq7e1cU6OMTPzzI9o/sPWbfjHlyzb5+EPc3CPr+qRZFeuRMs1t2HN+7JMpqrpoHNn5OlW5ja6yVlx3egUvQ6mD0WPFqxf7/S23XpRuQzl2K7i30H0WqS1CugI9m/WBzrqTP0x148o1CpTBiMn1KqyvqqDPwg2BeQSUoVduBo9r1BTyxNJHeZwsLQW8d7djTXQO8wuQdxjM115Dnknfs4GbqvgxRSLyMMaB/d99n5FCAMzjlLtofFmYYgtE7b/nwVDWTupG2sWZpZ7FJrNa1UkZkDlsQy0uD1Bfb6OUfXpZt69jIogyxjRdRO6P3HuvwUY+N+QXJb8xzQacvpS3r9HgoFdCNrrqFSlYkp0rrGO/fwBg2gq7uS5i9qY7amC+dxpCaT09aN8P+3Nd7a+1dIEq+n32G0ecpFQBKDc3Mkv1qRh5arubPE9Jevb4KlQpekzEXwUZCC+0MWRp4zAjsAAAD//xlkMnQAAAAGSURBVAMAyJwWWIi6gAIAAAAASUVORK5CYII=",
+        "title": "远程桌面连接接入路由器的电脑(Windows10)_路由器虚拟服务器远程连接-CSDN博客",
+        "desc": "",
+        "link": "https://blog.csdn.net/Leeoo_lyq/article/details/125537842"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC9UlEQVR4nDxTXUhUQRT+5v6s++em0iqRWJZEUfkYJKJYIAUbmm8FQoGQvUWEb4LQU0FFrxWC9VL0x9ZSL1GQD2VJaZKJYaK5K7au7ub+3bv3znRmVpt7594zP+c735zzjQFqp/qvRzSBQcHFASF4gHOhCeGCbLkMxjT6aNAY42TnBNgPxtjVl3cHYux0/40Ih4gKzjXq4NS3nOVYSAB6CIVepoDkX9N0AuNdBhdiUDpzctoR3oZL5yMwDA23h6OYW0hAIjTU1+JyXw9oL27ei+L3cgqccUlrkEX6rv3l3KnkroOBC93oONqsaFtWCaapK9suOfBWeJQ9OjaFoVsPwXRdMtkwXMemM7twSzZSqTWiLtRGj8fAVqvwmP/nk6sp2FYeum6CzhEwSralyXNzp4T4chKOyym6jXQ6g7q6cNkpmUIwGIDP68VSfIUALGi6K5OrabZVRIm6bRfQfbJNUV9NpfH2/Udly/5udAx/kmuw7BJ6Ih1wiIFdyMOibljFAij1CAU8CPj9yOUt+Hx+nOg8holv05R0hs7j7bRFqDWv14egz4PV9Sxx0wggn1MlM5mNjSyxoYTJMt0Zvo9HT2NUBY7eMz0413tW5cE0DRQpsi0DU0kNOZCbcpki5hfi8PmDqu7tbe1YXEpSSXW0tLQitU6B6LGKeSQSy5SDCqUQPbR975BDJeSOgwKx2d3YhMyGRDdQU1VJGtiJYKgG2ZyFkuPi8ZNnmJmdV2xk8qkKNumDREETsVdvEA7XYk/TQVV73dxGLDUkVtLwGAbmf03j+YvXKrrUDeWA64GqXVdIiRVbsh0f/4xQZQAeb7WiLdk4DsfM9FeMjDxQzKQkJAPikGW1jW1jZB2RQ4VAknadIpqbD2Hf/sNwXRdzP79jYnKqfG55seTdKLdPrLqhNUL8o6omClU2YkMUTYOpcxIBEp2x6YxNALq7HF16MbM46w3Wf6GJJloIgQmpUSkyujySFGleOZedIDQSgJikWBfX4x9i/wAAAP//w0FPFwAAAAZJREFUAwAlwaICw9x3UgAAAABJRU5ErkJggg==",
+        "title": "magnolia1234/绕过付费墙-chrome-clean --- magnolia1234/bypass-paywalls-chrome-clean",
+        "desc": "",
+        "link": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-chrome-clean#installation"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
+        "title": "Github王炸功能Pages，免费免服务器上线网站，详细教程 - YouTube",
+        "desc": "",
+        "link": "https://www.youtube.com/watch?v=YVj3JKMH9p8"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
+        "title": "外网访问家庭内网的两大最优方案，零基础教程 远程控制家庭电脑 - YouTube",
+        "desc": "",
+        "link": "https://www.youtube.com/watch?v=t3H8kVQmTu0"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
+        "title": "2025零基础最新自建科学上网教程！S-UI面板搭建专属高速稳定节点、支持多用户多节点、一次学会部署Vless、TUIC、reality、hysteria2节点翻墙+全平台客户端使用 - YouTube",
+        "desc": "",
+        "link": "https://www.youtube.com/watch?v=6l01iAgKglY"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADSklEQVR4nFxTXUiTYRTe9m3+zOl0c9OmmYqZJo1AGxNECwPNbHM0f8B+RCrxYjaswAuhXQX9QBkMdZA3c0QTE8cuyhQkGOicQeacXYjL4XSLLdd+2Nhfzxcp0guH7/3ec85znvO856VTjq329nais7Pzbnp6usTn8zFglQRBOHNycr7H43HL5uamWqVSxY7nUA+/4+PjWWw2+11mZqZob29Ps7Gx8QMAa2lpaezs7OzS8vLyK6lYOLsOvx9ACTKRjg1pMQQpuFxuk81mW5+fn5+ZnZ21wB8ngyQSiQAsioRC4SM6nX6vr6/veTKZpGJRiMXFxYRCocgSCASvcMjxeDyZyOE1NDTYTSbTLgkwNDQUzc/Pf4Zk/sHBAZvP53/RarVusEwQg4ODYsRUAeAajUbLYTKZgVgs5vX7/bdFItHZ6urqb8PDw96Ojo4yVOSHw+HHDofDl5eXVwd/kI7kO8Fg8DV6NUGwokgkko1+hQUFBVsIlKNnaX9//1O5XP4QsQ9IRj09PWkQ9RwAbxG1tbWJUCjkAf08FovVmJKSQgUIC3oV8Xi8BLThwFpqamquVlRUOOrr60/AdwEAS8BiEKBRPjY2Ztrf318qKyuzZWRkVIINL5FIUBCUClYxAMfR90nsb7hcrhm1Wv3ebDb/FovF50kGp5ubm7empqZic3Nz69FoVMvhcLwAKCLZoBoLmhBgGAEIFa19mJ6eXuvt7WWh0Bk6+qCRdzo5OVkIlbldXV1fDQbDi9bW1rdVVVU3i4uLC3Jzc9sAUgijQGglqOsQG0dukoZ+IxaLhc1gMD7DVnU63WW9Xk8YjcZduMwjIyMqBLfB/GCVBEjxxMRErkajCZEa0NAnd3l5WY7+SuCMAYSKKyMHiIozhlQqFchkslW4rBhxCtqy7+zsBJVK5UUAhmm4AYPdbnfhJ4ikBSR/+jfeSZxRAf4TjEiGhSQoBmnB6XReAqMI2OkP3wIF1Fsg2EvQVuNX293d/WtgYKCxpKQkBTrcR0LT9vb2R6vV+gRFVzGJwaPHBBH/CgmQUnLWQfcUKS6mjgnKLAxahtvt1o6Ojr5B9dCxh5g8YnAIQu7xMpler7cOUygLBAKWlZUVI1px/R9Hrj8AAAD//6wPu18AAAAGSURBVAMAeECiuDH4iwgAAAAASUVORK5CYII=",
+        "title": "S-UI Vutlr LA",
+        "desc": "",
+        "link": "http://149.28.75.26:2095/app/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADSklEQVR4nFxTXUiTYRTe9m3+zOl0c9OmmYqZJo1AGxNECwPNbHM0f8B+RCrxYjaswAuhXQX9QBkMdZA3c0QTE8cuyhQkGOicQeacXYjL4XSLLdd+2Nhfzxcp0guH7/3ec85znvO856VTjq329nais7Pzbnp6usTn8zFglQRBOHNycr7H43HL5uamWqVSxY7nUA+/4+PjWWw2+11mZqZob29Ps7Gx8QMAa2lpaezs7OzS8vLyK6lYOLsOvx9ACTKRjg1pMQQpuFxuk81mW5+fn5+ZnZ21wB8ngyQSiQAsioRC4SM6nX6vr6/veTKZpGJRiMXFxYRCocgSCASvcMjxeDyZyOE1NDTYTSbTLgkwNDQUzc/Pf4Zk/sHBAZvP53/RarVusEwQg4ODYsRUAeAajUbLYTKZgVgs5vX7/bdFItHZ6urqb8PDw96Ojo4yVOSHw+HHDofDl5eXVwd/kI7kO8Fg8DV6NUGwokgkko1+hQUFBVsIlKNnaX9//1O5XP4QsQ9IRj09PWkQ9RwAbxG1tbWJUCjkAf08FovVmJKSQgUIC3oV8Xi8BLThwFpqamquVlRUOOrr60/AdwEAS8BiEKBRPjY2Ztrf318qKyuzZWRkVIINL5FIUBCUClYxAMfR90nsb7hcrhm1Wv3ebDb/FovF50kGp5ubm7empqZic3Nz69FoVMvhcLwAKCLZoBoLmhBgGAEIFa19mJ6eXuvt7WWh0Bk6+qCRdzo5OVkIlbldXV1fDQbDi9bW1rdVVVU3i4uLC3Jzc9sAUgijQGglqOsQG0dukoZ+IxaLhc1gMD7DVnU63WW9Xk8YjcZduMwjIyMqBLfB/GCVBEjxxMRErkajCZEa0NAnd3l5WY7+SuCMAYSKKyMHiIozhlQqFchkslW4rBhxCtqy7+zsBJVK5UUAhmm4AYPdbnfhJ4ikBSR/+jfeSZxRAf4TjEiGhSQoBmnB6XReAqMI2OkP3wIF1Fsg2EvQVuNX293d/WtgYKCxpKQkBTrcR0LT9vb2R6vV+gRFVzGJwaPHBBH/CgmQUnLWQfcUKS6mjgnKLAxahtvt1o6Ojr5B9dCxh5g8YnAIQu7xMpler7cOUygLBAKWlZUVI1px/R9Hrj8AAAD//6wPu18AAAAGSURBVAMAeECiuDH4iwgAAAAASUVORK5CYII=",
+        "title": "S-UI RackNerd",
+        "desc": "",
+        "link": "http://74.48.182.246:2095/app/clients"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
+        "title": "Cloudflare 免费用到爽！Workers/Pages 搭建无限图床、个人导航站、博客等全搞定！ | 零度解说 - YouTube",
+        "desc": "",
+        "link": "https://www.youtube.com/watch?v=VrYfC85Bj0o"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACgElEQVR4nHSTW0tUURTH176cuXlLzSbF0UpJ0KigXowIIuweCdVXEHoIukH0JkS3l/KlEIIgMKyeip4shIIIKaUM0xy0Mo0hM5XBM7ezL63t7KmZyAU/ztlnr//aa6+1DoVCo7CC6c6/exqAGMw7+Y9vJdKK3hFKISgUzOJ6AJkY7Njm1PGkf83t0aWcM8l7YlA4jjQhH5G3iNwUDm0PB2nNnWONX7KOpAFAvFCaqoYbw1GeJz6DxJHLurO1AqioFkqGOeMJdPn6ed5dkJSEQMIE5XyrVrriEcBkLoMjSB1ya+zslsNS6GJCYRY3F5WUUoD2lzBWqoDME6BBBXSeUHnAn0k9MIUJIDtrAe6abBSooF8n+kOMljqMbQhwVh0KQCYD4AqlAozQEgKihRIdS3GnzATYjESnAVLmKo2l/jHgJc0JIR0vI2fwpF9U8woH+CrKmHDT06+kJgGfEn0bu0bGTIBq5EfuLhf7ppykJ8qbq0LT9ZV8tY/5I0pAWBL3Q+/N4cFgoKYmUu7Ea8tgybTS6NpNtZGnyDWHknOX2iJXhmLxoXczyauHmsqud+2LjHxa8NYXMeZ5IJ2OJ5Nu/6T7DP2V6cJPmwW2By54Ssfuv5/bEZ1Lnk5LnWipKuYebqTTqYGH3dFYJwCzHesDm0ERchLZjexHsBywFkkyCj1Swan8KfMxaM/I5dfHCDU1cJFx5KBJCakn2dmYQvHrE3jiumynjFWheBc+n9u1YnaQxu0w7bEbPUi3cRzFTBZx9Exg5Dxk2/3d6pbvkxvll8g3O8q9du2zwqPIXuQeMpI3vQU/U+5jCGmzRVX2ikb0xnbrj/jfALmMJKxsBWJjvwEAAP//jkSdGgAAAAZJREFUAwBn0Obm3FeCwwAAAABJRU5ErkJggg==",
+        "title": "Receive SMS Online for OTP | SMS-Activate",
+        "desc": "",
+        "link": "https://sms-activate.io/"
+      }
+    ]
+  },
+  {
+    "title": "网络 - 服务器管理",
+    "items": [
+      {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4jZWST0iTcRzGP7+977t/zilJBUJCxLophFBQHcWD0SFjRcFoTREzRcpTReihIiSkQ6c0QlKLFUhEHbp0aoamQmSHpkUXS6ZsYW5ur3u/HTbZ/EN/nt/p++V5Hh5+3we2g1+0f9r9FUFxEhTnnyhq4ygKlNApJ4HLCIcB0Ihgcpd76ulmA9sWcYf04uYZgheLmwg3yOKllDAdcrvALUbLewMRxUU5wRUROrN3tmS9JH1cF6FdziKiqBUjb1bkdkHe0CaTBWMxaFknAu3SRofUF6fOiSMzB3B6r/KdRty2OdzJXg75BjYkGJYmHPjJsBfFBzLc4pyaVkzMHkF3vmbNNNHMESytmvJdR0nEw9gTrdTUxHki/XhoJs4EFh/RaUTHwKReMRadwu6oIP7zIHXVCwC8+9KFx3WN5ZXjzO5rooLzLNFFQPUB0C+78TDOGkvwaVEYi3YDEI066JHcZZ5PVTIio7wQ4aG0AtAjNnryvRiUbkZFdNIpE0uqAPD50gA8kFKWuY+bY8QIEFJDOQNlAav5X6kijamzmhykrLyZyNxb9iw85mu1h28M46SOBEFCaoiwuPiBBYADDQen8RDiFwOKyMwOjJJHeL0NLCaSzFfacTt0VoA0KcCVuxigEBSKEiDJK1IECh2YnmtgvqyGWEUJmpXBsmlo2JH8KyCLwThn1Mv1xaZa/g/WiwQQDmvs9Ofmz5MKarfX7EeIIZxSWYDfa9nVNFgL8gwAAAAASUVORK5CYII=",
         "title": "服务器 - 轻量云 - 控制台",
         "desc": "",
@@ -1227,7 +1424,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Control Panel",
         "desc": "",
         "link": "https://nerdvm.racknerd.com/control.php?_v=x223x2x274t2p2r224436354"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - 域名管理",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACXklEQVR4nFRTv2uTURQ9772vSWwSGivBREHFodSlbm6BgJuimXR01f9ApIsg4ia4OQuuapwVnerg4NzFQgXbRpRKJSbN973rufd9qfrl13s395x77nn3ZQACTg0eeuCOSGw65xgCtyK2FHvzsV0UEa78QQSe4utwPaAzeOR8uAspKgksxsDfnDzBgIICDs5YdCtSdT7rob5Sda57fcxQZZ7A5GgV/UJALPZI1CBPHXGWExwsh0q0DvOm3iHWuPZKQHWqO8CFIJI/l0lxSWboM7rh/EJGEDGO6p3n0ik2U4VWWvgHSzD8WWZyG6PXb1Ir2CaqJ93BPebdJ5n3nsUl2eJTU9qWkpM5YhOj4Rw8fyKmk1eivrCEqBK+FJsZ0pkOXTEYj0tncIu5GT04YP9syR2jF8tUEJ0lWy9WNVOWVB5GRIoRdofPgH4N+BHQJu7b+zGWrp7DIh5I6TSMiAr+kenSocfT6Fy5CQljyOJUDUP7mkcmF8oT+O/xZfX5VvO3sbv3Erl8QhG+8FC3kP/ewFjogbaAI56/LcSYxk5sBM6gffIyfLGP3P+EjzUsVC6ytbWkOOpZw0z0zicFcwsZ4fcWJtOPPJ8KKnIWIXRRkGg2eUvkoUh5bgkiHA6j0oBXBeRelfrSeey8+EA1M9Pa6rdQbdxgoarJZLbZaLVtlFHVkKg2qkhjIt/h/T494LDJCd65pkOR/EpjpPDDgMZqEyHrcSwpTidaTVWdvs7PMuW2rIDEwpXjbnbxrlDL44Bfm+/QXKECt0bWqivPN13L0q6S8ehW8zpT7RPsDNf/AAAA//+sVXV8AAAABklEQVQDABUlMU/PHRN7AAAAAElFTkSuQmCC",
         "title": "Cheap Domain Names",
@@ -1239,7 +1441,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Home | Hostinger",
         "desc": "",
         "link": "https://hpanel.hostinger.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - 网络测试",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACkElEQVQ4jX1Tu24bVxA9M3f2QS4pKhRkKUoqw4WquMh/BHERIEWAdClU+GMM20h+IrW/wkWKJDLixoFjA5K1FElzuXvnkYK0Sk8zmAcG58ycoYuLZ6eTSfG9iIzM3COCsLeUGABg5igKBsAgQgCAavBy2b2Qskw/nJ/ff5IEYCYkZkQEiAgR8WkW+j7DfRdHOJpmipcv/zqWRCTbnP3g1aXq6RmXX9+jvB0AEDabAX2fcXg4Rtveoq6LPaJQIElVFSEWRgnB+uUZx2jErkZEO+h1XaIsCxAxZrPJHhkAENd1ycOgLDn73+/ff8iTgybpYkN+vaJ9F4AdLfcAM4F2+SAiAjpy11bathsePDjl+RdjZqYoq+KOOxFB1ZBSQs6KnBXMu+FVNcbV1c2EZzNUWQv+cP0i2vYNiAR9P0DVYOZ4+/YGOSsWixU+ftxis9nSYrGOq6tbFIUUAogXogF8y1I00XUd3IEIQ4RhNhtD1SAiMHMAFCJCdV1hGNTFnfS2Xcf8aIauUyyXLYiACAJRIKUEM7/TBBAgYqj2GAZTyVllNm+orBmNjDGdjpCzgojATFivt5hMaiyXG+Rs4L1OmqbBu3dJuEoJINif//yn1zcrTQxVVXV3dQ9r27WZma5WnaqaRrjlPOh6vdWiSCFUJKmKUfHw/D5SYvQDIUkNAsHdcXJyBCLB8fERcnYAgaoKaZoDvH7970iI+I/LyzdPRXhq5rb7BSIAmSjOAGqAeAVwmRJFBGK3I45hiN/xOXv0068Pf/z5+Xef65HHj58+IkpM5BHhO6ESx6Ir8c1XNxfTKs/rX36rDse9RdBdPYLJ3UMieDCzvXZ3rmAKVQIj5up0oiq9e1Yz8KdTAgZmjv8BuSx2bip4pi4AAAAASUVORK5CYII=",
         "title": "高精度IP地址归属地查询",
@@ -1263,7 +1470,12 @@ export const NAV_DATA: NavData[] = [
         "title": "IPv6 测试",
         "desc": "",
         "link": "https://testipv6.cn/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - Tailscale",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACc0lEQVQ4jV2TvYucVRTGf8953/nMsuPGya4KkjQhBBVDELTUzlJS6ZYKgiL4gWCKkFIwBELAYCOkSp8inaX4B6QWRAzB3XVc1012Z2bnveexeGdSeOFyOYf7nK/nOfr9tfe3q059s9hbCRhLIZAEYIMwLmmAza2Rh8MuSu0qy9d11nG7gnGxU0ICcnqCmwZnIoQGPaJTkSXBVqZdw4tFul2DxieZKSnAzkw2vtxW//XzqNel2fmb/Vv3aP7YkXpdgwFi4UzBOMCWEMKK1hy++Yqr559j+stDuudfZuvG58Sg5zaPELZAth0GGYREczRV7v/rnC/05MHPPP70Ojuf3aB78RzV2ZfE7MQpyYgVrpYwhnI80+CNi+5cOKf6zAbDt17lzDefsH7lHRaPdmke70Gvq7ANSGBJ1ESoOTxitP0u42sfqXm0S715mlhfY+PjK5TJP+xd/Z48fIoGPdK07NC+tUuiXpfRh+9x8ON99q79wNmf7jB7+CuTb+8SnQpnEoM+WQrLIT47NRI0DWVnQv/SBU69fZkYrUEmzObE6DTOhGxz2mCbthMISSAx+e4ucWrAC3euUq2vUQ6eQK8DNloChFj91+r+dumDdAQ5mys6tWO8IUL46ZQ8nqIIWkW2QbY2190fdLUqoV7WQD3s22n5r/1WvRFEVWHazNB2gKSQnEuzPtg9slYTEbYkgW2LZb8rT9rq9zpumoLT7vc71CfHC2HSOCS5hepZTDuRAjuF8XzeEJ1KLs5Fk1EHTOqI8QInsrBQK7TlNsZyMcPZtGxUVWRANC6HUYq/MP4zAKyWm/9RtWIA4HBy7JwXJO9F+qv/AACoZTqLlaWGAAAAAElFTkSuQmCC",
         "title": "tailscale极空间docker安装教程_20230919102826",
@@ -1287,7 +1499,12 @@ export const NAV_DATA: NavData[] = [
         "title": "极空间NAS docker部署tailscale远程异地组网映射内网IP实现内网穿透 - N把刀",
         "desc": "",
         "link": "https://www.nbadao.com/3920.html"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - iP地址&网络测速",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC50lEQVR4nKSTX2hbZRjGf1/OSXKypPmDqV3sn7VMalVQsUMYuoljbl6IYBEVBRne6J3zQrxzu/LPhSiKDgW92UXBqhfCwOFAZdOWOlyrtQ3bbFPaLk2bNOk5yUm+k3POt5TRMMZ2MfZcfHzfx/s8vO/z8OrcIfQbP46UVdKF/d2Clyo2e8yq0nd53kzAFD+MjpdOLxztKlxfL65/fO+oPXOu91FANQ80fZNiQ5KrBVkpRLDzBo0r6xdeGPz23Y8PHvtlm6NtX047athT3th9Yv7RQbJ0NScw7L9RzJOvByg63STkaibm5p9778NHZsY+O3dxixfYOo4rFc/6fGIJd6AXm363QYI06YBN1K3jGjtxwooSd/NH7lDiTNb8/MTSge62wP2SJ6Y99kll4TY3qKgYng9RUSdMkmZoZ6vKRQvqmOY9VNcz/V2BzlfaAt+Z/kjRg025zLI1yXp9Fl/OktP2cynxIrpoTep62LZDoOnhNeL0GOWRdgp/Wu5jCRUirYXokYtYeppNhlgUu5n3d1CsSmTVJS49DKGTK/Xw+8LurraAZ/khS3ici9xLwBtih1+joQ2QqE2Co/CKnWiVMKIkEY0yK5GH+OD84y3miWsj2Gv+f3JDUjY1flZHmLJSLK39xU/WXlavZMlUviJpZwlbAqflihMJIw19o91Bn1Q/ruX9keam3XI8wkXteaLVBZCKZ5Kfsm/wVzbsL5jKHOKf5ae5pD1JZzJ0qrYt8HCEM6MzTrajwx8KG5K4nqfUyj3uzNK/6yzDGY0OfYUHBr6hMiGYXHy2OJjQT+a2Uxg9GCvsTYXeiVmq7q7a1AppwmsSZ6mbiQtvMVeJYQufucKDTJffJJWMHh9/yrjcjnEL4691nBrpM143i8GCU2mimW7LsCjT/79KzoKTlw9zbGLMSqeG3+7v4+ub7sIW7nq/OJSIqDdKDe9wMGikelNnRW/feetf8+hvBSf5pf0yUwihbilwu7gKAAD//5jRhD4AAAAGSURBVAMALiROpQGNaLMAAAAASUVORK5CYII=",
         "title": "Geolocate the Location of an IP Address | Geolocation",
@@ -1323,7 +1540,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Ping, mtr, dig, TCP port check and real time BGP looking glass from multiple locations",
         "desc": "",
         "link": "https://tcp.ping.pe/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - 机场列表",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACFElEQVQ4ja1TPWtUQRQ99857b7/YF9EINhpCIEQExY/CwiI2NjZapLD1B8hCiqiNU9iZQktBSCVCECJYabOlX5WFMYJKAmuMZjePt+7b7PuYuRa7ifvArfTAFHPnnjP33jMDDEFrzVrXHYzA8pwogdCo839BX/XR0+D0w2fhDdHa6ceEABAAfNDird1tzX281Zge5vCwzEZauLmq/AeLx+fvAST9BQGAyNk+H3UOLu+GrIc5g35JAKBrwBubcZa4XFt6HKyfMfGT7032x4miuJVMdYPI+qnNcZw/5fQDZZdUGPWw1vPuH/Ky2SqnX+I4gzJ2UpKElDEEAAIhAkmuBWsNu9bQ2Sq/y2LGp22+6Al5Kjapk1rlpJY8O7h/wNkXEIAgsH6piBMH1Py0my7BjI39bDlXfM+8V4lZLYNBxuzl5wUIEBcAMsFWM7l0qtB9fdiGwW6nfDTcqcwcIV4pgcFGMIzco3GYgV1BAXKyk5JMFXsrW1lyLQjNnbGinDPdNsoq71xuowxQEBI3k8xNpexmZmei0n1VEUbzh1x2DItSyo60kVOxJcNGCT9XcfulTSrlaqnX8UtcS6LSgomzDNRvn/5mo8/kVipwqqHTuLAws7k/YI3b69Hn6XF38mpADW/YxlwFx6i36MbmzQTM270kACBNNqj9ut5tf/uqOH4xqAD/H1oLay2jvjPVZ+uOQOcG/xsJ6PnW34L7egAAAABJRU5ErkJggg==",
         "title": "Nexitally | Shop",
@@ -1419,7 +1641,12 @@ export const NAV_DATA: NavData[] = [
         "title": "用户中心 - WestData",
         "desc": "",
         "link": "https://wd-gold.com/clientarea.php"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - 虚拟局域网",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADX0lEQVQ4jU3TT2ibdRwG8Of7e//lbZI1SVNSNzbcWKudVIbiYDtsHYgTelFvO3nSg+BBBQ96qajgRZHhDtJdRBBED4IuOv9sQzf/sXalMyRtsrbJkvRPtiZNmrx5f+/v/X09uEmf48PzOT4AAGYm3A8zH1dKzYRaL2mt+5p1UFtcLf765Y8z+etzx3ft/jcPCoeZP2RmycwsA8VhGOpASn23Vubc9d/49kK+rxSfy2azzm4omNnVmr9jZlaBCtutpmxtbYV+39NhILUOu+GNhe/luc8+Djtei7XiH+pcH2BmIYhIe77/PhGmNLPvSwnTtE3LFNRur6O+UcSla1fpz5s5s1xfx8UrX/tk9M8kOon3iEhTryePEfS1QEph2jY5jiN02OHico5u18rIlYogI8YDjkCgJHY8jw/tG9MvnHhWu+mBk6bjWC8TsaWCQLmuY3iyoUsrs7S23OZqtYJ4J4BrdsmzY0ymCRI2ra63oZS2G9XWS0IQTxIRnKgjmq0VbmxWybViFOeADmqb/M2Axkf2cmenS3fKG2i0dzBomGLlVoFL8/lTJgP7lfS506yTbTucTmQES8EYCmk8OYzx0UPoEmiiuc1X/SbafSCSAvVUD3bEPSCk38X2vXXEo0m47h6SvsfNbgOV0hL6lo3hzBBMJtTqTTxx4DBePHkGpktAzMW3PxchKuXCnVh0ACRC3lpagFeuo7ZcotC0ea3Rg+cDMC2YezM0cfgoUnuimHp6ksfGHwcDFdFqelecaIqCntRbno3yZg8Piwhn0g9RdlVxYbPHN1s7nIil2XIj2D+6D04koZXS9M4HZ2dFNHBn8n/PB7n5EgXxNKtYAtr38c9imbM//U6zlUXyei2yAuLkSBrx1DBfvjSPSnkjAPR5AoDLX138KGIYry3C8jXDSjTrdM8HAsVIJSIg5cPqBXjm7HOIDSUlAAcIPyEyXzWnp6fFXU6+PZFxxo7GBqdKnq+rfaXy3Y7xVBQ0mkpiO+jzo6ce09HkoPgPI1utrr3JzGL3C6P5P+berYXmK5/n6s6N2Vv49PljHLcNmLZNB488Ajvq+MK2zwsh3iIiHwDEfU9E1D1y4snXJ0cGThcKKxdi7XbR1kpaji1Zc/GXL765UPpr7rRhGG8Qkf/gzv8CkmXw4cv6kwwAAAAASUVORK5CYII=",
         "title": "购买服务 | SakuraFrp",
@@ -1431,7 +1658,12 @@ export const NAV_DATA: NavData[] = [
         "title": "ZeroTier搭建虚拟局域网（Windows和Ubuntu）-CSDN博客",
         "desc": "",
         "link": "https://blog.csdn.net/weixin_42039675/article/details/121628611"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - 机场评测",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACtklEQVQ4jU2SSyhEYRTHz/3uK4nm4VVoxqUZJGPCFInSKHbczEpNI8lrZzWp2dCUjQVWiCiK2V27Ka6NZhqZ8iw7Nwy5cz3ymOJ+zWdxJf/1Ob/T6f+j4F/MZvPAwEBhYWFzc7PNZjs7O9ve3pYkCQAoiiKEAAANAAghmqYDgcDu7m5/f//JycnNzY2qqhUVFTzPv7+/C4KgKMovlaIoALDb7YeHhzs7Oy6X6//NwcHB+fn5p6en2dlZAw0A4PP5ZmZmlpaWPB4PAOTn5xcVFbEsOzU1RQgRRbGzsxNjPDIyAgDIZDKtr69/fn5mMpl4PB6JRFwu19vbW1tbW0dHRyKRUFVVlmW/3z88PFxaWgpjY2O6rpeVlbEsm0qlCCGZTGZiYsJkMgEAwzAsyzIMAwDhcDgcDqPe3t5kMnl3d6fr+srKivFVIpF4fX0FAIyxrusYYwBQVbW7uxsJgnB+fm7ApqenLy4uvr6+RFEMBoMcx7W3t6+urra0tADA7e2t0+lkstnsy8sLRVEY4/r6eovFkpeXp2na9/d3IBDIzc2VJGljY0PTNEmS5ubmkKIoDoeDEFJbWxuJRKLRKEKosrLy+fk5Ho9fXl52dXU9PDw8Pj5aLJb9/X0ky3J1dXVDQ0MsFnM6nWazWdM0jLEoijzPp9Pp5eVlr9fb19dXXFzs9XopQRCqqqrcbrfD4Tg9PT04OPj4+LBarVtbW4uLi9Fo9P7+nhBSU1Mjy3JraysAQElJyebmptGakYKCAmO0sbERAMrLy4+OjkKhEBhtcxy3trZGCBkfH6dp2thxu93X19c5OTk9PT3Hx8d+v/9XpT/q5ORkMBhMp9N7e3tXV1epVKqpqYnn+dHR0VAotLCwYAhL/SlICLFarUNDQx6Px263cxzn8/nq6uqSyaSiKAihbDYLAD/G4zhnqufCXwAAAABJRU5ErkJggg==",
         "title": "免费SSR/V2ray机场导航推荐 |我爱白嫖 | 52BP",
@@ -1479,7 +1711,12 @@ export const NAV_DATA: NavData[] = [
         "title": "honven - 机场推荐",
         "desc": "",
         "link": "https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - V2Ray",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB+klEQVQ4jSWRTW7cZhBEq7r7IzmkRpEgI9kYUBbe59S5QA6QS8TIDaJAggwbE3vI76e7s5i3f3gFFH//48/H8/Z0XrdZt7ksy0SRWutIJJGRQEb4jVqrXS7/0TvaXp4e7tcFZEYSNFWSNBDwdHf34QRMVev1eun7ebGnh7OPgUwhhUJSREgidWAEtFDs+eNH81owTnNpvW7Tlu5IFFXBzSJAJWFwV/tl3Win+7v5NKkgAYZgWZbMIAlgjD5GV9ObKd52RghSFGUqZSq99/f39+PYE5EZHmOMPsbITJLWWxOJulPgnENtXpcVmSCRmbjNEqHcatZ6pXgxiKh7U62T6roWsyJkeEBZJnUf6Qx3gyaUKQGqFBUBNUhEZiZBCKhKT3ikIw1MEsUmK8VURQCIJ3I4kAkh6cHeY3QfPkyKSpEgM5WcIjIBkGN0gklmstXWW9+vRx/d/vr782met9N6Wk6v/74CiAhS1CikBxLotdV6fP16KcX08cPPl8vl7e3LPy+vvfVlXjKhZpFpZRJTERlj1FoJZqQ9P39a1/Xxp8dlme7WdVuWZZ5arQ73CBIiUs9127brfow+9NdPvx11CG2yqR5Huo/eANBuRyMiwqO1lpG9d3t5eTuf744fx+Xbt4f7u3peT7NNpUgRAInMzHrU7z++19r36/4/ZstFxgwXocAAAAAASUVORK5CYII=",
         "title": "V2Ray教程 - tlanyan",
@@ -1491,7 +1728,12 @@ export const NAV_DATA: NavData[] = [
         "title": "V2Ray一键脚本 - 网络跳越",
         "desc": "",
         "link": "https://hijk.art/centos-one-click-install-v2ray/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - ss规则",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
         "title": "提供多款 Shadowrocket 规则",
@@ -1509,7 +1751,12 @@ export const NAV_DATA: NavData[] = [
         "title": "GitHub - dodois/dosvpn: 🚀 极速、简单、开源的 VPN 访问外网学习先进科学技术的必备工具",
         "desc": "",
         "link": "https://github.com/dodois/dosvpn"
-      },
+      }
+    ]
+  },
+  {
+    "title": "网络 - 服务器部署",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACd0lEQVQ4jTWSS2tUZwCG3/c735nMLZOpcZIxbapNMFWCl+CFQq3RCt3YVRelUNqt+A/8Bwrdd1OoLkTduBC8gKgbFRQVCW3FWyRpoaTkNuPkTM6c833f28XgD3hfeB4ennl2WxBBAYAgxMUBRpEU5Hzey0iShCCKoAVAUJQEGkPy3cMnq2/mq6Mjjc8nt+z4JLig4EFDEYTt30oiCO/nrl5/+ttFbHRRKhaGalPffnPgx+9scSB4DxLoDyRjjOtl93759c2tux+VC2GwTEMkybPzV/IsP3L6Z4KSDIwBRMFYu7m69veDx6dO7D3304mTMxPNwZITquXSy5t3lt8u2IFCH8MCFGUMO5vZoYnmD19N1+tDMzs/Xm91Hv258Pv9V/9mWd7tkgQE0Eii5IWGz77euW1uYWXu3VIvKAv+8ETzi+3DrFRqzZHgPUmAlhBIFzTWS2bGty77grJu1mq/WGz10mxHrbJ7bKI62vDOgSRk1Xcscag2WCvWyxX6sutu7JocZ5Yuwh2M4iiEXCAkGCOQgAlhbaTZKVXjPHUuT3PVi75eEDJXmt7lrSVEEoQhJMoE3y1VVuuNfCPZSFy66ZX22uvvl76c9ceOyjn0kQFDUCAAE7Tw6VReq5foy8WC0t785PTK7DHGFgogKQqwkggosowL/3n81U72Me3k+fP9x/+Z2hO5HABo+KElA0hE1F6t/fF0/NqFOPXdxmdJVF1/9dIniaIYJCT0SwIsyeDVvHF52+u5TY/y7Pd238ktjbfbL53tLb5YOnTk/cHjBr7fGgETbFxoLceL81lU9sEN+Pbw6FhIWiKKayvDD+8x6SCKAAEA8D/ae0ykxGAXYQAAAABJRU5ErkJggg==",
         "title": "国内无法使用ChatGPT？教你使用云服务器一键部署自己的ChatGPT网站｜无需科学上网 - 科技小飞哥",
@@ -1551,78 +1798,6 @@ export const NAV_DATA: NavData[] = [
         "title": "Release V2ray搭建教程，一键搭建教程 · uyez/v2ray",
         "desc": "",
         "link": "https://github.com/uyez/v2ray/releases/tag/v2ray"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACCElEQVR4nJRR22pTQRSdPZeTc8nltGnAVCultRSLeS2IIFj7IvoDfoZvgv8T0QefBB98FhERrHih2AgSpElOYk/SJCdzd04OfkA2zJ7FzF571qxNj58naJWgaMVYmYCLzVrrMiyBgw5gyPPy0Ba3RaYFAgBlrNQoYHndTBplgYL1CUgLPkFmWeMqcwIAUtpuhGS7hj/2lDbm7nV/t4p+juHrUB9E4mSEfIoLTi4JA8wVurNJHm9dqkmy24iO6+OXr98ehoP9Mt9BvfT8N2HeUq3Fbrme9YiWePrm5M8NMrxdHXd66bdEPnv15ez7Z6206P8SaQ9jkhNc+4VCN+v0YIOsx5V7+43ZxdBjdLJQh3tXr202F8r8nYlhtyOnF5hSZ4bVCHZC/uLdj/b7Tib0h04iDTx91Drai5MkaW3Vnzy49bDV5OlAzSZw1O4DpnY66p9+QtSPAp9ns7W4th2z025yKdGVOAgIZFykNvDXm3C/PXC+IsrUOJmfn4EXOK08myvMmJHYKgVMK4mQ8QhmYY3m7jrrlfRqDUToIuniUhD6oREce2uaz4mWuFyxRhulrFG0mJrjuDYsip3RYjLCpRCXIiMyVq0bsbCOU4qI4xhNi/m5nI9cKxpWgDDNp9gL3I+MFLRW0SKzSmJWtlYXk4b/7yCjNfF8hLFDDgD1nBgnXUvuKgml/wAAAP//V174nAAAAAZJREFUAwDkJCJa/Det9wAAAABJRU5ErkJggg==",
-        "title": "ACL4SSR 在线订阅转换",
-        "desc": "",
-        "link": "https://acl4ssr-sub.github.io/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACt0lEQVQ4ja1T2UtUcRT+zl1muXNzueOSkzbTauWIRiJGFkhBFvhSTX9AFCQ9Bf0B9icUPdVTQQUjhEG0iUXkSwtKlkJ72riN43Idxztz72/u6aHGTKKnvqdz4HznO4fzHWANmJkK8aNPXNE/xqELbziwtq4AWp0wMxERm8wtqbcj55LfBptsa9lXUVEzuqmp7faQ7L3frNH3vzYokLMsOgZv9956+/ievmQNQ/WpKPb7UVVZi2BzayLc2NTbFwqdPUlkA4Cy0omIn/JE2bu7zy6/vHFLL9aKc+2HY2q4sQgiJzibSYsvA/3V6ZpIfcYOSQWe8ktdIiK3FVWnHgz3RHxCcQ621nsq17uwZ7Moiuikleiyrte5gr25QOT35BIAdJ/sJgBIJeeNTCrDkQ3V7FlKU4ZrOeNEMf1qEelRU55dLGLF793XnkodKghLABCLx9wpTlekE5O72GH4VEXOJx32tLdJgaZaqFsbsS7gkj4/mPc7kyzMhZaf+t0kcZxlImL6stDpX8p3zM4k7HTOlmRNwvL1m5y15qBV5mAzWNusgJCivOoTv1eIwWVmCpSW3jEO1F2NNuzxaqZDi44KzZngkg+98CQ/Q5JUV3IcSUilgFH9BABwMcZ/+KCLh/XO5+4La+B92FHhcb8mlPJtHgQ0F4qukLRlB3Kh+ku+MuM888/LrZwjHo/LXVS3NL8/fMw4ffSFd8t6uIuWOzmQ5fF0yDK90ZFMZcMFX9A4DxATEf/VSObY5BWrp6/THE/k7YxAWbWmBM8cf3PN2HjkHNHUWiuvTEBE/JBnqsxXQycWRj9KeS/LgRrIRniOnMHX26PT8DOztPpXVhuJiIj3oqxBBIvKafdOoa5TKBjJMyxBwr9hWVVgE5H772dKJvW58pKogCoLCDiWwm4WckkApuGlobXk/4Ifa9NB1ymo+XoAAAAASUVORK5CYII=",
-        "title": "购买商品_羊王杂货铺",
-        "desc": "",
-        "link": "https://id.wohaobang.cn/product/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAADEUlEQVR4nAzRzWvbZgCA8Vfv+0qWYsuOJTs2OE7ipEnktPaSLdDQuU0TukNYw6Bb93UZg5SdBoP9AyuMsY4xGIwxehs5bId1PRSawmD9IE3rQGiS1k0/Eju2YzWNXUuWVMmSLKm5PZfn9MM/pSK3ZLXMcnO507fyK41mE0HYzZCT2fTCV19mZs6oDemfixfb8V6e518Wd4hfvvjEZklba3dcUBZrfn+XcHR46tQpfzDYl3mbQCSEUJHlX7/+hmGDum0R+f/+HRUGKEjWKkUC4tSxCUD5IA4WC6vSXu3Y7BkSI8eFlc2N3z/+jBgegJWNB/7EkMPFTBe7FNuhWV0zjLaMEGkp0uKPl5avLSmK1DG1nmgPsVvDvWPjCCDtVX3/+Y4/4E8KgySJ7NeaoypjJ6afbm79sLAwMv5OgKHaPoxiMZgcHPIA0BqNaJRnorHHK6s+6Lm6eiCKlu1kp2e+vfRdmKUerm/Um81itYKpcMDp2Jah37x3/97/q1OJWJxlTbONKfrKlasvnm9//um50x/Q5e2SLGumpaPJGJc5OVstFLbvLL/lWJnMCHfiXcNx0xMTo6mBkI9sq60n6+v+UGh4pJ9lA+j9VK9HWPFkkqPp8bn3+mZOMlykCyBTkmkfnRoTpIOD7HRu8uwcBcyzFy7A41PZ4spdB0IUiXYPCiyfUHYr+rXrxtMCHecru+Wrv10mgmE6yOuqrtb2ccvWYtl039Hj9YZ84++/cuc/io4Kbjzh0LRY3s//uZibzUXDXEtq0iQtbj3CluuYhtmUXkSScTvMvly+/cSDibE0CcFW/q6hKlzwiKu0rNd6gGSg6+J4v1AubSuV0kBaUIeO5P+47HVhyqgzkZ62Icsdk+4O+WifuLYm8CHH60bnz324X93bWt+EfrYlac+qJSoc3KmKN1bWaBp3GKammbVScfH7nwNc2MQ+AjMUgPCQggAEicn5+XkKkVyEb9Tr/b39m4WNpetLABPA9QBEGEPkUoftHD4e9BzPifA8SVHinggIUCwXbccu1yqAxAAjAIELvDcAAAD//y35ExQAAAAGSURBVAMAbxNi/7GOd7oAAAAASUVORK5CYII=",
-        "title": "三方工具/客户端 - 虚空终端 Docs",
-        "desc": "",
-        "link": "https://wiki.metacubex.one/startup/client/client/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACCUlEQVR4nExSPWsUURQ9985ssl8JiVERsZMIFi6kEkGLpDIiaiOyIClE7Wy0UEHEIiD4C7SysEllYyOilSgI4hbi9wdonZBNNruzm5l5N+fN7Ece7PLmce6595xzw+TiHAbHzCAiqrwhTXlHEPhX5/x7hgl3o/2jiLVbEEWxzDdsbSIsyHgRWc2oIEeTCr2eHF+Q+Qs4fFTi2H35iJcr9vcHiiWxrM9wJI92Tq7e1cU6OMTPzzI9o/sPWbfjHlyzb5+EPc3CPr+qRZFeuRMs1t2HN+7JMpqrpoHNn5OlW5ja6yVlx3egUvQ6mD0WPFqxf7/S23XpRuQzl2K7i30H0WqS1CugI9m/WBzrqTP0x148o1CpTBiMn1KqyvqqDPwg2BeQSUoVduBo9r1BTyxNJHeZwsLQW8d7djTXQO8wuQdxjM115Dnknfs4GbqvgxRSLyMMaB/d99n5FCAMzjlLtofFmYYgtE7b/nwVDWTupG2sWZpZ7FJrNa1UkZkDlsQy0uD1Bfb6OUfXpZt69jIogyxjRdRO6P3HuvwUY+N+QXJb8xzQacvpS3r9HgoFdCNrrqFSlYkp0rrGO/fwBg2gq7uS5i9qY7amC+dxpCaT09aN8P+3Nd7a+1dIEq+n32G0ecpFQBKDc3Mkv1qRh5arubPE9Jevb4KlQpekzEXwUZCC+0MWRp4zAjsAAAD//xlkMnQAAAAGSURBVAMAyJwWWIi6gAIAAAAASUVORK5CYII=",
-        "title": "远程桌面连接接入路由器的电脑(Windows10)_路由器虚拟服务器远程连接-CSDN博客",
-        "desc": "",
-        "link": "https://blog.csdn.net/Leeoo_lyq/article/details/125537842"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC9UlEQVR4nDxTXUhUQRT+5v6s++em0iqRWJZEUfkYJKJYIAUbmm8FQoGQvUWEb4LQU0FFrxWC9VL0x9ZSL1GQD2VJaZKJYaK5K7au7ub+3bv3znRmVpt7594zP+c735zzjQFqp/qvRzSBQcHFASF4gHOhCeGCbLkMxjT6aNAY42TnBNgPxtjVl3cHYux0/40Ih4gKzjXq4NS3nOVYSAB6CIVepoDkX9N0AuNdBhdiUDpzctoR3oZL5yMwDA23h6OYW0hAIjTU1+JyXw9oL27ei+L3cgqccUlrkEX6rv3l3KnkroOBC93oONqsaFtWCaapK9suOfBWeJQ9OjaFoVsPwXRdMtkwXMemM7twSzZSqTWiLtRGj8fAVqvwmP/nk6sp2FYeum6CzhEwSralyXNzp4T4chKOyym6jXQ6g7q6cNkpmUIwGIDP68VSfIUALGi6K5OrabZVRIm6bRfQfbJNUV9NpfH2/Udly/5udAx/kmuw7BJ6Ih1wiIFdyMOibljFAij1CAU8CPj9yOUt+Hx+nOg8holv05R0hs7j7bRFqDWv14egz4PV9Sxx0wggn1MlM5mNjSyxoYTJMt0Zvo9HT2NUBY7eMz0413tW5cE0DRQpsi0DU0kNOZCbcpki5hfi8PmDqu7tbe1YXEpSSXW0tLQitU6B6LGKeSQSy5SDCqUQPbR975BDJeSOgwKx2d3YhMyGRDdQU1VJGtiJYKgG2ZyFkuPi8ZNnmJmdV2xk8qkKNumDREETsVdvEA7XYk/TQVV73dxGLDUkVtLwGAbmf03j+YvXKrrUDeWA64GqXVdIiRVbsh0f/4xQZQAeb7WiLdk4DsfM9FeMjDxQzKQkJAPikGW1jW1jZB2RQ4VAknadIpqbD2Hf/sNwXRdzP79jYnKqfG55seTdKLdPrLqhNUL8o6omClU2YkMUTYOpcxIBEp2x6YxNALq7HF16MbM46w3Wf6GJJloIgQmpUSkyujySFGleOZedIDQSgJikWBfX4x9i/wAAAP//w0FPFwAAAAZJREFUAwAlwaICw9x3UgAAAABJRU5ErkJggg==",
-        "title": "magnolia1234/绕过付费墙-chrome-clean --- magnolia1234/bypass-paywalls-chrome-clean",
-        "desc": "",
-        "link": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-chrome-clean#installation"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
-        "title": "Github王炸功能Pages，免费免服务器上线网站，详细教程 - YouTube",
-        "desc": "",
-        "link": "https://www.youtube.com/watch?v=YVj3JKMH9p8"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
-        "title": "外网访问家庭内网的两大最优方案，零基础教程 远程控制家庭电脑 - YouTube",
-        "desc": "",
-        "link": "https://www.youtube.com/watch?v=t3H8kVQmTu0"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
-        "title": "2025零基础最新自建科学上网教程！S-UI面板搭建专属高速稳定节点、支持多用户多节点、一次学会部署Vless、TUIC、reality、hysteria2节点翻墙+全平台客户端使用 - YouTube",
-        "desc": "",
-        "link": "https://www.youtube.com/watch?v=6l01iAgKglY"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADSklEQVR4nFxTXUiTYRTe9m3+zOl0c9OmmYqZJo1AGxNECwPNbHM0f8B+RCrxYjaswAuhXQX9QBkMdZA3c0QTE8cuyhQkGOicQeacXYjL4XSLLdd+2Nhfzxcp0guH7/3ec85znvO856VTjq329nais7Pzbnp6usTn8zFglQRBOHNycr7H43HL5uamWqVSxY7nUA+/4+PjWWw2+11mZqZob29Ps7Gx8QMAa2lpaezs7OzS8vLyK6lYOLsOvx9ACTKRjg1pMQQpuFxuk81mW5+fn5+ZnZ21wB8ngyQSiQAsioRC4SM6nX6vr6/veTKZpGJRiMXFxYRCocgSCASvcMjxeDyZyOE1NDTYTSbTLgkwNDQUzc/Pf4Zk/sHBAZvP53/RarVusEwQg4ODYsRUAeAajUbLYTKZgVgs5vX7/bdFItHZ6urqb8PDw96Ojo4yVOSHw+HHDofDl5eXVwd/kI7kO8Fg8DV6NUGwokgkko1+hQUFBVsIlKNnaX9//1O5XP4QsQ9IRj09PWkQ9RwAbxG1tbWJUCjkAf08FovVmJKSQgUIC3oV8Xi8BLThwFpqamquVlRUOOrr60/AdwEAS8BiEKBRPjY2Ztrf318qKyuzZWRkVIINL5FIUBCUClYxAMfR90nsb7hcrhm1Wv3ebDb/FovF50kGp5ubm7empqZic3Nz69FoVMvhcLwAKCLZoBoLmhBgGAEIFa19mJ6eXuvt7WWh0Bk6+qCRdzo5OVkIlbldXV1fDQbDi9bW1rdVVVU3i4uLC3Jzc9sAUgijQGglqOsQG0dukoZ+IxaLhc1gMD7DVnU63WW9Xk8YjcZduMwjIyMqBLfB/GCVBEjxxMRErkajCZEa0NAnd3l5WY7+SuCMAYSKKyMHiIozhlQqFchkslW4rBhxCtqy7+zsBJVK5UUAhmm4AYPdbnfhJ4ikBSR/+jfeSZxRAf4TjEiGhSQoBmnB6XReAqMI2OkP3wIF1Fsg2EvQVuNX293d/WtgYKCxpKQkBTrcR0LT9vb2R6vV+gRFVzGJwaPHBBH/CgmQUnLWQfcUKS6mjgnKLAxahtvt1o6Ojr5B9dCxh5g8YnAIQu7xMpler7cOUygLBAKWlZUVI1px/R9Hrj8AAAD//6wPu18AAAAGSURBVAMAeECiuDH4iwgAAAAASUVORK5CYII=",
-        "title": "S-UI Vutlr LA",
-        "desc": "",
-        "link": "http://149.28.75.26:2095/app/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADSklEQVR4nFxTXUiTYRTe9m3+zOl0c9OmmYqZJo1AGxNECwPNbHM0f8B+RCrxYjaswAuhXQX9QBkMdZA3c0QTE8cuyhQkGOicQeacXYjL4XSLLdd+2Nhfzxcp0guH7/3ec85znvO856VTjq329nais7Pzbnp6usTn8zFglQRBOHNycr7H43HL5uamWqVSxY7nUA+/4+PjWWw2+11mZqZob29Ps7Gx8QMAa2lpaezs7OzS8vLyK6lYOLsOvx9ACTKRjg1pMQQpuFxuk81mW5+fn5+ZnZ21wB8ngyQSiQAsioRC4SM6nX6vr6/veTKZpGJRiMXFxYRCocgSCASvcMjxeDyZyOE1NDTYTSbTLgkwNDQUzc/Pf4Zk/sHBAZvP53/RarVusEwQg4ODYsRUAeAajUbLYTKZgVgs5vX7/bdFItHZ6urqb8PDw96Ojo4yVOSHw+HHDofDl5eXVwd/kI7kO8Fg8DV6NUGwokgkko1+hQUFBVsIlKNnaX9//1O5XP4QsQ9IRj09PWkQ9RwAbxG1tbWJUCjkAf08FovVmJKSQgUIC3oV8Xi8BLThwFpqamquVlRUOOrr60/AdwEAS8BiEKBRPjY2Ztrf318qKyuzZWRkVIINL5FIUBCUClYxAMfR90nsb7hcrhm1Wv3ebDb/FovF50kGp5ubm7empqZic3Nz69FoVMvhcLwAKCLZoBoLmhBgGAEIFa19mJ6eXuvt7WWh0Bk6+qCRdzo5OVkIlbldXV1fDQbDi9bW1rdVVVU3i4uLC3Jzc9sAUgijQGglqOsQG0dukoZ+IxaLhc1gMD7DVnU63WW9Xk8YjcZduMwjIyMqBLfB/GCVBEjxxMRErkajCZEa0NAnd3l5WY7+SuCMAYSKKyMHiIozhlQqFchkslW4rBhxCtqy7+zsBJVK5UUAhmm4AYPdbnfhJ4ikBSR/+jfeSZxRAf4TjEiGhSQoBmnB6XReAqMI2OkP3wIF1Fsg2EvQVuNX293d/WtgYKCxpKQkBTrcR0LT9vb2R6vV+gRFVzGJwaPHBBH/CgmQUnLWQfcUKS6mjgnKLAxahtvt1o6Ojr5B9dCxh5g8YnAIQu7xMpler7cOUygLBAKWlZUVI1px/R9Hrj8AAAD//6wPu18AAAAGSURBVAMAeECiuDH4iwgAAAAASUVORK5CYII=",
-        "title": "S-UI RackNerd",
-        "desc": "",
-        "link": "http://74.48.182.246:2095/app/clients"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVR4nKxTu0pDQRA9u9mrBiGgsZKoiZ0iiK9CBP/AD7DzD6z8Cq0FGwtbP0IkiKBYCGIbNKkENYgSNckdz2Q35l4rX8vdO7uzM7NnZs46cAhgKCy8TIyFsL+QtF5dEPNQjDobr/jxCL66mBkD+pYYdBjIDFJmqXY8zwTTNn8tgmwA7RfKB+D93OCqSgTza1Ts02DEG1svUriSAOPu4p7rDQ1wzFtXGblJLxusOZsehCWI+NPJ+ClUZCL6lOkgk1xQIbQUDUDZdihNOERRhPgpgrWajuvZqFQfU+TG5v3Nvh6wKp8NNtcNjvaA5UUiqFP3ZvSwl5/6SF5vHOjlx4MQBy3WbWUWKB8Ah7tAsYBOWsYkW511+OPQAK8ayW9F+PkbHNM8uQS2toHTswC0X+uXbEmDXZirEteoL34nN0rCL5EatTuDZp2p5wQdv243JJAXNa1uhYUvpNuYEVRuPECbS7TRhDYitLFV0RSIUaZo+YVILjAeSD8RVShDhUQyO4HK0+PMj1S2Q9x+g8rmkW0lla9v/+sx/f45fwAAAP//ZPH6ZQAAAAZJREFUAwDyMIxgZOLmzQAAAABJRU5ErkJggg==",
-        "title": "Cloudflare 免费用到爽！Workers/Pages 搭建无限图床、个人导航站、博客等全搞定！ | 零度解说 - YouTube",
-        "desc": "",
-        "link": "https://www.youtube.com/watch?v=VrYfC85Bj0o"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACgElEQVR4nHSTW0tUURTH176cuXlLzSbF0UpJ0KigXowIIuweCdVXEHoIukH0JkS3l/KlEIIgMKyeip4shIIIKaUM0xy0Mo0hM5XBM7ezL63t7KmZyAU/ztlnr//aa6+1DoVCo7CC6c6/exqAGMw7+Y9vJdKK3hFKISgUzOJ6AJkY7Njm1PGkf83t0aWcM8l7YlA4jjQhH5G3iNwUDm0PB2nNnWONX7KOpAFAvFCaqoYbw1GeJz6DxJHLurO1AqioFkqGOeMJdPn6ed5dkJSEQMIE5XyrVrriEcBkLoMjSB1ya+zslsNS6GJCYRY3F5WUUoD2lzBWqoDME6BBBXSeUHnAn0k9MIUJIDtrAe6abBSooF8n+kOMljqMbQhwVh0KQCYD4AqlAozQEgKihRIdS3GnzATYjESnAVLmKo2l/jHgJc0JIR0vI2fwpF9U8woH+CrKmHDT06+kJgGfEn0bu0bGTIBq5EfuLhf7ppykJ8qbq0LT9ZV8tY/5I0pAWBL3Q+/N4cFgoKYmUu7Ea8tgybTS6NpNtZGnyDWHknOX2iJXhmLxoXczyauHmsqud+2LjHxa8NYXMeZ5IJ2OJ5Nu/6T7DP2V6cJPmwW2By54Ssfuv5/bEZ1Lnk5LnWipKuYebqTTqYGH3dFYJwCzHesDm0ERchLZjexHsBywFkkyCj1Swan8KfMxaM/I5dfHCDU1cJFx5KBJCakn2dmYQvHrE3jiumynjFWheBc+n9u1YnaQxu0w7bEbPUi3cRzFTBZx9Exg5Dxk2/3d6pbvkxvll8g3O8q9du2zwqPIXuQeMpI3vQU/U+5jCGmzRVX2ikb0xnbrj/jfALmMJKxsBWJjvwEAAP//jkSdGgAAAAZJREFUAwBn0Obm3FeCwwAAAABJRU5ErkJggg==",
-        "title": "Receive SMS Online for OTP | SMS-Activate",
-        "desc": "",
-        "link": "https://sms-activate.io/"
       }
     ]
   },
@@ -1654,6 +1829,47 @@ export const NAV_DATA: NavData[] = [
         "link": "https://www.twitch.tv/"
       },
       {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADTElEQVR4nFxTSW8URxR+1cvMeDJeejwiY+wkJiZgcIgVG8mRshDnECexUJASLlkUBYwQJ8yJRUj8AMQdceDCCSE4ccAIJAsJENsB2TBgjMDr2LPR03tVd1XxGnkA0VKpqkvvfe9731dPg3cfwSXjfWRk+Ld2IzeaSqc3gaopOvC5DZ3rJw4f3HeFGBtMjFFwiUYSNC4GBnoH+/uHTn41+M0Pn36xRaVEB9MNoLhagvmZR6DZqw9+2bH92O5/9l9tFCSNQ1/vxpFff//z/B//jrVm1+VFzQnEYtUiThCCxSJZ9SiZKUyrdPqG+Pnrnn0HDh09G+e+YZAE2Dh2cPz22PiRXCBVVixVdFAUKNU9WDVdsAIKls8kS2T4i4U5taVwje0fHdqx8+8Dd2Pq8N3w8PFdf+3JeVxl88WSblMOlEtsXwMqJFRdBqYfkuXFZU2m2/kLoy91ceLWCSnv6xrmf94/9O1oOtchXhbLmu0zoJEAPeRgB4woyMTHFmq2Dy6NwHHKqt3cJWZWHv144eSlPi3bmhnMf9bTXrY9DPIIUoWAC2hKJIhNQ+khEHZK6i6VPp4RhNCkLsxkNn2n8Hy7tj7f0ZHItELJ8lE4qlgomhNQJZMREivHIMAIkZRz4lAmwlASkVJkqKdlyfbzmu84Qd11IXB8UnU8pB2B6fngIAtClLgN8JAEkxJYFLNRJEhJVJSfRJGtzS0VZ1eXFnhLbpOK1oGFfaIOsuIEpNVokS7qgZoQLojEPBK7E0M3UVM0E/pYiQDuFGemnjIWSjNgwvIoAoRQNn25sPKKBCEnWDdOhjdLTwkdqDT8cqHp+fQtFV0ImVkV3Zs37yynOqJqrabEvfshMkFGEdqpJXWo113gQGTUYvDu2pS2rjR19Oztwt0YgLyynYdJr7KlZ+uX25ZUI6pYrhQRRwkI+KhBiK9ea2vjItMG3fasnn02ee7ytckT8QjE7wDpyQid+j+KTrlbf9r9X7azF5Z9CR7jOCQE2j82wEhwRXtyE8TD66cnJm+Orw2eJG9nMW4Q7fqkWd217fuRvWq+Z4DqH2VRckhwr8IWZ++ZT+6fufeyfAU+GOH3MFBmBFn77ewC6IqvFwHmcV9Zi4oNbMTAawAAAP//kyICSQAAAAZJREFUAwAomeB/v+LwgQAAAABJRU5ErkJggg==",
+        "title": "FLiNG Trainer - PC Game Cheats and Mods",
+        "desc": "",
+        "link": "https://flingtrainer.com/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABaklEQVQ4jaXRu2pUARSF4W+fjELKFIJRhOm8YBHBQkRfQLxURm014AVNzAMEgsRGUGeS9OmilaW1hZd2BBsLSdTCIhEGJN7inG1zYEIyYQyuB1j7X//mPxNmcxyn/DGncEd4JX3FRTwUrmLJsBmj0dla0MjvGEQLI/gpfJQOCi1pBKQhk9HeXFDDlHAaTaUJYS9+KywLD3SM4YP9vvWesDGPsy4sVdUn3Y43/RzUNtUdxXv8MODTPzjcQDCbV5QWsWKfYV9cks5KcwrX8VppTeGM0rxwAy+7BB2DwjpWjUZHI++jLhyuRF4Q2lJdOFIJP1+rtk8LU1hUGKvY7uGc0qxwSzggdYS3Sg2Fm12CcAiFsNt4/AITsYCF6sAyldzSMZPRwouuxHXX7PJczbOepgon8A4raj73lrhdmnlZeoJVd2PP1u7+fxpCuyLYYZo5o5GpkU9l9qTtRzBQUayJyJ0TwKM8bjq3PfQX2yxvu1GSpJQAAAAASUVORK5CYII=",
+        "title": "TFT Meta, Stats, Comps, Match History and more Teamfight Tactics tools",
+        "desc": "",
+        "link": "https://tactics.tools/zh"
+      },
+      {
+        "icon": "",
+        "title": "给博客添加能动的看板娘(Live2D)-将其添加到网页上吧 · 猫与向日葵",
+        "desc": "",
+        "link": "https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB70lEQVQ4jZWTvWtTYRTGf+e9NybRxNhaweBQC7a2UjQZ/FgKtoXif+DgKjQiHVJx8H/QcomDQ4uzOHVy05aIXfwgThWqgtQPENoU0mtCcu89Dklvk5BWfKaXw3kenvOc8wpdKMxvZDHerCjTiJwFEVXdBFkVX5fmnNE37f2y91jIr8Ujps9B5DZguoVbzarKc8+v5vJOdicUWMivxSNW/wvgei9iD5R23frUgycXywYgYvqc/yADZBKJ6FMAKcxvZMX479ptG0tID8b48bUaMsYup6iUG3z//Ces+erdsDHeLEhItmzh6swAQ+MJfm/WqJQbxI5ajF87wfuVrQ4BCztnN9Pe9+Z7ilvxqFY80kNxRjJJGnXl7cstSsXtrlRl0m6uqhMfX5eJxg1HYobAhw+r29Rcv0cUmrJBBDQs2RFhOJPk27qLFRF+tuXQC6Z5JPsYu5Li3KXjDGeTnDwdPZSsqGtAVtuLA+kog+ePkZno59SZwwUEKRoxutQxA81zU9WDmS0EBIsC8Pjep2cIN2llYKzmWgJf8Rq9hVR1Ze7R6LQB8PxqDigBeA2lXguo14IDycAX39dbgqgByDvZnV23PoWw/E/f8Mrzgom8c+EX7b9xD4X76zMEckdEJkFTtNIWpCjI4t2HI8uChNb+ArlquWtAMOmqAAAAAElFTkSuQmCC",
+        "title": "Playlists - Soundiiz",
+        "desc": "",
+        "link": "https://soundiiz.com/webapp/playlists#"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAC0klEQVR4nBySy28TVxTG7x3fmbFjxyaJ7ZKQtECVNryqYlUCVFUkRGyq7rrojqpS21XVbrrothIg/gKWiAUIECCEEOIhntnwFigQQkCRoxBsbMdjTzwz930uF3Zncb5zvu+nj/z3rEoldKgIqepx2eM6liqWMlGISsWUQcgxShhlAGFkEJHaKACpQYKRAHaODAaUWq+jvpT2UqYWxg23EPkZxCjCDmESqNJUGi61kNDTeLMOf0n3vt9SCrtBs7n6qlY9ceNpbcd0OL4TSUG41kyBsB+0poCI5n94rf3fjrdj0Zfv94V0+nKsUS+2T4nSMF03TJgVfDrPNXBryKDntfa1y3cevXiV68uyRDbrzUaHF/px8eGVd/t/JVza80ZYmUZKSeamTy+zyeWZ3yuFtU47aLO5CE2NkZlF3qsuOSwmXBmhtLX00ZUxmLPGyPapiR8OjAdvZ5vpkvPX0ebfk962IXHopUBp/5NAW4GxGey+4CIzmJ1wvODM/JOnzBvzD//cr4nZV8kdG52q1kKL1WbQawqYtnQVV8pgt9OOZ+c7K7FP5+L0KNmw0R0q59BAxbm9aDMoIO4wxl1sOq6bJ049ccm+yjeb65kqTbsqk1JhPbrZ8JZJANQ+I+5e+v7txfNrjbD85Vel4oDEQ+7LJ4O7R3Z9LlDUXXleP/I4c7Wqp7+73x4dI1SoW0lqhRQTGvDzZ/vLZQehg0PJv8FA2YNWM7674J97Db9t7Pyz5QHNzuGtJ+/FBjHslgjsuXfp7LlLyPMSBoSkdkx8ttqTrSDKQrI7F+U8+HOvRwQAtkAFA9pdWHi9a2uhSb038+9kAktLDtISIpr4/oWO7+YHf+r1iC2cxYMJCVbbi2hdtjI9duO4JVHM54ZHCgnlCONWwL4uo+3b8jP4CwKAbB2As7X1m8yPm0JAcsNOd/E6QbLVTWjCtNKpFPp/EkQ2OTC75wMAAAD//3Ph0zsAAAAGSURBVAMAdGDdfQDKIVYAAAAASUVORK5CYII=",
+        "title": "物品图鉴 - 逃离鸭科夫WIKI_BWIKI_哔哩哔哩",
+        "desc": "",
+        "link": "https://wiki.biligame.com/duckov/%E7%89%A9%E5%93%81%E5%9B%BE%E9%89%B4"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADNElEQVR4nIRTXWgUVxQ+Z+6dnVkncUcTs+niEtuubakQoUrVamk2iCCNlA01VWN/HwoWNAWpEGjTTaH0pUKgsS+lP5S0xcQ+9MVsoZrtDyaVRCPRDUpwI252103iZs3uzuzMnbnOSNQH/w6cc8+959xzz893BXg8IQeOrtIPL1btBiCuzp3zuw7Cw25xzokjXCdHID8hvHJgWfVTU+8q4ZF+ccvL6LosBcHHPR/9MSo/331mPU1lRoAZ4MUVAIpyyzBKm1uNkUk3CD4ig/edpcXhDZbBarKJK0rq5D88+90JRqfnPaxKHRovxrd/Dkv13aU8z6vJ88mjExMTH8RiMVB9Pti7vx22bN0G1LFfy83yxL4jtnHqHOFqIBxZiMXvBeCjo+LWjo7Y3OxsczqdZoFAAAqFglDRdVzf2IjvtO/nLXvbIFdeZNnNH9LC9ezRN63xI25XXeYT6endQ/8OfyJ5PGYwGCSqqhJR9IBXWQbJZBKPDwzgcurBTdubIK+XUTt9Rh+IHuwTnHrdSeA3vT21x471WoQQYIyBaZrcti0UKUF/fT0EQy9AwWBcskVgG9cB96xQhzAqCIhouhkEgmsanHqETCbDJUnCYqmElUoFSloFcjdy0NEahuZQLf7R8xko5TSqis8TBrDweir9+9ff9n7U88WXzTt27vj12VCItUYiQsTht/bs4WNjo7hWuAk5uxoWigWuGwb3KTK+rvjyr6VWbxC8svx056FDFwu61uBf3bBweTIB/589a7tgOfnnXyCWb3Km1HGskqCvnWPfviq8WiEwXFlcSXVtTKitXfnSXH7xK31+pvNAJFydmJqm0a4uutwZoVHR2XxRY7ams3rJtPyyxf0itesos+oYJvwWOUycJqJ/Vc3wx+pg38yMdmrdzrczf8dPM1mW10iUkHnNIttCNeS/FAijKWr+dsm0prLM07YRP911Yfx76jTRidFPENtSAFMO/zLo4kJWlBaZkFfLpTI+tymsC+bgGz9f1BpFzmDXMyR2eC09XgSg94HEAbu7AaPRO1v7AXgfrF/VOel9zytRvcuf/wl/mFt80mciS3be1NSE8XicPczpNgAAAP//7My32gAAAAZJREFUAwAyf2hpKqdMegAAAABJRU5ErkJggg==",
+        "title": "逃离鸭科夫物品代码一览 - 七匣子",
+        "desc": "",
+        "link": "https://www.7xz.com/news/ldcx40266.html"
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - Netflix",
+    "items": [
+      {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABw0lEQVQ4jYWRsU4UYRSFv3NndlgQWCEhBGNhSbTU2tgRY+3jGHwgC02MhFiosbEwFBKxpDFuglFcVsWFnXssdiRh2ODpzp+c83/3XgBeQQmwUy4++lEt+0u15H61tLcPXYDtanHrRafnl52en5WLmwCPm0wAvGGiz6RGMjajEq0XZe8ugFKBzTQFwOvGDDP1LU2BshKqpIcAxlhT85OCe42ZifBXm7FcHNt2xIP30KvhRNMBJgX/NAMakgxsJdSzsLZS9DaGmT9LPHWIOG8CI/qZLoRlfKXQ/SNcJ5IMeVnBmKQr0Sc1MsVvTCo2anP7l52hVqBdkAQdmT/GBxNgp722rFgfkuOC/xAAYFEJ9uuzD/NGRI4s4OIWom1qYB6Vh5mfQuoDWo2gCzpFRIuhNQKkYU6E8E44t2cRXVGvKTyyKVvQFwgsKMALoeKo9paFaqNrEbIhLyMwadmMkRYi5r/Xg+1j6AcUVyUvSIxaiwiAm2ePAZItsoDOHRhE+vms5MKMVySfNAQfm0wA7IHODmmrMlHYFcDI+cQmgO6qQnM5gb7VZM4RGPIUDhPvhvUB4N148PYUPy3FbpjD6xEJsNlk/gK5ct0997ud1wAAAABJRU5ErkJggg==",
         "title": "首頁 - Netflix",
         "desc": "",
@@ -1664,7 +1880,12 @@ export const NAV_DATA: NavData[] = [
         "title": "奈飞账户",
         "desc": "",
         "link": "https://nf.video/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - LOL",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACQklEQVR4nERSy04UURCtqnub6XkxIgwIcYAIJqCGlQt15WvpgoUL17p27cYP8DdYmPgDLklM0BhXviIo8UECBBGVh8z0zHTfW547PQm96Jtbt6rOqXPK1senmKibaTslZiXlcsyRIa9ErN7j8eRjZsscssdqMjMmSUZW9P2G2z0kI3imUkHjiJ3vF6iqRVk4lR4tRkODUbubPX7amZ2QeEB2992br37jlw5VAlxeY0qVGgjsHOhcw06OyN6hX9vic/XQfqpuFi/T9Ci9+qLIAR8UCHoDCgQGLBvEwET0/IQsTJtSgZY/UOM0P7nHrQ4HRihAmVeOIwNmCDnHw2Web8hk3V6dix7eida22Vr74KbsN8lyQIAydPtSbxgAsGZeky6UoONE9xN7/5Z9vU5XZrk+yF3nJXN6qsIzZ6gTZAUqh7q8WHD3xpr5hvl9LBfPStIhccqFiMqxeB98CIP1/uEEAWLEKzGnzlaL0JfFsLa7fJx4kdC+JzYB1nlwo9Qr4kctHbDuX5tEVKzhw6b/9pOAg3lgMOYfKlOtRLWiDlfFZe7zlh+t+k+bvlQITgfiy6vZ9YVIPbJ1+49/tuJUBaoVI/q45W9c4JfrHhaNVMkiaoUOWq6dRtDHity9JuBgJBfAR8J7R9nSC/hNmQKBGHmDRZ4Z40qRjeHx4QKyc25/j9KllfT5W9ja2z10hzIQFNk/dtzqpsIH7W2oJ40tfd/17zbSShws7i8s1hvCQJBmEhTK2+RbgFU3hqql/NJfvv8AAAD//9yil7oAAAAGSURBVAMA7pARhMTdgbwAAAAASUVORK5CYII=",
         "title": "英雄列表-英雄联盟官方网站-腾讯游戏",
@@ -1712,7 +1933,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Luiisgz's Uploads - wallhaven.cc",
         "desc": "",
         "link": "https://wallhaven.cc/user/Luiisgz/uploads?page=3"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 动漫",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABGklEQVQ4jZWTsU7DMBRFrxMrlSsGPqETykr2qjMDUqZ8AXOZ2w/oilCHSMAPZEOlEmuirm32MvERqIWE5DJQBRQ7aXMn2+fd5/eebKCm3WTD+lkX3hp0krkpuJP5v4mjB7aZBQd356B8BsRIowPnb/2e1SATiG8fpRvGpRuynK/ZSfM1SzeMRXn5SAAQ6U3nFuk9QVLZv70A2E/TCqqZpxnqnMqGZF8aTcXrG7LVR7V3hmdaUvYlJA4VmG7AKoWaedhPU9hXFzpXNpAHEfMgapzVbrJpZHkQsZpBk0yzqFpQNiwqCSqJYrltTVRXsdyCSkJ8jhexALRH5NxfAwCy25fmCoDE6lmFTyAxBRwz96zCN8Kv8YIkT/o8P86S4CYd+1OqAAAAAElFTkSuQmCC",
         "title": "Bangumi 番组计划",
@@ -1766,7 +1992,12 @@ export const NAV_DATA: NavData[] = [
         "title": "在线看漫画_飒漫乐画_妃夕妍雪 - 看漫画",
         "desc": "",
         "link": "https://www.manhuagui.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 资源",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADdUlEQVQ4jWWTTWibdRzHv7/nJWnaNHmSpYnrmrRNm3R9d7SWVkGsE4fC8KAHofhyURDxsI3iaVDB0y6Cl4FeZDftTZ1OkW2KaF03Wtd2I+lMm9rW5qV5T5o8ef7/nwc3GPiB7+3L5/YhPGQBUPAcFHmkzXZ1aLM2Etu7ecrH9/RY/qgpJoKsLyw3VxcAZQFg/DcQ/oez4/OzzS/mXrBerjSErJlobO7g7s2V1rLPKRfP3ah/9vibHkkujNoGeoOYm4iaT9zasJf8Hmvu9TMcgD0AiDxuLKnlezEyk2XxPvHR6qXbiAGA+lDAe2khxoPqG5NhevOlZ9UZk90tlVyVPIEISz3K4ZDe0igdqtWq7VVdVbWfks0fPuiHTQWA+af0J8+Otr7TYdP70pnWLkUyjY17NVdgCLnUXyTISbquctBzoJQzmpatkzgdVKYtxbquAYDbrr7X1a6/S5qKeqMpE9smGa0JdoXbYDl6kdtLwHEClD9sUpq8VtCwZrJFrn94B0UNAAW9LUeVWsPynX5FjI4P2rZX1nDt918QeLCGOoBKFfg7fQxtA68hMmsg9s2XsiopC4A0AKwJ69DtMdSpp09Jd+g4dfd2IdDTjft37kIhYGwwivBQlF1dfiptJbn8m4sa9XwMAGudnZ2+P7b2OyP9LgTzdXKUEuxqtSM6HqWTs5MAM7hYRSFbwObqPa40FXpQINzeqRmBQJ+f+vr7U+Gebq+zzakIKckSJthqoFYpYCzih2Ux/RlPsdPlhqo7SNftUrfpKBVLnNjaSiEUCn20vr7OklkIIWXDbMrdvX35/Y/X5UAkIqcmJuXq2obI5QvSsoSsVmsyk8mKb69elYZhnNN2dna+SyQSF4eHh5V8LivTmSw1zTpcHgMXzoxAb2nDyeEhxU6Mg3/2OZVKs2F4sBmPy0KhcE0FkLHZbDNery+cKdWkYMh2t1tZvr3Gx48VqcXjQMr0s6oydg8OhSmAZHJbXVz86ut4PH75UQuO6W73+dmpkY99oUE0tHY0GkV5/q1T0hISn1xZUZytHsUuyjjY2pA/L8fml5K5TwFYBADMTCCiK9N43nEiMO9q9z3T2xNqazc8ICKU8nkkEslKrpC+aR5kLr19C7+CGUTEj9eoAMwA8eUXMWLW9QndpvkBwDKtVNFsLl9cwn2ACSACIAHgX5NZqY0ZyLzmAAAAAElFTkSuQmCC",
         "title": "Porn Dude – 2022年最好的色情网站和免费色情视频网站列表！",
@@ -1916,7 +2147,12 @@ export const NAV_DATA: NavData[] = [
         "title": "423Down",
         "desc": "",
         "link": "https://www.423down.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 碧蓝档案",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADoUlEQVQ4jTXBf0yUdRwH8Pfn+T53z3O/j+PuhJ0gcBwstVLJqPHDNeaPSn61ZjG32vynWm1ZlHMLxVY2W39Vm1tt/NFaGZqRumuoMVRSC8kIS4gW/gAEwiPO4O6eu+f7fPqr14sipRUP2lTRBeYNRAQigmEYZJom/ieEgE3ToUiTmQiw2YFc9qppZXdRSbTisgI8YgmbNAxDkbksFRcXIRwOw6aqyGazSCwmMX9nGlIRMO7fyM7RYYukFJYlB1S269Wm020pc1PKfUVF9Nj2RhZ2O/2bXISRMeD0uBH2+fD72BiOFa5mvT9O2eSCYvf6LTDVqGTmkCmJKfP1T6KusoiHe7+lS/3nYGgOkM0GK5OCS3dg6b1PUDh2ld5s3caHu1M0PTVJDl1n4fUHOr1/T1N91TrudhXS9ao6uDQ7/DOTcMocHB4v5g51QZm8AeWjd3BP1Wj3yy/yxUuXKZ1OQ2gO94G169dhU2mEhg92wKtrWHj6eSS3tUK9cxuJZ16AwhK+g+0wnR6M/DqCUChI0WgZBgeHSLXYglPXkSIVhlARPt0D7fs4lrY0Y+b9LsDthu+VnSivrMDuPXtQVlaKbDYLr9uNdDoDVdd1XB8dQ9uzOxAMBHAvl4N7KQnL4YLjlyHYz8eR93gLvmiqhT8/iLMneqCqNty22TE5NQVEK1dzsGAlv/r6G/z5kaMcKyjkwEt7WZyb4NjDNRzSnbyvYz8zM7d9dpyx/zCHNtZzyBfgSHEZq1Ja8Hg8OPJ1D/T0Mla91oFbdc1YuXcXkn/+gZTbj0drawAAzisDyF9i3G1sQ/74COxDP0D4A8EDLAQc6WVcEG6MPteO6i8/xI7yCKLrN2BVpBDhcAhr16xBy/Yn8FRxEJGbYxj/awKpTAbCF1zRKdJLlC2t4H8OdVHo47dhnDqK8YUklpOLcDld+K63FydOnsJ8IoGq2lps3bIZ1/rO4NrgT0wlJTHJuqbMvvspe+JfwRfvJjMQgmUYME2JdCYNu80GKSUSdxP45ng3tzQ3Ue2mBty4eYtVgqUkG3dK37Eu4emPw8wLMZkmqaoKIVRUVsag2TUYhoFYeZRbm5vo/IUBTExMSIfDIahga8uPqsXV9t+GLOn1E0lJRIRcLoeCghU4HT8Jj8cDKSVUVcWZs3381r5OXlhcVISgixSubnjANTPxgaU5G4ilAgBERFJK5OX58VBVFZgZQgjMzs7xlaGfIRTF0hx633Iq0/4fEX6M1PUtQcUAAAAASUVORK5CYII=",
         "title": "首页 | Schale",
@@ -1946,7 +2182,12 @@ export const NAV_DATA: NavData[] = [
         "title": "SnowJapan | The independent guide to skiing, snowboarding and ski resorts in Japan",
         "desc": "",
         "link": "https://www.snowjapan.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 公主连结",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC80lEQVQ4jU2Sy2tdZRTF19rfedx7kzSxedW20jRitSMHolAkeKXadNiAtQMJlMZa40QEBx1UiOJf0ImPoCNxIKiUTiwVxUmhFUdaqcSYFEutEvJo7j3nnnPP9y0HSTW/6drrt2GziW1uTs7sTpnMATglaRAAQQISQQoSAVQkr3d9deHw1fkfBJACuNw83V/Val/3uKSZhQqStF3Ef0iCEak5StosfTX92JWPLhkBdZPa2wNxrZnJl6Eog8ouaSZsiURJMGNo5ejkna4z1wfw4q0Xz+x1S83TA4qiiyIHirV19k48Zen4fuS//A7WE5KkBCrL1T91lHTO2st3Qr3ReMgH3I7KJJ2MaeNl8ErG9ln/1PNkHKNY/BPV6gbUrcAkQbxvmMn+ESEEVCtrwP1MIF8yZ3YipkFgGHnzFTSePKTaE2MYPX8GVksRii6ioX7sOT+DlU++Iowcev1l62Q5aPY0FyZn/3HEUCClELjnwlkwjvHXux8ApOQD6BysnnJwZgrFr39g87sbCD6QECJAw14QAfq84PoXV4XIBbU7Lu3tIZ3Bh4ByZSNkN26ivHPPqlaGqFGTBHDh+KwHQEiAMYROaT1RzJDEa4m4ANJ7hcFAHCpbGSpnlaWRQxAAICJgQahAWApzqNcRu/izD5d/+uby6mIB7/BwI9X7jz73+OiuvrNBGmt1CwCsSBgXjs9mvS6ulyGg10XXF9prn574+dJeR7yRmBsGgCBVm6F7ZXro8OfvjB95oa3qVGyuUSmAvx19dcKieCKvitvnbn3bu1isT++K0me3iyIJCHRGZL67Wgnz7x048uOxoYMHOqHa2PGr6DswOriUmhusvK9AOpLYuhSBELzRInPE3bx1rrWWfQwAJsC+RzMS5toOvOYlAdAOMQhQgAXIex/yR5K+azp50s2hGfH/GejgyO5jZnYZQhKkwG20JQ1mdD5ofunvldcedNzORevtfHGgp3aP4DMge3ZkIuGD8GU3L9+6XxT5g+Bff6N7E3tlU7QAAAAASUVORK5CYII=",
         "title": "公主连结作业网 - 踩蘑菇社区",
@@ -1988,7 +2229,12 @@ export const NAV_DATA: NavData[] = [
         "title": "超異域公主連結☆Re:Dive (公主連結R)（プリコネR）Wiki | 蘭德索爾圖書館 公主連結 プリコネR Wiki",
         "desc": "",
         "link": "https://pcredivewiki.tw/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - LOR",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACBUlEQVQ4jUWSS2sUQRRGz71VHc2k0RkziaAiMYKi+EKigkZxIyJkIy50r7jzZ/gX3LoUXOhGEYQsBcVFGB8QCREDeb/JJDOT6eq6LrpDiuLyVcFXdR9HrqTiBCd4JVG8wwvOkSiqeMU7VPAOp6jgBrwgCCAUQgRlXwMqFEsEnxti5IAhhjPMoDhKqc0wIxpihSGCIoYZIaJCbnhBpHzbwIwYEXA1J8VfJweTp3erI8O91dRNL3YFzl9MXr4aGnv2YnNpae7fapGV5hCNGJlZzvp6tF51o9cP9qXO4P7jmwNnnveferQ4H4qKY8TnEVUiYAyepT6kp0fCn046/qk1OvYw+AteD+d5DDnRMMNHyI1EAYauWWOyU51Lbt/qyfMsbL7/Of76xr0HIdvoZJihii9ashtBSWt8/5I1Z+TS5eTO1crHNxPV/kiY7XSz3YAKDjQBAYVoTH2VrRX78Lm90GB7Tt69beGP7iw3tpvtbk40QsR3jAjOSIS1adpNJv7uPtG4um4z82H2x8pUONBqkkcy8IrvWjnXipP0iBwf9vEX36a7a+vSDuwsyFqFxLkQ83LYNSciOKj36omqP1TX35OdWirttkXj3LEega1W3NgJieIVqbmSJQUneCEBLySKEwSclmhqcVlRMZCCP7A94Ayisc/lXnR9IghGuYt2SWkt474H/gOqYt8oUKzBZAAAAABJRU5ErkJggg==",
         "title": "Meta Environment | LoR Master App",
@@ -2036,7 +2282,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Riot Developer Portal",
         "desc": "",
         "link": "https://developer.riotgames.com/docs/lor"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 体育",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACTElEQVQ4jWWTy2+MYRTGf+edKZ2ZlrYuG0rSdFhIF2wUSUsXLEQr0suCRuwaCwkLEmwbC/4CCUmbsCCRuCxYYKOpREM1Foiy0HaS0k6JZmo63/tYfN9MP7zJ2Zz3POf6PAA9QA4IIvOAKlZbI9bUikTFV47LAb0A87GPCthAZNLa8emdLszNqr+jW2aIhCvHKsKif6p6QAkQNRkN5GclScHwU20IE/tkLM5FIIslMJwDC11LPmBZHp04wMXBq6ihnpKDGCY2r3MyUBJUBaI2o1NzOXkvlRS+u/lv6j/U5xMgnPkwF4AZ5j1KJijt2slytglKJcw5TPD7wShM5+muW89ww25LA5gs7MCiDjrate7VqM76kq7ffqTmxHr15aclL43vO63uuqzudJ3R2NYeZbAIF7XN/jZt+7Wg91LY740X6qxqVtf8V0nS24PnKqOuio2dxHtkRvLSeYYya9k++oHpgWs8/PiGiVSBVjmQwHtWm1FMOoqlIFofJB3g0yn2tLTQKs/i4B36JoYZoQiumg4sjHRGIKHAV8CRGwgCNi0WkGBmYxUjFEkCbG6kmM4ggc0vRjeLocPlmwe0d+im95IKn2fUefykOHpEqedPdE9eweR3Pa5uXzn3X2bmDeS2NOrZl0kvST8l3ZX0UpKWlqXDV3SMBmHIhQwsM9cT8d4Daspm/etb96WpBelbQbo/rqDtoi7TWD71f5S3SBD1mHkklwJ601mybg3Brx88ZIoxW4ovrpzAAXkiSeaAwMyCCqkq9I6UuVI1LueeP0d9crpup3VjAAAAAElFTkSuQmCC",
         "title": "卡塔尔世界杯_世界杯2022赛程表_卡塔尔世界杯比赛时间表-上抖音看世界杯",
@@ -2066,7 +2317,12 @@ export const NAV_DATA: NavData[] = [
         "title": "JRKAN直播",
         "desc": "",
         "link": "http://www.jrskan.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 插画&AI绘画",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVQ4jY2TvW9OARTGf8+59+0Noc0rkZAoWonFYiExGYhIhFj9BRhM+AMk0sXHqAOJ2ViTkIiwmUTQiNClaQfa+ojQ9773PIZ7X9HNmc85Oc/veY4AmK0vU8RVhrkdG4RoS2BABsAYCcr4TJM3uNi7JWbry/TKmwxqMBnRdtsQWEJYON2tNEYEYz2oh1fE7HAF3CediGAAFN0VtcGCMIyF1S0GkogA1koy+8igCJrk5LSYX0WLP/GxqVC/goUf8stly4EpBCZwA1a/RDIgZEi4dii0pZK//baO7AxGLB4upC88HWr5F1YRuCXkEhyQkALB2kA+vEMC8WIpebdiTuwJzkyFNp/o+dRcrTqTDrNKwBAQgiaxURruzyfnnwxphrBrW8OjMyXHJ0NHd4efLJiogiSJziphC1AhE4J7bxoS2DQuFlfhwYckDQe2IRpLTpHor8hRZcuaqQnhdfi13t64b0KE4Pv6xv5OgkDtoGSBuH6k4OcA5lfN2YPBuf3iR22eLWHGRCpASdlK6CACUrixNT0u5k6XbTDVJujS8/SnlZQq4czRBUqILrymilQhced1sncrTG6F91/h7jv78adGqmTTOoZxia0uSCDzdhWPV+j2q/THL6lykxjWGFuqwp3/XSSlLsr0yUwghAkJY6U7QgESbgEDJgkFaC3AM/QKIQrAlmiAHH2ghNG/w0YU9EqBZ7Thnevc3s399zv/Ado5HDABDcq8AAAAAElFTkSuQmCC",
         "title": "pixiv",
@@ -2090,7 +2346,12 @@ export const NAV_DATA: NavData[] = [
         "title": "raika9 - pixiv",
         "desc": "",
         "link": "https://www.pixiv.net/users/2232374"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 摄影",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACp0lEQVR4nDSTT0hUURTGf+fNc7K0/5YFFkRFEbVKWim0KNoYLSQIgiAqhRa1yV2YFC2CXGRYRFgUGRVtLdq0KJFatElSChLJMqTyXzqjzsy7ffc+m+HNm3vuOd/5vu+eG9PmsiRcJssZjFWZMihFgH8yisThnT4RjjLFMvzV7x2+cDEmz1UquUBRmyoqzSlxGc58ouFcETPCx+kxK+ASx3J9W9hOYrS4GXVZGtAzZBr34F4OQS6v9Kxi2QD0nxHKdYHVkhCbiSlRERlJkiM6XIvrOAQNTyBZHZLt6zRsWgXl2VRCSXCj8/B7PgAtj0U98dS8hKO7sFhdeo5JioLfJqB7ENrqYEyMZiVn52rsRj/uUq/wVwjTFEy0ubkaq98CjQ9hYAyuvYWDnTA0Dr/yWF031N+DV8O4NV5WQX6oSyST8BwWZN6+dujt0zIRzUn58BOmcqmBee0XZmG+JGOd6KtOtS4O3gogp4RT9bB+P2yrwjXXYnv1Fg75ApQpb0GFkcDNixaAGFhsMsYtYDXSs3udjJbDa5bC90mSSplYSAIjn4ynHRq68N+DuMj5hYZnYEQMbqrzI9EWmwfvsfNduJ4BqNB+cSEtKCUp4yBBDPzpB9SybDg2Wg7ARA7X2Qinj2BFdSpXPCmEPlYRLzLwEorhpDV1Oltv0MYNWGsDnLiPDf+B583Yyce4lRqaD+ekIsH5mbjelxrrBBob4UioWQvPzsKLfnj6Trsa2Y7XMPgDdlyBruO49jfwcRTmojCliF1k1uSmXEJltSZvaxXW9zncCfMXQBrD/zDCbnGclwSpiQfQzlykpNuUE42Nq/hTuA9h9n1+mHlLTZNbRKl+p3Xk7418uBUzTWtYxjQpodIfWXrvwjvcSBWYWAbNoUHEBDnuMkLrPwAAAP//k/vtXAAAAAZJREFUAwAZCxUJ2U/CKgAAAABJRU5ErkJggg==",
         "title": "全画幅相机推荐：2023年画幅单反相机&全画幅微单相机推荐 - 知乎",
@@ -2108,7 +2369,12 @@ export const NAV_DATA: NavData[] = [
         "title": "我花了十几万，只为了告诉你什么镜头值得买_无反镜头_什么值得买",
         "desc": "",
         "link": "https://post.smzdm.com/p/a4p30x9l/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 无人机",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC/UlEQVQ4jW2TXWiWZRjHf9d938/7vM/evXNrq5mLNtCBuIqK7AsPJphzxpwEngQJHYS1gjJwUAf1nikdRBFFtlraMrQObDAMLPxCImibFDSVbcKgD9xqK517n8/77uDdXuzjf3TB9b9+B/+Lv7Ai5wQQRCzO6fWXbmxRmgM2TmdT0XunOooTyz6FiF05M1WAiANc0/ClYtPE4su6EJTs0iLK9/FwY+su/rVz6tzRU4gk3CRZGW775kpzQ1Pdq6pY86g4NZSWw2btspfw/ZksST5UcIfkc1us8d66POEdYbtEVcB9kdsQ/5acIOe1ZvML6PoGbDkcihb+fMfk8y0q8F/UQdCZzf+Bt7oRW46+zt85/+SYrPlds+t07ez5qWeDRnPSbwy0S1ybjcJjaZwOTN9/67fBUwdmcia86spLLcrPtYhLjsydnDp/ZeBiuxv9bEzYMVykgV+I9YxapQ6t7Xvk+8l7Gs79J7ATk35rXeHxmfdHN6FyT0N0lk96dxqKnkBkKfh32TB6fXLT222USopfb9fVwEo/5djeHs10HV5gzS17MQpi5wAU81MRyjuKJQGl6FlXQ6lk+WBPwoZSrgLoiCtJF2pRBjI7iwm+rLyx+e4ACadJsz683GZCLex6M6Bm7WMo8woPjlwlvL6fTF8gy8qk6cc4O46N6gFRqGsZLnkNI/3ESz/w3eU5atfvI2gYBvcwnt9LseksQWEryfVxYI5c8AbidQPOEHmCjhK8XDvGvEDnAzGeHxPeeB5R+7DZzyTJMUTdi79qNWT9OAtCUskgbg0x+RFEwNoyJqgH9uOibYi/hyQ6iPF24+k+0BnOWZwNUfmvKoAvOmIGu3dj4ycQNYrYAmkEfl0PKt2IS5/DeBvJsgRnDSb4lFQe4lD3e//swmDPceA4z5zqwoa9aK+dNHXYTBAN2lxAZITBbQPL7RMQp6uAUklx5oxj/PA0bVuH8LyALL6GEoXod/moq58fP19cPlSw2fH/Kqnq2HOwhs7T5qal/Nv9N9cnOXylz9xpAAAAAElFTkSuQmCC",
         "title": "民用无人驾驶航空器综合管理平台",
@@ -2126,7 +2392,12 @@ export const NAV_DATA: NavData[] = [
         "title": "无人机驾照怎么考？ - 知乎",
         "desc": "",
         "link": "https://www.zhihu.com/question/35058552"
-      },
+      }
+    ]
+  },
+  {
+    "title": "娱乐 - 炉石",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABqUlEQVR4nIxSXShDcRw997+7TYokHyWeFKUoGiG8CHnx1eJBCsmDSN4lxIs33+VBPBBJQlvT8iBlbONFKZ5IrTVsbTbabPf633+txr7uqd/tdv73nHt+516+rG2yWODIFjiUA1BDHvx07hQc6SciIdtUXB0W52SmyTGQnq0JicIWEQFN5IlubRyDXXUgHCfHqJLQiyKSSVErMdHXhNb6UjkGPInFTq+dQH95j6aaEmibNeASpOH/E44PDw6NtxjWNmCst5FxzbUlmFo5hv3dHWUQlcD25mb797RWYWb9FMs758jLycDR4gg6GyuSG6hVPARRhMf7TQXlLH7H2CpebE7MjrZjdbL3z5eKMigsyEZZUT4WNg0wmh7Q3aJBblY69gxmdp6aoqIvUcbvQKXksTk3gJ3TaygUBBnpqWwll9uH+Q0d9g0WiDRhXAO2BjWR/gV/4AdLtINXu5NNLMQ0kNo+OLNiV38D75cfiRDTwB8I4vHZnlQsQSoxFEm4PD4W+8L6BBkISglMdOrCjHZiHQ7nJ2SBwxUhgjBEby10WLUyxQIdc4gIQ78AAAD//8d87dkAAAAGSURBVAMAcgmItEfTXSAAAAAASUVORK5CYII=",
         "title": "HSReplay.net - 释放您的潜能",
@@ -2138,42 +2409,6 @@ export const NAV_DATA: NavData[] = [
         "title": "Standard Decks",
         "desc": "",
         "link": "https://www.hsguru.com/decks?format=2&order_by=winrate&player_class=SHAMAN&rank=all"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADTElEQVR4nFxTSW8URxR+1cvMeDJeejwiY+wkJiZgcIgVG8mRshDnECexUJASLlkUBYwQJ8yJRUj8AMQdceDCCSE4ccAIJAsJENsB2TBgjMDr2LPR03tVd1XxGnkA0VKpqkvvfe9731dPg3cfwSXjfWRk+Ld2IzeaSqc3gaopOvC5DZ3rJw4f3HeFGBtMjFFwiUYSNC4GBnoH+/uHTn41+M0Pn36xRaVEB9MNoLhagvmZR6DZqw9+2bH92O5/9l9tFCSNQ1/vxpFff//z/B//jrVm1+VFzQnEYtUiThCCxSJZ9SiZKUyrdPqG+Pnrnn0HDh09G+e+YZAE2Dh2cPz22PiRXCBVVixVdFAUKNU9WDVdsAIKls8kS2T4i4U5taVwje0fHdqx8+8Dd2Pq8N3w8PFdf+3JeVxl88WSblMOlEtsXwMqJFRdBqYfkuXFZU2m2/kLoy91ceLWCSnv6xrmf94/9O1oOtchXhbLmu0zoJEAPeRgB4woyMTHFmq2Dy6NwHHKqt3cJWZWHv144eSlPi3bmhnMf9bTXrY9DPIIUoWAC2hKJIhNQ+khEHZK6i6VPp4RhNCkLsxkNn2n8Hy7tj7f0ZHItELJ8lE4qlgomhNQJZMREivHIMAIkZRz4lAmwlASkVJkqKdlyfbzmu84Qd11IXB8UnU8pB2B6fngIAtClLgN8JAEkxJYFLNRJEhJVJSfRJGtzS0VZ1eXFnhLbpOK1oGFfaIOsuIEpNVokS7qgZoQLojEPBK7E0M3UVM0E/pYiQDuFGemnjIWSjNgwvIoAoRQNn25sPKKBCEnWDdOhjdLTwkdqDT8cqHp+fQtFV0ImVkV3Zs37yynOqJqrabEvfshMkFGEdqpJXWo113gQGTUYvDu2pS2rjR19Oztwt0YgLyynYdJr7KlZ+uX25ZUI6pYrhQRRwkI+KhBiK9ea2vjItMG3fasnn02ee7ytckT8QjE7wDpyQid+j+KTrlbf9r9X7azF5Z9CR7jOCQE2j82wEhwRXtyE8TD66cnJm+Orw2eJG9nMW4Q7fqkWd217fuRvWq+Z4DqH2VRckhwr8IWZ++ZT+6fufeyfAU+GOH3MFBmBFn77ewC6IqvFwHmcV9Zi4oNbMTAawAAAP//kyICSQAAAAZJREFUAwAomeB/v+LwgQAAAABJRU5ErkJggg==",
-        "title": "FLiNG Trainer - PC Game Cheats and Mods",
-        "desc": "",
-        "link": "https://flingtrainer.com/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABaklEQVQ4jaXRu2pUARSF4W+fjELKFIJRhOm8YBHBQkRfQLxURm014AVNzAMEgsRGUGeS9OmilaW1hZd2BBsLSdTCIhEGJN7inG1zYEIyYQyuB1j7X//mPxNmcxyn/DGncEd4JX3FRTwUrmLJsBmj0dla0MjvGEQLI/gpfJQOCi1pBKQhk9HeXFDDlHAaTaUJYS9+KywLD3SM4YP9vvWesDGPsy4sVdUn3Y43/RzUNtUdxXv8MODTPzjcQDCbV5QWsWKfYV9cks5KcwrX8VppTeGM0rxwAy+7BB2DwjpWjUZHI++jLhyuRF4Q2lJdOFIJP1+rtk8LU1hUGKvY7uGc0qxwSzggdYS3Sg2Fm12CcAiFsNt4/AITsYCF6sAyldzSMZPRwouuxHXX7PJczbOepgon8A4raj73lrhdmnlZeoJVd2PP1u7+fxpCuyLYYZo5o5GpkU9l9qTtRzBQUayJyJ0TwKM8bjq3PfQX2yxvu1GSpJQAAAAASUVORK5CYII=",
-        "title": "TFT Meta, Stats, Comps, Match History and more Teamfight Tactics tools",
-        "desc": "",
-        "link": "https://tactics.tools/zh"
-      },
-      {
-        "icon": "",
-        "title": "给博客添加能动的看板娘(Live2D)-将其添加到网页上吧 · 猫与向日葵",
-        "desc": "",
-        "link": "https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB70lEQVQ4jZWTvWtTYRTGf+e9NybRxNhaweBQC7a2UjQZ/FgKtoXif+DgKjQiHVJx8H/QcomDQ4uzOHVy05aIXfwgThWqgtQPENoU0mtCcu89Dklvk5BWfKaXw3kenvOc8wpdKMxvZDHerCjTiJwFEVXdBFkVX5fmnNE37f2y91jIr8Ujps9B5DZguoVbzarKc8+v5vJOdicUWMivxSNW/wvgei9iD5R23frUgycXywYgYvqc/yADZBKJ6FMAKcxvZMX479ptG0tID8b48bUaMsYup6iUG3z//Ces+erdsDHeLEhItmzh6swAQ+MJfm/WqJQbxI5ajF87wfuVrQ4BCztnN9Pe9+Z7ilvxqFY80kNxRjJJGnXl7cstSsXtrlRl0m6uqhMfX5eJxg1HYobAhw+r29Rcv0cUmrJBBDQs2RFhOJPk27qLFRF+tuXQC6Z5JPsYu5Li3KXjDGeTnDwdPZSsqGtAVtuLA+kog+ePkZno59SZwwUEKRoxutQxA81zU9WDmS0EBIsC8Pjep2cIN2llYKzmWgJf8Rq9hVR1Ze7R6LQB8PxqDigBeA2lXguo14IDycAX39dbgqgByDvZnV23PoWw/E/f8Mrzgom8c+EX7b9xD4X76zMEckdEJkFTtNIWpCjI4t2HI8uChNb+ArlquWtAMOmqAAAAAElFTkSuQmCC",
-        "title": "Playlists - Soundiiz",
-        "desc": "",
-        "link": "https://soundiiz.com/webapp/playlists#"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAC0klEQVR4nBySy28TVxTG7x3fmbFjxyaJ7ZKQtECVNryqYlUCVFUkRGyq7rrojqpS21XVbrrothIg/gKWiAUIECCEEOIhntnwFigQQkCRoxBsbMdjTzwz930uF3Zncb5zvu+nj/z3rEoldKgIqepx2eM6liqWMlGISsWUQcgxShhlAGFkEJHaKACpQYKRAHaODAaUWq+jvpT2UqYWxg23EPkZxCjCDmESqNJUGi61kNDTeLMOf0n3vt9SCrtBs7n6qlY9ceNpbcd0OL4TSUG41kyBsB+0poCI5n94rf3fjrdj0Zfv94V0+nKsUS+2T4nSMF03TJgVfDrPNXBryKDntfa1y3cevXiV68uyRDbrzUaHF/px8eGVd/t/JVza80ZYmUZKSeamTy+zyeWZ3yuFtU47aLO5CE2NkZlF3qsuOSwmXBmhtLX00ZUxmLPGyPapiR8OjAdvZ5vpkvPX0ebfk962IXHopUBp/5NAW4GxGey+4CIzmJ1wvODM/JOnzBvzD//cr4nZV8kdG52q1kKL1WbQawqYtnQVV8pgt9OOZ+c7K7FP5+L0KNmw0R0q59BAxbm9aDMoIO4wxl1sOq6bJ049ccm+yjeb65kqTbsqk1JhPbrZ8JZJANQ+I+5e+v7txfNrjbD85Vel4oDEQ+7LJ4O7R3Z9LlDUXXleP/I4c7Wqp7+73x4dI1SoW0lqhRQTGvDzZ/vLZQehg0PJv8FA2YNWM7674J97Db9t7Pyz5QHNzuGtJ+/FBjHslgjsuXfp7LlLyPMSBoSkdkx8ttqTrSDKQrI7F+U8+HOvRwQAtkAFA9pdWHi9a2uhSb038+9kAktLDtISIpr4/oWO7+YHf+r1iC2cxYMJCVbbi2hdtjI9duO4JVHM54ZHCgnlCONWwL4uo+3b8jP4CwKAbB2As7X1m8yPm0JAcsNOd/E6QbLVTWjCtNKpFPp/EkQ2OTC75wMAAAD//3Ph0zsAAAAGSURBVAMAdGDdfQDKIVYAAAAASUVORK5CYII=",
-        "title": "物品图鉴 - 逃离鸭科夫WIKI_BWIKI_哔哩哔哩",
-        "desc": "",
-        "link": "https://wiki.biligame.com/duckov/%E7%89%A9%E5%93%81%E5%9B%BE%E9%89%B4"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADNElEQVR4nIRTXWgUVxQ+Z+6dnVkncUcTs+niEtuubakQoUrVamk2iCCNlA01VWN/HwoWNAWpEGjTTaH0pUKgsS+lP5S0xcQ+9MVsoZrtDyaVRCPRDUpwI252103iZs3uzuzMnbnOSNQH/w6cc8+959xzz893BXg8IQeOrtIPL1btBiCuzp3zuw7Cw25xzokjXCdHID8hvHJgWfVTU+8q4ZF+ccvL6LosBcHHPR/9MSo/331mPU1lRoAZ4MUVAIpyyzBKm1uNkUk3CD4ig/edpcXhDZbBarKJK0rq5D88+90JRqfnPaxKHRovxrd/Dkv13aU8z6vJ88mjExMTH8RiMVB9Pti7vx22bN0G1LFfy83yxL4jtnHqHOFqIBxZiMXvBeCjo+LWjo7Y3OxsczqdZoFAAAqFglDRdVzf2IjvtO/nLXvbIFdeZNnNH9LC9ezRN63xI25XXeYT6endQ/8OfyJ5PGYwGCSqqhJR9IBXWQbJZBKPDwzgcurBTdubIK+XUTt9Rh+IHuwTnHrdSeA3vT21x471WoQQYIyBaZrcti0UKUF/fT0EQy9AwWBcskVgG9cB96xQhzAqCIhouhkEgmsanHqETCbDJUnCYqmElUoFSloFcjdy0NEahuZQLf7R8xko5TSqis8TBrDweir9+9ff9n7U88WXzTt27vj12VCItUYiQsTht/bs4WNjo7hWuAk5uxoWigWuGwb3KTK+rvjyr6VWbxC8svx056FDFwu61uBf3bBweTIB/589a7tgOfnnXyCWb3Km1HGskqCvnWPfviq8WiEwXFlcSXVtTKitXfnSXH7xK31+pvNAJFydmJqm0a4uutwZoVHR2XxRY7ams3rJtPyyxf0itesos+oYJvwWOUycJqJ/Vc3wx+pg38yMdmrdzrczf8dPM1mW10iUkHnNIttCNeS/FAijKWr+dsm0prLM07YRP911Yfx76jTRidFPENtSAFMO/zLo4kJWlBaZkFfLpTI+tymsC+bgGz9f1BpFzmDXMyR2eC09XgSg94HEAbu7AaPRO1v7AXgfrF/VOel9zytRvcuf/wl/mFt80mciS3be1NSE8XicPczpNgAAAP//7My32gAAAAZJREFUAwAyf2hpKqdMegAAAABJRU5ErkJggg==",
-        "title": "逃离鸭科夫物品代码一览 - 七匣子",
-        "desc": "",
-        "link": "https://www.7xz.com/news/ldcx40266.html"
       }
     ]
   },
@@ -2221,7 +2456,12 @@ export const NAV_DATA: NavData[] = [
         "title": "家庭版托福 iBT 考试",
         "desc": "",
         "link": "https://toefl.cn/at-home/?_gl=1*u48c6j*_ga*NDg4NDM1ODM0LjE2NDcwNjQ4NTg.*_ga_T2TH8KSGFZ*MTY2MTU3OTk1My4xLjEuMTY2MTU4MDAxMC4wLjAuMA..&_ga=2.50942569.1951527549.1661579953-488435834.1647064858"
-      },
+      }
+    ]
+  },
+  {
+    "title": "英语 - Study",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAC10lEQVQ4jQXBW0ybdRgH4N/7fj19LS20VJauLRXW7iCgTgy6DSJTwEXjMuN08cDdduGFMYvjygtjYoxXZpuGO5Zo1Jg4BzG4Ia5uCWIEdM5owuTCMEbLMANbQNLT9//5PMLyNEmBQMWhsSAjF765/PcPif92nvtw6ONzF8euZK9+NwyhgaXGiFOZVhoIZn/+o7BRev3kB5Fm/yODzcV7pa2lioNKYbHy1snB48f7QIXW5KvP3x3//tr8nRWvp7bn2bibcmM0Z9vu7tO7ytu8NZG7Nbpav6NuZvaCkEJYVdmKPOWRADuPtQZiPrvJ05iySY2m6zfz21v57QOndze1+cY/+iWTSUbva7Dmf//y7NtfNz8RCTR6KCa69uDQ0fO1u55ts+6OmfvD7elC7/ri1h3fX2NT1xdu5nXmp3nPbonEvEaMBelJHg0GG5LJeLquy2jtyfQrz5848c6Zs0qvvRkorm5aqfjO8gOFcDgI0DGe0qrT2X5oVzo9PvfZ7T9zsmH7xDuR/dbfdS9QDJ1//4yV6Yha6arfbxuhW3R9Kb+cmyuuLHQfzDiLLr+/EttXSSXrg469XMuHSkGX2q4alMpMqGWgtTfeEzdaA1QM48l/wnV+74a9tz3Vwdb+hw4ND4+5WCKph5u7+5LdECEqShfgANI/8KhSIcYhLcDjtmFUu9rbEuXg4cTjEIEYESUJEQiUSjgwYtENmFxuJZFq0v6nD0byjdXiGkjQ5ZBUgSEEJEE1SmgNgpGRKwN9nZpMRGMt6YuXsuXiMkzZgihh1AJVlEKjVLI2cXnqhRd7Q6GwsPQjhFcn527e+G1fy47eIwfclsvltilKEVRLt5fyn36Sffm15/a2tZKOsDwNcUALwOTk7KUvRk+9+vCejv0iks3+uvpv1etrOPZST6g+hJpARViZAhWAEaPUoTfeO3VkY2YBd9dks7D2zOCbXY/tV1aMQgGA/wMEpE2JwgKMwwAAAABJRU5ErkJggg==",
         "title": "新东方 | 新东方TOEFL-托福备考，TOEFL备考，Official在线模考，TOEFL真题",
@@ -2328,6 +2568,29 @@ export const NAV_DATA: NavData[] = [
         "link": "https://www.qmjianli.com/my/"
       },
       {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXklEQVQ4je2SwQmAQAwEJ4dlXTMRbCqCzXjWFR9yPxVMQHy4n+Sxs7CwgukKVGJqJQED1JKAARj649PyCJR5PC6mfmXqod18pnSFP+ALAWDqUWHqt0N6pUIBWhyXbQcIJUqOEqpEdgAAAABJRU5ErkJggg==",
+        "title": "在线工具 - 程序员的工具箱",
+        "desc": "",
+        "link": "https://tool.lu/"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAmtJREFUOI11k8tLVVEYxX/f3uece6+PLHpBEGjODCwCIZAgwoJGDUpLsMKCIJoLBuH5K6RBTjIxrSAoiCiKJo0yKmoQKCZFeW+3uva63vPYX4NrPmsPN/u3WKy9FvzrKAagcaJvb/NkeIJwv7dwL6ufmjXweKdFcDte9Pf6ddmHRmS0+fi+W9w/WYugq0XsGrjrRtr0sv+slw2GdD4JtJzEtj7bsj7XsOdbU9tt2p9Gy5ElNQ0NErodLy6esRlvyEVpSqqIwWgqsb8pCJyk9+q3P+2ekIffAV0SUARBq7A/5KI4xYEgVlVV/ITKp1yMBEH0Q+/mXyVHGAgVQc1fuOnNpR6bC66sgBG1flnnvrTo++mT3vvhLd/yl3+MwADIMgfbnoU1uVw6KbCVKHUgnopx1vw0pWKrFqY7lKxA4BeRmgMcq3+DqiCiBuBjjkREZsWzBlVVUGt/SqnYqoWZDrCxIakoUbwF9/sJ1z+1IaKgYgBhZxgp5hSGD+SyvjW/XOlzK4WZg2BjsChiDUklwbmNODfC1dlaqDpQFJlqCV+73xz2Mr/eluZ2S2HmkMNEgoiiRkEFRIgTh3ObSTP+UpEE5XHoTe0KX7+bOHKtkD9sMLFixFWLowYlRQwEGQP00buhBCoL31gNhLF8B3gPKM8lGDEgAipVWCCTs8TlC/Q0Dq4IsRoIgmSfo5Vb1DV4uDRFYBEOspb5BThUs8Cs2ILS1fCVR3e6iaObrNvkE8cpgiFTY0miC5xuHKRz3BKK++cIF5t57pnP6OwIN4rK6GyZ4enzAHSO2/+By40s7WMsf5RrM+0AhLp2ucAfQaIghl6BVusAAAAASUVORK5CYII=",
+        "title": "Download software for Windows",
+        "desc": "",
+        "link": "https://en.softonic.com/windows"
+      },
+      {
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACW0lEQVQ4jY2TX0hTcRTHP/dud07dJprTtkqLelCuhZAVQY2hJGosjKZUD9GDUQRFBr71JL0UUWC+aS8lPWhiKBGJlfhoCCZeMoSk4d9N03nT/bn708NczlLw+/SD8/2e8z3n/I7AP5j0ac7u8cD9YU/YMaNGswDsZp3/ZIFhqLYk/WmxVRpM5QvJhxqP57UMqu3dYwFX/N+sKeRa2djXWGFpMAuC928CNR7Pa+xe/jQyo8k7aLeg1C4pLe7scrMgeEWA54Nq627FAKOzmvzs42o7gDjp05xvxgJ1ACZ9lJtlemyZ0f9E+RmJmEVKxHqUoGvCq1Xp7DVNj5WFiAzgliXuOvZwviidEc8a3vXEiIpyYrS5c3EcNrGyrvF1IQZALB7PEoc94cpkFUkUWF7TUOYCtNXnUXEQDlkivKi38mMpzOLvMDph09WXaa1SnN1YVRKRWJw7vX7eKSqPXFbOFEo8eL/I7Z4VwpGt+5lXo2ni9mMS6P++TuvQEvecuZwuTGOn1eptZp3/58qmC70o8KTGzNkjJi6/nGN61cfD6lzyTTqkVP9AvkkMiacKDEOp9rMzJcoKMrjV5WVKlRiYghtdXo7a07GaDcRSrJw4YOgXvvk059XXvz4DWKQo148beasE8ai6LdX2ZUa5VGLk1WiQ5VAi1nElp1oAaB7w9/YoQdcObW4LV7HxQ3NlVpUI0FhhaSi1S8puxcdsktJ0znINQAQwC4K3xZ1dflE29u2mcmtd4g4g5RqTmJgPXugcDzUMT2uOhY0/stesC5Xtl/rdsrFDtqV1pvL/AAsZ3vFgtkYoAAAAAElFTkSuQmCC",
+        "title": "IDM 下载工具利器 - 经典好用优秀的 Windows 多线程加速下载软件 - 异次元软件世界",
+        "desc": "",
+        "link": "https://www.iplaysoft.com/idm.html"
+      }
+    ]
+  },
+  {
+    "title": "工具 - apple id",
+    "items": [
+      {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACt0lEQVQ4ja1T2UtUcRT+zl1muXNzueOSkzbTauWIRiJGFkhBFvhSTX9AFCQ9Bf0B9icUPdVTQQUjhEG0iUXkSwtKlkJ72riN43Idxztz72/u6aHGTKKnvqdz4HznO4fzHWANmJkK8aNPXNE/xqELbziwtq4AWp0wMxERm8wtqbcj55LfBptsa9lXUVEzuqmp7faQ7L3frNH3vzYokLMsOgZv9956+/ievmQNQ/WpKPb7UVVZi2BzayLc2NTbFwqdPUlkA4Cy0omIn/JE2bu7zy6/vHFLL9aKc+2HY2q4sQgiJzibSYsvA/3V6ZpIfcYOSQWe8ktdIiK3FVWnHgz3RHxCcQ621nsq17uwZ7Moiuikleiyrte5gr25QOT35BIAdJ/sJgBIJeeNTCrDkQ3V7FlKU4ZrOeNEMf1qEelRU55dLGLF793XnkodKghLABCLx9wpTlekE5O72GH4VEXOJx32tLdJgaZaqFsbsS7gkj4/mPc7kyzMhZaf+t0kcZxlImL6stDpX8p3zM4k7HTOlmRNwvL1m5y15qBV5mAzWNusgJCivOoTv1eIwWVmCpSW3jEO1F2NNuzxaqZDi44KzZngkg+98CQ/Q5JUV3IcSUilgFH9BABwMcZ/+KCLh/XO5+4La+B92FHhcb8mlPJtHgQ0F4qukLRlB3Kh+ku+MuM888/LrZwjHo/LXVS3NL8/fMw4ffSFd8t6uIuWOzmQ5fF0yDK90ZFMZcMFX9A4DxATEf/VSObY5BWrp6/THE/k7YxAWbWmBM8cf3PN2HjkHNHUWiuvTEBE/JBnqsxXQycWRj9KeS/LgRrIRniOnMHX26PT8DOztPpXVhuJiIj3oqxBBIvKafdOoa5TKBjJMyxBwr9hWVVgE5H772dKJvW58pKogCoLCDiWwm4WckkApuGlobXk/4Ifa9NB1ymo+XoAAAAASUVORK5CYII=",
         "title": "购买商品_羊王杂货铺",
         "desc": "",
@@ -2338,7 +2601,12 @@ export const NAV_DATA: NavData[] = [
         "title": "资源小商店 - 苹果ID小号购买，icloud账号，各种邮箱，各种资源 ，售后客服 微信BWM9880",
         "desc": "",
         "link": "https://www.appidvip.net/store/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "工具 - 实用小工具",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXklEQVQ4je2SwQmAQAwEJ4dlXTMRbCqCzXjWFR9yPxVMQHy4n+Sxs7CwgukKVGJqJQED1JKAARj649PyCJR5PC6mfmXqod18pnSFP+ALAWDqUWHqt0N6pUIBWhyXbQcIJUqOEqpEdgAAAABJRU5ErkJggg==",
         "title": "在线工具 - 程序员的工具箱",
@@ -2368,7 +2636,12 @@ export const NAV_DATA: NavData[] = [
         "title": "Porn Dude",
         "desc": "",
         "link": "https://theporndude.com/zh"
-      },
+      }
+    ]
+  },
+  {
+    "title": "工具 - 计算工具",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACBElEQVQ4jV2Tv2qUQRTFf3f5DCpodkFs/JNsIQQsYi1COsHON4g+grVFkidIFHvJC2gvCBE7EYwWIkLIWlhJyAoxyDf33mMx++2uGbgzw3DPzLnnnjE+v1g3tC1pYCCBIaazmUmZBoAnlilFmmWOFLFp7D8/NFhSlywZFSlJZhKkkCdk1As8jUgsddwAS3RDwgABZJoJEWmKkEVACDLBEyqTfgMYs1H3KRSJVXAFhUyRUM9RVBbNPG1AKmEVkCyfu8Ta4DqkDAkiIcXo5Jh3vw4kT2u6OhViIg7ygBQbw7sokx+n48qipyrzgrNXHFw0TGhNI1NEMly4bGuLNxjuPTsj3P/5DSUgQ3gamWiybty6x+b3PSiOQmYZkmfVQVnzI+lRHLVhfTU8unIbSnDnwlXWBjfZPfyIlYDiUAK8hrVhlIASNFZcZLKz8sDWr62yf/ST7ZX7bH19i7kLDywwRRhZhdS03FCj4ljIHn96xejkiJerD+k359k9+CCFuronlDsvBDYRvUdJU+uoODvf3rN8ccDWlzeohJm7KA5zlPGANlBxKI7x+qksEiJEisXegv3+e4oiVE0zMxBzHbCof6KhxJzrknH+oVKtKusMYNZuGRE01paxUn11L3hCBJaasFB3kZ3xC2Qe9lTiiZUYmbtofdoyFcfaroWzsOLCHUUek2z9A0CYECB89BsCAAAAAElFTkSuQmCC",
         "title": "Desmos | 科学计算器",
@@ -2392,7 +2665,12 @@ export const NAV_DATA: NavData[] = [
         "title": "在线工具 - 程序员的工具箱",
         "desc": "",
         "link": "https://tool.lu/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "工具 - 虚拟手机号",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACNklEQVQ4jaXTPYhdVRAH8N/ce97bzfpB1t2gTUBd1HWDSQhCGgs77QQ7GxsLLQRlK1EQsUinQVDRwkYQawtBK1ErwSybhORtEp4p1iIk77l+xP287x6Lc5OslYUHhnOYGf7zn//MCTx1ZMGnTzzi8VTJm9vi7GXx5BJ1Rc5EkCHLURXXucsGF4ZejiMPG3x12uLCg8B4xFsf89Eb1H20qLo7d9Zj+AvPLVtLJ5YsLhzF3yVw9wEZsbvLdJBbAjFd4tpSaOEYJ5YspvVr8rffiLah15dvjMVfm9S12ycqzg/49Tp1JbdZRM36NTmNNvhplWYi95IY/87WNlVV6EbQtLzzCYfv576DomnkVIvRBun4Y+LtZewKPTZHLJ+maUhThUGzw6FZTr3KzDz2hD5X1kWqKtSdUFVRPjrq2b/bqKs7eerCMq1d5bPPmTSkxGiD8Z9Fg+gQ6prxH3zwJfOzhV2dWLtasP7XSYsP8dKL2Clj2hnx+ntMJoUR5T13L6+9wFTRgCl+WCG1LSbdfFsm7Z3eY1+lrMRu5ZnQtqTVS/K774v9Y7z+W6meu6VJqfje/JC5g+x1Y1y9JKf5WU4ep23ErUW68WNBr7sW2gkHpjl5lENz8t6uqBLfnSEdfkA88+ztVY6dsfz9GTGZ0NunwT0zPP+0PDUn7OEuvvhaVCsXrQ3PdTpsc3OrtN7vE71i/X4BurklbJfc4VlWBgbxX99ZJ97PFzn2qDwzLTetOH/F4MLQK/8AKNzjrLZstFYAAAAASUVORK5CYII=",
         "title": "短信激活 | 使用虚拟号码在线接收短信",
@@ -2404,7 +2682,12 @@ export const NAV_DATA: NavData[] = [
         "title": "SMS-Activate",
         "desc": "",
         "link": "https://sms-activate.org/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "工具 - 图像处理",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABg0lEQVQ4jZWRsWrbUBSGvyPdRJYoFHsxOE4j0OIuHqypD1DIC3huhzyHN5FXKqRjaZd6cV3w5Cm4wRW2E11LyJZ1MygRJZQ2OdzhO1z++59zfxmNRryklNb6ZYIkSYwxVSMiz3Lo9/thGI7H48lk8n+BUmo4HAZBEATBdDrdbDb/9lGr1SqO4yAI4jher9fb7bYS1HM+KRkMBp1Op9frzWazxWIhIiWU1R0A5pHtemmtted5WuskSUTk7W73LsuAb64LVPzVdWfHxwDdbjeKImNMFEUnp6cf2+1rpQwYuLHtG9uu+FqpD+32G99XQKPRAFzXfVWWF7e3J0XxyfOA92kKVHyephd3d98dR9XblPC6LM+K4rdtX7ZaAmGeA5etFhDm+dl+3yxL9ecPWGBDIbIHoBABaragOg8BPydmQAFpmgJZlu0hF6nf3oERqTgXMVCA3Ww2l8vlfD7/fHW11PrX0dEX1/3pOJllLZR6wj8cR3zfN8YcDgfbssSyDsBjRn/le76OquurulOIAAAAAElFTkSuQmCC",
         "title": "GIF Maker - Imgflip",
@@ -2416,7 +2699,12 @@ export const NAV_DATA: NavData[] = [
         "title": "FotoForensics",
         "desc": "",
         "link": "https://fotoforensics.com/"
-      },
+      }
+    ]
+  },
+  {
+    "title": "工具 - 地图",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACsklEQVQ4jXWTv0trSRzFz/U+RY0WhlSJXgSRoFYpgxKIQsBKEqOCQiBKUqwoIg9r/wBbsdGkE6ysRBTtVDQKUUSCaPG22YUF8VdhJLnz2ULz9rnsHphmmHNmhu/nSB+alfTDsixXkpFkAoEA0WiUaDRKIBCgti/JlfTj0yNJmpfE5zLxeJyTkxN+lTGG4+Nj4vF4Lah2/jdJ+tOyLLe5ubmay+UAuLq6MvPz80QiESKRCHNzc9zc3BiA9fV1bNuufr72D1mWhSSTz+cByGQytXR8Ph8+n4/6+noaGxtJp9MAbGxsIMl8emUSiQQA2WwWSfT397O4uMjMzAzT09MsLS0xMDCAJLLZLAAjIyO178hcXFxwfn5uauZMJkNLSwt+vx+/34/H42F2dpZoNIokTk9PzdnZ2UdAe3s7xhiy2SyWZbG6ukooFGJiYoJkMkkymWRqagrLslhYWMC2bTKZDACBQIBvPT09AlQsFtXW1qZCoSBALy8v2t3dlSQlEgn19fXp/v5era2tury8lOu6CgaDqtMvqqur08PDg97f3/X09KRYLCaPx6O3tzcFg0E1NDTItm25rivgw1MqlWRZlrq6uvT8/CzHcVQqlTQ8PKzl5WWFw2E5jqPt7W05jqPX11f19vbKtm3d3t5Kksz19TV7e3tGEuFwmFQqxd3dHYeHh4RCIbxeL5OTkwwNDSGJo6MjUygU/pnC6OgoAGNjYziOQ7FYBGBtbY1IJMLKygqDg4NIYnx8/OsYayBtbW1RLpfNzs4OlUoF13X5/v07Xq/3J1i1i/L5/BeQ/rIsyzQ1NVU3Nzd/8l+pVEin03R3d5NKpdjf3zcAuVzuK8qS5v5dpoODAx4fHymXy5TLZarVKoVCgUQi8Z9lqjXy98+qGkmms7OTWCxGLBajo6Pjf+v8N9T7z4m7tMpWAAAAAElFTkSuQmCC",
         "title": "Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map",
@@ -2434,24 +2722,6 @@ export const NAV_DATA: NavData[] = [
         "title": "Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com",
         "desc": "",
         "link": "https://liveuamap.com/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXklEQVQ4je2SwQmAQAwEJ4dlXTMRbCqCzXjWFR9yPxVMQHy4n+Sxs7CwgukKVGJqJQED1JKAARj649PyCJR5PC6mfmXqod18pnSFP+ALAWDqUWHqt0N6pUIBWhyXbQcIJUqOEqpEdgAAAABJRU5ErkJggg==",
-        "title": "在线工具 - 程序员的工具箱",
-        "desc": "",
-        "link": "https://tool.lu/"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAmtJREFUOI11k8tLVVEYxX/f3uece6+PLHpBEGjODCwCIZAgwoJGDUpLsMKCIJoLBuH5K6RBTjIxrSAoiCiKJo0yKmoQKCZFeW+3uva63vPYX4NrPmsPN/u3WKy9FvzrKAagcaJvb/NkeIJwv7dwL6ufmjXweKdFcDte9Pf6ddmHRmS0+fi+W9w/WYugq0XsGrjrRtr0sv+slw2GdD4JtJzEtj7bsj7XsOdbU9tt2p9Gy5ElNQ0NErodLy6esRlvyEVpSqqIwWgqsb8pCJyk9+q3P+2ekIffAV0SUARBq7A/5KI4xYEgVlVV/ITKp1yMBEH0Q+/mXyVHGAgVQc1fuOnNpR6bC66sgBG1flnnvrTo++mT3vvhLd/yl3+MwADIMgfbnoU1uVw6KbCVKHUgnopx1vw0pWKrFqY7lKxA4BeRmgMcq3+DqiCiBuBjjkREZsWzBlVVUGt/SqnYqoWZDrCxIakoUbwF9/sJ1z+1IaKgYgBhZxgp5hSGD+SyvjW/XOlzK4WZg2BjsChiDUklwbmNODfC1dlaqDpQFJlqCV+73xz2Mr/eluZ2S2HmkMNEgoiiRkEFRIgTh3ObSTP+UpEE5XHoTe0KX7+bOHKtkD9sMLFixFWLowYlRQwEGQP00buhBCoL31gNhLF8B3gPKM8lGDEgAipVWCCTs8TlC/Q0Dq4IsRoIgmSfo5Vb1DV4uDRFYBEOspb5BThUs8Cs2ILS1fCVR3e6iaObrNvkE8cpgiFTY0miC5xuHKRz3BKK++cIF5t57pnP6OwIN4rK6GyZ4enzAHSO2/+By40s7WMsf5RrM+0AhLp2ucAfQaIghl6BVusAAAAASUVORK5CYII=",
-        "title": "Download software for Windows",
-        "desc": "",
-        "link": "https://en.softonic.com/windows"
-      },
-      {
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACW0lEQVQ4jY2TX0hTcRTHP/dud07dJprTtkqLelCuhZAVQY2hJGosjKZUD9GDUQRFBr71JL0UUWC+aS8lPWhiKBGJlfhoCCZeMoSk4d9N03nT/bn708NczlLw+/SD8/2e8z3n/I7AP5j0ac7u8cD9YU/YMaNGswDsZp3/ZIFhqLYk/WmxVRpM5QvJhxqP57UMqu3dYwFX/N+sKeRa2djXWGFpMAuC928CNR7Pa+xe/jQyo8k7aLeg1C4pLe7scrMgeEWA54Nq627FAKOzmvzs42o7gDjp05xvxgJ1ACZ9lJtlemyZ0f9E+RmJmEVKxHqUoGvCq1Xp7DVNj5WFiAzgliXuOvZwviidEc8a3vXEiIpyYrS5c3EcNrGyrvF1IQZALB7PEoc94cpkFUkUWF7TUOYCtNXnUXEQDlkivKi38mMpzOLvMDph09WXaa1SnN1YVRKRWJw7vX7eKSqPXFbOFEo8eL/I7Z4VwpGt+5lXo2ni9mMS6P++TuvQEvecuZwuTGOn1eptZp3/58qmC70o8KTGzNkjJi6/nGN61cfD6lzyTTqkVP9AvkkMiacKDEOp9rMzJcoKMrjV5WVKlRiYghtdXo7a07GaDcRSrJw4YOgXvvk059XXvz4DWKQo148beasE8ai6LdX2ZUa5VGLk1WiQ5VAi1nElp1oAaB7w9/YoQdcObW4LV7HxQ3NlVpUI0FhhaSi1S8puxcdsktJ0znINQAQwC4K3xZ1dflE29u2mcmtd4g4g5RqTmJgPXugcDzUMT2uOhY0/stesC5Xtl/rdsrFDtqV1pvL/AAsZ3vFgtkYoAAAAAElFTkSuQmCC",
-        "title": "IDM 下载工具利器 - 经典好用优秀的 Windows 多线程加速下载软件 - 异次元软件世界",
-        "desc": "",
-        "link": "https://www.iplaysoft.com/idm.html"
       }
     ]
   },
@@ -2533,7 +2803,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    "title": "科普",
+    "title": "科普 - 飞行汽车 - 新建文件夹",
     "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACNUlEQVR4nJySXUhTYRjHf+92nBupRWJp+IGkUkgROD/DsDSIELooCdOriEIvIoy6KaIgLSIoyJvAhCJQSqigD630JirGRIKYuSnVctGEVrLAzW3u9O7Uxs6CKP/w8JzzvM/z43n/vApSgSFUliHLPoSIDZtK+G8JUyuLkwMYUg/O3myguDkf4xZ0kVFrofnEjkSfGhrQsg5Qf6SavoEpPnk8dBxuYekNWty6UkkgEODJszENliwd4JXNxhevl1Mn2+ntvJuot223c79vK7VVVfxxlWQPYht8cLs1SMfBRnqPjvI3hWZSAHFduLOb0z2PdbWS4lU4783/GyBVE55GKptHURSFqooKXly3JQA6D+KOn7lRqgNYN3xn+nkZkUhE8ylZOkBddTV5ubl0X5um+3J2oj4+8ZHSJpe2QawnWforWGSzp4w9LV6s34I8JJRoNJvNNG3bxINLdp0HSvzn/FUYHMnBYhaszMhk1pRGlxDsLP9KjRWy6oMYNtqJ+nUL/AK0dWUyOBZlhfCjCh/CaCQcjXIofYld40aYy4KnC0QaFlHlY1RWy5fok1s56hAXO4V6rn8tatBL+LcpsbxGfpXIuI2JYlmJYNROVdKIImT2Yz6wNyw2r1dU96xCXlEBqiENRa49Hw1jdb2nRw4VkI6ZBW0krrBEWMoLVUZeFhpm3Ar721vfPRoeLnI6J4VjyiE+u1yi3zdX8OPY8aHMddnSyghyeYIyYrZaamvg9dsckZ/v+QkAAP//RRmurAAAAAZJREFUAwABEM2GaHcgbQAAAABJRU5ErkJggg==",
@@ -2612,7 +2882,12 @@ export const NAV_DATA: NavData[] = [
         "title": "小鹏汇天飞行汽车“陆地航母”上海首飞成功，第一视角视频放出|飞行汽车|上海市|航母_新浪科技_新浪网",
         "desc": "",
         "link": "https://finance.sina.com.cn/tech/digi/2024-12-15/doc-inczpsmt3630920.shtml"
-      },
+      }
+    ]
+  },
+  {
+    "title": "科普 - 插座",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACp0lEQVR4nDSTT0hUURTGf+fNc7K0/5YFFkRFEbVKWim0KNoYLSQIgiAqhRa1yV2YFC2CXGRYRFgUGRVtLdq0KJFatElSChLJMqTyXzqjzsy7ffc+m+HNm3vuOd/5vu+eG9PmsiRcJssZjFWZMihFgH8yisThnT4RjjLFMvzV7x2+cDEmz1UquUBRmyoqzSlxGc58ouFcETPCx+kxK+ASx3J9W9hOYrS4GXVZGtAzZBr34F4OQS6v9Kxi2QD0nxHKdYHVkhCbiSlRERlJkiM6XIvrOAQNTyBZHZLt6zRsWgXl2VRCSXCj8/B7PgAtj0U98dS8hKO7sFhdeo5JioLfJqB7ENrqYEyMZiVn52rsRj/uUq/wVwjTFEy0ubkaq98CjQ9hYAyuvYWDnTA0Dr/yWF031N+DV8O4NV5WQX6oSyST8BwWZN6+dujt0zIRzUn58BOmcqmBee0XZmG+JGOd6KtOtS4O3gogp4RT9bB+P2yrwjXXYnv1Fg75ApQpb0GFkcDNixaAGFhsMsYtYDXSs3udjJbDa5bC90mSSplYSAIjn4ynHRq68N+DuMj5hYZnYEQMbqrzI9EWmwfvsfNduJ4BqNB+cSEtKCUp4yBBDPzpB9SybDg2Wg7ARA7X2Qinj2BFdSpXPCmEPlYRLzLwEorhpDV1Oltv0MYNWGsDnLiPDf+B583Yyce4lRqaD+ekIsH5mbjelxrrBBob4UioWQvPzsKLfnj6Trsa2Y7XMPgDdlyBruO49jfwcRTmojCliF1k1uSmXEJltSZvaxXW9zncCfMXQBrD/zDCbnGclwSpiQfQzlykpNuUE42Nq/hTuA9h9n1+mHlLTZNbRKl+p3Xk7418uBUzTWtYxjQpodIfWXrvwjvcSBWYWAbNoUHEBDnuMkLrPwAAAP//k/vtXAAAAAZJREFUAwAZCxUJ2U/CKgAAAABJRU5ErkJggg==",
         "title": "为什么家里的插座有两孔的和三孔的？ - 知乎",
@@ -2654,7 +2929,12 @@ export const NAV_DATA: NavData[] = [
         "title": "插座简史：科技、殖民与知识的制度化",
         "desc": "",
         "link": "https://www.douban.com/note/726819285/?_i=8795592Lgbte0h,8796248Lgbte0h"
-      },
+      }
+    ]
+  },
+  {
+    "title": "科普",
+    "items": [
       {
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC3ElEQVR4nHxTzUtUURQ/5977Pnxv3swsyigKxQgioUVZQTFC/4BB4SwyIiGElOwDF1EbFxGuUizBCpqCsBhp1SaiiGoRVLRJIpBGQigqMu3NG9+8j3s7b7Q0iy68D7j3/M49vw8BSwvpUbW/U8U6ZxO2QKQ2AlMKGCu5k9OvYPD0/MqzCMtXf7/Irm4+oTg7ClI20ba+cFwFgFhCCddmv0wM0Tm5vGsNzR4aWyM0UUQr1ar8ChCAQmS1BkpJRQCIpgVq3nsNGLbPdXeUktoFgELBSFfsB8yyc7JcDpih6wQAKopnqRxRiIziGkAcJWjPozA85s28e5OAi6SBU7F6mJ3KSc/1URNIhY9lLIdcHZ7AdwTHiVo5F0fiWN1zew7cgD+IKxTMjGdNoKY3Uleu6NZVd77R7+v4AP9ZzqWxza4fTQvHNXcQyw0qjjhINSMjeVWYogG6rnyEdZ/iGmHtRQ7j7fQdZ/aeaJXQtD5q3ZUyRBsDxZpAF5xm+0G8XXA9NgBCrK3bkt62yDbCeD5OpIBm4FwTj9Cy+5DxNDLVyAAlJoQB43WIamvaUZe50G9qnJ1d1BZ/j1sf2ozkJSViUoaKONmETAJRLFFKjdg+jEI7hFFgMCfdlh2+s58AJAwPGwnZaaXtUrqRKMRAxgpkWGJlu/4FYU/RtSWBhgQWkezfVKV8LkI2C/3FFPT2VmGwkCUnnCfhGZ0lF+KU6/gvGXTu9UnxUTAMljiGCKWRouu+8osMlemsgi5n5PbujJl5CELbLqtBQIZiEnAUOjv9xAfoWpWRtIf7mJXKqaAakndyJpoN1CuPirIAXJEpmQyqPks5JvnlmWt5I0tOXGFlmi9xHEDVT95JaBjdDGpWrpSfRmGU904e/JzU8l/GCO/f9ao7m2+ZepbkjNdDHKeAoZZkgLYDApjEIBiY+/q2Ozxz3F0epn/E+SLFeUNLLZGSAAS+dycVxTn/V5x/AgAA//9ySKa1AAAABklEQVQDAMi1VD+uvyQRAAAAAElFTkSuQmCC",
         "title": "Chargerlab - Charger, Battery, Cell, Power Bank, Gadgets News And Review",
