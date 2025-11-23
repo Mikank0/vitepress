@@ -22,46 +22,67 @@ const formattedData = computed(() => {
 })
 </script>
 
+<script setup lang="ts">
+import { computed } from 'vue'
+// ... 其他导入
+
+const processedData = computed(() => {
+  return formattedData.value.map(category => {
+    const groups = category.children.filter(isGroup)
+    const miscItems = category.children.filter(item => !isGroup(item))
+    
+    return {
+      ...category,
+      groups,
+      miscItems,
+      hasGroups: groups.length > 0
+    }
+  })
+})
+</script>
+
 <template>
-  <div v-for="category in formattedData" :key="category.title" :id="category.slug" class="m-nav-category">
+  <div v-for="category in processedData" :key="category.title" :id="category.slug" class="m-nav-category">
     
     <div class="m-nav-header">
       <h2 class="m-nav-title">{{ category.title }}</h2>
     </div>
-
     <div class="m-nav-content">
       
-      <div v-if="!category.children.some(isGroup)" class="m-nav-grid">
+      <!-- 没有分组时：直接渲染所有链接 -->
+      <div v-if="!category.hasGroups" class="m-nav-grid">
         <MNavLink
           v-for="item in category.children"
           :key="item.link"
           v-bind="item"
         />
       </div>
-
+      
+      <!-- 有分组时：分别渲染 -->
       <template v-else>
-        <div v-for="(item, index) in category.children" :key="index">
-          
-          <div v-if="isGroup(item)" class="m-nav-group">
-            <h3 class="m-nav-subtitle" :id="slugify(item.title)">
-              {{ item.title }}
-            </h3>
-            <div class="m-nav-grid">
-              <MNavLink
-                v-for="link in item.items"
-                :key="link.link"
-                v-bind="link"
-              />
-            </div>
+        <!-- 未分组的零散项 -->
+        <div v-if="category.miscItems.length > 0" class="m-nav-grid m-nav-misc">
+          <MNavLink
+            v-for="item in category.miscItems"
+            :key="item.link"
+            v-bind="item"
+          />
+        </div>
+        
+        <!-- 所有分组 -->
+        <div v-for="group in category.groups" :key="group.title" class="m-nav-group">
+          <h3 class="m-nav-subtitle" :id="slugify(group.title)">
+            {{ group.title }}
+          </h3>
+          <div class="m-nav-grid">
+            <MNavLink
+              v-for="link in group.items"
+              :key="link.link"
+              v-bind="link"
+            />
           </div>
-
-          <div v-else class="m-nav-grid m-nav-misc">
-             <MNavLink v-bind="item" />
-          </div>
-
         </div>
       </template>
-
     </div>
   </div>
 </template>
