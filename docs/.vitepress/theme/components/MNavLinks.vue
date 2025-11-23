@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { slugify } from '@mdit-vue/shared'
-import { NAV_DATA } from '../../nav/data'
+import { NAV_DATA } from '../../../nav/data'
 import MNavLink from './MNavLink.vue'
 
 // 处理数据，生成锚点 ID
