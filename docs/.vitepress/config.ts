@@ -33,10 +33,7 @@ export default defineConfig({
     sidebar,
 
     /* 右侧大纲配置 */
-    outline: {
-      level: 'deep',
-      label: '目录',
-    },
+    outline: false,
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
 
